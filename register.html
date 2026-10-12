@@ -3,6 +3,19 @@
   <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem('securekey_theme');
+          if (theme !== 'dark' && theme !== 'light') {
+            theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+          document.documentElement.setAttribute('data-bs-theme', theme);
+          var direction = localStorage.getItem('securekey_direction');
+          if (direction === 'rtl' || direction === 'ltr') document.documentElement.setAttribute('dir', direction);
+        } catch (error) {}
+      }());
+    </script>
     <title>
       Customer Registration | SecureKey Locksmith
     </title>
@@ -15,7 +28,7 @@
     <link href="assets/css/style.css" rel="stylesheet"/>
     <link href="assets/css/responsive.css" rel="stylesheet"/>
     <link href="assets/css/rtl.css" rel="stylesheet"/>
-    <link href="assets/css/site-shell.css?v=20261012-auth" rel="stylesheet"/>
+    <link href="assets/css/site-shell.css?v=20261012-auth2" rel="stylesheet"/>
     <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg"/>
 </head>
   <body class="site-page auth-page d-flex flex-column min-vh-100 bg-subtle-section">
@@ -156,9 +169,6 @@
                   Join SecureKey for priority 24/7 dispatch &amp; warranty tracking.
                 </p>
               </div>
-              <p class="demo-note">
-                Template demo: validation only. No account is created or stored.
-              </p>
               <form class="needs-validation" id="registerForm" novalidate="">
                 <div class="row g-3">
                   <!-- Full Name -->

@@ -36,9 +36,16 @@ Responsive thumbnails and their larger image are one photograph, not separate vi
 | index-2.html | smart-services-title | home-2/retrofit-upgrade |
 | index-2.html | smart-services-title | home-2/keypad-entry |
 | index-2.html | smart-services-title | home-2/smart-deadbolt |
+| index-2.html | section-padding pt-0 | service-details/smart-lock-upgrade-hero |
+| index-2.html | section-padding pt-0 | service-details/smart-lock-installation-hero |
+| index-2.html | section-padding pt-0 | service-details/keyless-entry-hero |
+| index-2.html | section-padding pt-0 | service-details/deadbolt-installation-hero |
 | index-2.html | integration-title | home-2/phone-access |
 | index-2.html | upgrade-demo-title | home-2/traditional-access |
 | index-2.html | upgrade-demo-title | home-2/smart-lock-hero |
+| index-2.html | section-padding bg-subtle-section | assets/images/testimonials/jordan.svg |
+| index-2.html | section-padding bg-subtle-section | assets/images/testimonials/casey.svg |
+| index-2.html | section-padding bg-subtle-section | assets/images/testimonials/morgan.svg |
 | index.html | hero-heading | home-1/emergency-hero |
 | index.html | emergency-services-title | home-1/emergency-house-lockout |
 | index.html | emergency-services-title | home-1/emergency-broken-key |
@@ -55,6 +62,9 @@ Responsive thumbnails and their larger image are one photograph, not separate vi
 | index.html | popular-services-title | services/key-duplication |
 | index.html | popular-services-title | services/lock-repair |
 | index.html | popular-services-title | services/door-security |
+| index.html | testimonials-title | assets/images/testimonials/sarah-jenkins.svg |
+| index.html | testimonials-title | assets/images/testimonials/david-maria-ross.svg |
+| index.html | testimonials-title | assets/images/testimonials/marcus-vance.svg |
 | login.html |  | utility/login |
 | pricing.html | pricing-hero-title | pricing/quote-hero |
 | register.html |  | utility/register |

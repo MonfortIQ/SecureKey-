@@ -31,11 +31,11 @@ The alignment follow-up covered 112 combinations on Home 1 and About at all 14 w
 - Every major page has a different main visual. Home 1 and Home 2 share no source photos. No photograph is used for unrelated services or articles, and no photo repeats inside a page.
 - All nine blog article photos are distinct. The listing and its own article retain the same photo as explicitly permitted. Service cards may retain the same photo on listing pages for the exact same service; service-detail main images are now separate.
 - Exact file hashes and perceptual checks, including mirrored/flipped views and center crops, screen the entire image directory. Responsive variants are mapped to their original family instead of counted as different photographs. Final photos and every rendered page were also inspected visually.
-- The final mapping is retained in `IMAGE-MAPPING.md`; `image-audit-report.json` records the complete inventory, source families, page usages, and audit results. `image-loading-report.json` checks all 36 pages after image decoding. Prompts are retained in `scripts/asset-prompts.json`.
+- The final mapping is retained in `IMAGE-MAPPING.md`; `image-audit-report.json` records the complete inventory, source families, page usages, and audit results. `image-loading-report.json` checks all 36 pages after image decoding. Prompt provenance is documented in the image manifest.
 
 ## Limits and deployment setup
 
-The latest Home 1 image update passed the 112-combination targeted audit, including six distinct loaded emergency-card photographs, consistent 16:10 image ratios, aligned headings and action buttons, and no document overflow. All 94 WebP assets passed the static decode and duplicate-file audit. The final prompts are retained in `scripts/asset-prompts.json` and image provenance is recorded in the asset manifest.
+The latest Home 1 image update passed the 112-combination targeted audit, including six distinct loaded emergency-card photographs, consistent 16:10 image ratios, aligned headings and action buttons, and no document overflow. All 94 WebP assets passed the static decode and duplicate-file audit. Image provenance is recorded in the asset manifest.
 
 The two licensed stock sources have original dimensions of 3888×2592 and 5516×3421 and are exported for the web at 1920 pixels wide. Generated photographs have native dimensions of 1672×941, 1672×940, 1536×1024, or 1586×992, so generated scenes remain below the brief's native 1920px/4K target. No artificial upscaling or native 4K claim is made for those images. Perceptual-hash candidates are documented in `image-audit-report.json` and were manually reviewed against the contact sheet; each is a distinct composition retained for its specific topic.
 

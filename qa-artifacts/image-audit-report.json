@@ -256,6 +256,86 @@
         "item": "blog-details-9.html"
       }
     ],
+    "service-details/smart-lock-upgrade-hero": [
+      {
+        "page": "index-2.html",
+        "src": "assets/images/service-details/smart-lock-upgrade-hero.webp",
+        "family": "service-details/smart-lock-upgrade-hero",
+        "section": "section-padding pt-0",
+        "link": null,
+        "alt": "White retrofit smart lock mounted on a residential wood door",
+        "item": "service-smart-lock-upgrade.html"
+      },
+      {
+        "page": "service-smart-lock-upgrade.html",
+        "src": "assets/images/service-details/smart-lock-upgrade-hero.webp",
+        "family": "service-details/smart-lock-upgrade-hero",
+        "section": "section-padding",
+        "link": null,
+        "alt": "White retrofit smart lock on the inside of an oak entry door",
+        "item": "service-smart-lock-upgrade.html"
+      }
+    ],
+    "service-details/smart-lock-installation-hero": [
+      {
+        "page": "index-2.html",
+        "src": "assets/images/service-details/smart-lock-installation-hero.webp",
+        "family": "service-details/smart-lock-installation-hero",
+        "section": "section-padding pt-0",
+        "link": null,
+        "alt": "Smart lock installation on a dark residential entry door",
+        "item": "service-smart-lock-installation.html"
+      },
+      {
+        "page": "service-smart-lock-installation.html",
+        "src": "assets/images/service-details/smart-lock-installation-hero.webp",
+        "family": "service-details/smart-lock-installation-hero",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Silver touchscreen smart lock on a navy residential entrance",
+        "item": "service-smart-lock-installation.html"
+      }
+    ],
+    "service-details/keyless-entry-hero": [
+      {
+        "page": "index-2.html",
+        "src": "assets/images/service-details/keyless-entry-hero.webp",
+        "family": "service-details/keyless-entry-hero",
+        "section": "section-padding pt-0",
+        "link": null,
+        "alt": "Keypad smart lock installed on a residential entry door",
+        "item": "service-keyless-entry.html"
+      },
+      {
+        "page": "service-keyless-entry.html",
+        "src": "assets/images/service-details/keyless-entry-hero.webp",
+        "family": "service-details/keyless-entry-hero",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Copper keypad door handle on a sage residential front door",
+        "item": "service-keyless-entry.html"
+      }
+    ],
+    "service-details/deadbolt-installation-hero": [
+      {
+        "page": "index-2.html",
+        "src": "assets/images/service-details/deadbolt-installation-hero.webp",
+        "family": "service-details/deadbolt-installation-hero",
+        "section": "section-padding pt-0",
+        "link": null,
+        "alt": "Smart deadbolt installed on a residential entry door",
+        "item": "service-deadbolt-installation.html"
+      },
+      {
+        "page": "service-deadbolt-installation.html",
+        "src": "assets/images/service-details/deadbolt-installation-hero.webp",
+        "family": "service-details/deadbolt-installation-hero",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Brushed-bronze deadbolt on a cream-paneled residential front door",
+        "item": "service-deadbolt-installation.html"
+      }
+    ],
     "services/emergency-lockout": [
       {
         "page": "index.html",
@@ -2498,6 +2578,42 @@
     },
     {
       "page": "index-2.html",
+      "src": "assets/images/service-details/smart-lock-upgrade-hero.webp",
+      "family": "service-details/smart-lock-upgrade-hero",
+      "section": "section-padding pt-0",
+      "link": null,
+      "alt": "White retrofit smart lock mounted on a residential wood door",
+      "item": "service-smart-lock-upgrade.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/service-details/smart-lock-installation-hero.webp",
+      "family": "service-details/smart-lock-installation-hero",
+      "section": "section-padding pt-0",
+      "link": null,
+      "alt": "Smart lock installation on a dark residential entry door",
+      "item": "service-smart-lock-installation.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/service-details/keyless-entry-hero.webp",
+      "family": "service-details/keyless-entry-hero",
+      "section": "section-padding pt-0",
+      "link": null,
+      "alt": "Keypad smart lock installed on a residential entry door",
+      "item": "service-keyless-entry.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/service-details/deadbolt-installation-hero.webp",
+      "family": "service-details/deadbolt-installation-hero",
+      "section": "section-padding pt-0",
+      "link": null,
+      "alt": "Smart deadbolt installed on a residential entry door",
+      "item": "service-deadbolt-installation.html"
+    },
+    {
+      "page": "index-2.html",
       "src": "assets/images/home-2/phone-access.webp",
       "family": "home-2/phone-access",
       "section": "integration-title",
@@ -2521,6 +2637,33 @@
       "section": "upgrade-demo-title",
       "link": null,
       "alt": "Illustrative keyless smart lock on a residential door",
+      "item": "index-2.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/testimonials/jordan.svg",
+      "family": "assets/images/testimonials/jordan.svg",
+      "section": "section-padding bg-subtle-section",
+      "link": null,
+      "alt": "Illustrated customer avatar for Jordan, a SecureKey homeowner",
+      "item": "index-2.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/testimonials/casey.svg",
+      "family": "assets/images/testimonials/casey.svg",
+      "section": "section-padding bg-subtle-section",
+      "link": null,
+      "alt": "Illustrated customer avatar for Casey, a SecureKey homeowner",
+      "item": "index-2.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/testimonials/morgan.svg",
+      "family": "assets/images/testimonials/morgan.svg",
+      "section": "section-padding bg-subtle-section",
+      "link": null,
+      "alt": "Illustrated customer avatar for Morgan, a SecureKey homeowner",
       "item": "index-2.html"
     },
     {
@@ -2666,6 +2809,33 @@
       "link": null,
       "alt": "Reinforced strike plate and deadbolt on a residential door frame",
       "item": "service-door-security.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/testimonials/sarah-jenkins.svg",
+      "family": "assets/images/testimonials/sarah-jenkins.svg",
+      "section": "testimonials-title",
+      "link": null,
+      "alt": "Portrait of Sarah Jenkins",
+      "item": "index.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/testimonials/david-maria-ross.svg",
+      "family": "assets/images/testimonials/david-maria-ross.svg",
+      "section": "testimonials-title",
+      "link": null,
+      "alt": "Portrait of David and Maria Ross",
+      "item": "index.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/testimonials/marcus-vance.svg",
+      "family": "assets/images/testimonials/marcus-vance.svg",
+      "section": "testimonials-title",
+      "link": null,
+      "alt": "Portrait of Marcus Vance",
+      "item": "index.html"
     },
     {
       "page": "login.html",

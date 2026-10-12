@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (scheduled) note.textContent = "Choose your preferred date and time below. We'll confirm availability with you.";
     else note.innerHTML = emergencyNote;
   }
-  form.querySelectorAll('input[name="urgency"]').forEach(input => input.addEventListener('change', updateScheduling));
+  form.querySelectorAll('input[name="Service Priority"]').forEach(input => input.addEventListener('change', updateScheduling));
   updateScheduling();
 
   const textFields = ['fullName', 'addressArea', 'serviceDetails'];
@@ -50,14 +50,12 @@ document.addEventListener('DOMContentLoaded', () => {
       form.querySelector('input:invalid, select:invalid, textarea:invalid')?.focus();
       return;
     }
-    // Keep the existing integration without posting details to its placeholder address.
-    if (form.action.includes('YOUR-EMAIL') || form.action.includes('example.com')) {
-      event.preventDefault();
-      feedback.hidden = false;
-      feedback.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'nearest' });
-      return;
+    // FormSubmit receives the valid form through a normal browser POST.
+    // On a deployed site, use the current origin for the absolute thank-you URL.
+    if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
+      const next = form.querySelector('input[name="_next"]');
+      if (next) next.value = new URL('thank-you.html', window.location.href).href;
     }
-    form.querySelector('input[name="_next"]').value = new URL('thank-you.html', window.location.href).href;
   });
 
 });

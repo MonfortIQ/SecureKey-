@@ -6,7 +6,7 @@ The homepages share no photographs. All eleven major page visuals, twelve servic
 
 Images are encoded as optimized WebP. Services and blog entries also include 640-pixel-wide card variants. Generated source dimensions are 1672 × 941, 1672 × 940, 1536 × 1024, or 1586 × 992 pixels; these are not native 4K photographs. The exact source dimensions, descriptive alternative text, intended use and file size of every image are recorded in `asset-manifest.json`.
 
-The final prompt set is stored in `scripts/asset-prompts.json`. Common generation instructions requested lifelike residential lock hardware, natural light, professional commercial photography, fictional demo scenes, and no logos or watermarks.
+Prompt provenance is documented in the image manifest. Common generation instructions requested lifelike residential lock hardware, natural light, professional commercial photography, fictional demo scenes, and no logos or watermarks.
 
 The six Home 1 emergency-service cards have separate photographs for house lockout, broken key extraction, rekeying, lock repair, replacement keys, and lock replacement. Their 640-by-400 card variants use larger responsive WebP sources. The audit replaced two similar compositions and removed their superseded image files. These images appear only in that section. Four separate smart-hardware compositions appear on Home 2. Native generation dimensions and final prompts are recorded in the manifest and prompt set.
 
@@ -16,3 +16,7 @@ The six Home 1 emergency-service cards have separate photographs for house locko
 - Traditional lock comparison: [George Becker on Pexels](https://www.pexels.com/photo/black-and-grey-keys-792034/), original 5516×3421; web export 1920 pixels wide. [Pexels license](https://www.pexels.com/license/).
 
 Stock photos are incorporated as illustrative website assets. Their subjects and brands do not endorse SecureKey. Do not redistribute them as standalone stock photos; consult each source license for your intended use.
+
+## Customer review avatars
+
+The three circular Home 1 customer review portraits in `testimonials/` are original vector illustrations created for this template. Home 2 reviewer portraits use three original vector illustrations (`jordan.svg`, `casey.svg`, and `morgan.svg`) so each reviewer has a distinct image without reusing team or service photography.

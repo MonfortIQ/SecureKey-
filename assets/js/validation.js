@@ -5,8 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     loginForm: 'Your details passed validation. This is a login UI demo; no sign-in has taken place.',
     registerForm: 'Your details passed validation. This is a registration UI demo; no account has been created.',
     forgotPasswordForm: 'Your email passed validation. Password recovery requires an authentication service; no email was sent.',
-    notificationForm: 'Your email passed validation. Connect an email service to enable launch notifications.',
-    newsletterForm: 'Your email passed validation. Connect an email service to enable subscriptions.'
   };
   document.querySelectorAll('.needs-validation').forEach(form => {
     if (form.id === 'contactForm') return; // Scheduling and endpoint validation are handled in contact.js.
@@ -26,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         form.querySelector('input:invalid, select:invalid, textarea:invalid')?.focus();
         return;
       }
-      const message = demoMessages[form.id] || (form.classList.contains('newsletter-form') ? demoMessages.newsletterForm : null);
+      const message = demoMessages[form.id] || null;
       if (!message) return;
       event.preventDefault();
       let feedback = form.querySelector('.form-alert');

@@ -1382,3 +1382,6 @@ img {
   background-color: var(--sk-primary-hover);
   transform: translateY(-3px);
 }
+
+/* Customer review avatars */
+.testimonial-author .author-avatar { flex:0 0 48px; border:2px solid var(--sk-border-color); background:var(--sk-bg-subtle); }

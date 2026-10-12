@@ -3,12 +3,26 @@
   <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem('securekey_theme');
+          if (theme !== 'dark' && theme !== 'light') {
+            theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+          document.documentElement.setAttribute('data-bs-theme', theme);
+          var direction = localStorage.getItem('securekey_direction');
+          if (direction === 'rtl' || direction === 'ltr') document.documentElement.setAttribute('dir', direction);
+        } catch (error) {}
+      }());
+    </script>
     <title>
       Contact &amp; 24/7 Emergency Dispatch | SecureKey Locksmith
     </title>
     <meta content="Contact SecureKey for emergency lockouts, residential locksmith services, and smart lock appointments. A little help. A lot of peace of mind." name="description"/>
     <meta content="#101827" name="theme-color"/>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-icons.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
     <link href="assets/css/contact.css" rel="stylesheet"/>
     <link href="assets/css/site-shell.css?v=20261012-audit" rel="stylesheet"/>
@@ -94,22 +108,6 @@
     <a class="skip-link" href="#main-content">
       Skip to content
     </a>
-    <div class="availability-bar">
-      <div class="contact-container">
-        <span>
-          <span class="live-dot">
-          </span>
-          Residential locksmiths. Ready when you need us.
-        </span>
-        <a href="tel:8005555625">
-          24/7 emergency assistance
-          <svg aria-hidden="true" class="icon">
-            <use href="#icon-arrow">
-            </use>
-          </svg>
-        </a>
-      </div>
-    </div>
     <header class="contact-header">
       <nav aria-label="Main navigation" class="contact-navbar contact-container">
         <a class="contact-brand" href="index.html">
@@ -154,6 +152,21 @@
           <a href="services.html">
             Services
           </a>
+          <div class="dropdown pages-dropdown">
+            <button aria-expanded="false" class="home-menu-toggle" data-bs-toggle="dropdown" type="button">
+              Pages
+              <svg aria-hidden="true" class="icon">
+                <use href="#icon-chevron">
+                </use>
+              </svg>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="coming-soon.html">Coming soon</a></li>
+              <li><a class="dropdown-item" href="404.html">404 page</a></li>
+              <li><a class="dropdown-item" href="thank-you.html">Thank you</a></li>
+              <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
           <a href="pricing.html">
             Pricing
           </a>
@@ -230,6 +243,19 @@
           <a href="services.html">
             Our services
           </a>
+          <button aria-controls="mobilePageLinks" aria-expanded="false" class="mobile-home-toggle" data-bs-target="#mobilePageLinks" data-bs-toggle="collapse" type="button">
+            Pages
+            <svg aria-hidden="true" class="icon">
+              <use href="#icon-chevron">
+              </use>
+            </svg>
+          </button>
+          <div class="collapse" id="mobilePageLinks">
+            <a href="coming-soon.html">Coming soon</a>
+            <a href="404.html">404 page</a>
+            <a href="thank-you.html">Thank you</a>
+            <a href="faq.html">FAQ</a>
+          </div>
           <a href="pricing.html">
             Pricing
           </a>
@@ -242,10 +268,7 @@
           <a href="login.html">
             Customer login
           </a>
-          <a href="register.html">
-            Create an account
-          </a>
-        </nav>
+</nav>
         <a class="contact-button" href="tel:8005555625">
           <svg aria-hidden="true" class="icon">
             <use href="#icon-phone">
@@ -346,19 +369,19 @@
             <p class="booking-intro">
               A few details are all we need to get you to the right expert.
             </p>
-            <form action="https://formsubmit.co/YOUR-EMAIL@example.com" class="needs-validation" id="contactForm" method="POST" novalidate="">
-              <input name="_subject" type="hidden" value="New Locksmith Service Request - SecureKey"/>
+            <form action="https://formsubmit.co/clament.iq@outlook.com" class="needs-validation" id="contactForm" method="POST">
+              <input name="_subject" type="hidden" value="New SecureKey Locksmith Service Request"/>
               <input name="_captcha" type="hidden" value="false"/>
               <input name="_template" type="hidden" value="table"/>
-              <input name="_next" type="hidden" value="thank-you.html"/>
-              <input aria-hidden="true" autocomplete="off" class="honeypot" name="_honey" tabindex="-1" type="text"/>
+              <input name="_next" type="hidden" value="https://YOUR-DOMAIN.com/thank-you.html"/>
+              <input aria-hidden="true" autocomplete="off" class="honeypot" name="_honey" style="display:none" tabindex="-1" type="text"/>
               <fieldset class="urgency-fieldset">
                 <legend>
                   When do you need us?
                 </legend>
                 <div class="urgency-options">
                   <label class="urgency-option">
-                    <input checked="" id="urgencyEmergency" name="urgency" required="" type="radio" value="Emergency Lockout (15-25 min arrival)"/>
+                    <input checked="" id="urgencyEmergency" name="Service Priority" required="" type="radio" value="Emergency Lockout (15-25 min arrival)"/>
                     <span class="urgency-icon">
                       <svg aria-hidden="true" class="icon" focusable="false">
                         <use href="#icon-bolt">
@@ -377,7 +400,7 @@
                     </span>
                   </label>
                   <label class="urgency-option">
-                    <input id="urgencyStandard" name="urgency" type="radio" value="Standard Scheduled Appointment"/>
+                    <input id="urgencyStandard" name="Service Priority" type="radio" value="Standard Scheduled Appointment"/>
                     <span class="urgency-icon">
                       <svg aria-hidden="true" class="icon" focusable="false">
                         <use href="#icon-calendar">
@@ -422,7 +445,7 @@
                         *
                       </span>
                     </label>
-                    <input aria-describedby="nameError" autocomplete="name" class="form-control" id="fullName" maxlength="100" name="name" placeholder="Your first and last name" required="" type="text"/>
+                    <input aria-describedby="nameError" autocomplete="name" class="form-control" id="fullName" maxlength="100" name="Full Name" placeholder="Your first and last name" required="" type="text"/>
                     <div class="invalid-feedback" id="nameError">
                       Please enter your full name.
                     </div>
@@ -434,7 +457,7 @@
                         *
                       </span>
                     </label>
-                    <input aria-describedby="phoneError" autocomplete="tel" class="form-control" id="phoneNumber" maxlength="30" name="phone" pattern="[0-9\(\)\s+\-\.]{7,}" placeholder="(555) 000-0000" required="" type="tel"/>
+                    <input aria-describedby="phoneError" autocomplete="tel" class="form-control" id="phoneNumber" maxlength="30" name="Phone Number" pattern="[0-9\(\)\s+\-\.]{7,}" placeholder="(555) 000-0000" required="" type="tel"/>
                     <div class="invalid-feedback" id="phoneError">
                       Please enter a valid phone number.
                     </div>
@@ -446,7 +469,7 @@
                         *
                       </span>
                     </label>
-                    <input aria-describedby="emailError" autocomplete="email" class="form-control" id="emailAddress" maxlength="254" name="email" placeholder="you@example.com" required="" type="email"/>
+                    <input aria-describedby="emailError" autocomplete="email" class="form-control" id="emailAddress" maxlength="254" name="Email Address" placeholder="you@example.com" required="" type="email"/>
                     <div class="invalid-feedback" id="emailError">
                       Please enter a valid email address.
                     </div>
@@ -468,7 +491,7 @@
                         *
                       </span>
                     </label>
-                    <select aria-describedby="serviceError" class="form-select" id="serviceType" name="service_type" required="">
+                    <select aria-describedby="serviceError" class="form-select" id="serviceType" name="Service Needed" required="">
                       <option disabled="" selected="" value="">
                         Choose a service
                       </option>
@@ -520,7 +543,7 @@
                         *
                       </span>
                     </label>
-                    <input aria-describedby="addressError" autocomplete="street-address" class="form-control" id="addressArea" maxlength="250" name="address" placeholder="Where can we help?" required="" type="text"/>
+                    <input aria-describedby="addressError" autocomplete="street-address" class="form-control" id="addressArea" maxlength="250" name="Address or Neighborhood" placeholder="Where can we help?" required="" type="text"/>
                     <div class="invalid-feedback" id="addressError">
                       Please enter your service location.
                     </div>
@@ -532,7 +555,7 @@
                         *
                       </span>
                     </label>
-                    <input aria-describedby="dateError" class="form-control" id="preferredDate" name="preferred_date" type="date"/>
+                    <input aria-describedby="dateError" class="form-control" id="preferredDate" name="Preferred Date" type="date"/>
                     <div class="invalid-feedback" id="dateError">
                       Please choose today or a future date.
                     </div>
@@ -544,7 +567,7 @@
                         *
                       </span>
                     </label>
-                    <select class="form-select" id="preferredTime" name="preferred_time">
+                    <select class="form-select" id="preferredTime" name="Preferred Time">
                       <option value="ASAP (Immediate Emergency)">
                         As soon as possible
                       </option>
@@ -569,7 +592,7 @@
                         *
                       </span>
                     </label>
-                    <textarea aria-describedby="detailsError" class="form-control" id="serviceDetails" maxlength="3000" name="message" placeholder="Tell us about your lock, what's happening, or what you'd like to upgrade…" required="" rows="3"></textarea>
+                    <textarea aria-describedby="detailsError" class="form-control" id="serviceDetails" maxlength="3000" name="Message" placeholder="Tell us about your lock, what's happening, or what you'd like to upgrade…" required="" rows="3"></textarea>
                     <div class="invalid-feedback" id="detailsError">
                       Please add a few details about the job.
                     </div>
@@ -711,8 +734,8 @@
                   <h3>
                     Prefer to email?
                   </h3>
-                  <a href="mailto:YOUR-EMAIL@example.com">
-                    YOUR-EMAIL@example.com
+                  <a href="mailto:clament.iq@outlook.com">
+                    clament.iq@outlook.com
                   </a>
                 </div>
               </div>
@@ -936,19 +959,10 @@
               </span>
               24/7 emergency locksmith service
             </span>
-            <div aria-label="Social profiles (template placeholders)" class="footer-social-links">
-              <button aria-label="Facebook profile placeholder" class="footer-social-btn" data-demo-social="Facebook" type="button">
-                <i aria-hidden="true" class="bi bi-facebook">
-                </i>
-              </button>
-              <button aria-label="Instagram profile placeholder" class="footer-social-btn" data-demo-social="Instagram" type="button">
-                <i aria-hidden="true" class="bi bi-instagram">
-                </i>
-              </button>
-              <button aria-label="LinkedIn profile placeholder" class="footer-social-btn" data-demo-social="LinkedIn" type="button">
-                <i aria-hidden="true" class="bi bi-linkedin">
-                </i>
-              </button>
+            <div aria-label="Social profiles" class="footer-social-links">
+              <a aria-label="Facebook" class="footer-social-btn" href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="bi bi-facebook"></i></a>
+              <a aria-label="Instagram" class="footer-social-btn" href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="bi bi-instagram"></i></a>
+              <a aria-label="LinkedIn" class="footer-social-btn" href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="bi bi-linkedin"></i></a>
             </div>
             <p class="social-feedback" hidden="" role="status">
             </p>
@@ -1015,8 +1029,8 @@
               <br/>
               Appointments: Mon–Sat, 8 am–7 pm
             </p>
-            <a class="footer-email" href="mailto:YOUR-EMAIL@example.com">
-              YOUR-EMAIL@example.com
+            <a class="footer-email" href="mailto:clament.iq@outlook.com">
+              clament.iq@outlook.com
             </a>
             <p>
               742 Evergreen Terrace, Metro Center
@@ -1034,13 +1048,17 @@
               Lock care tips and practical home security advice.
             </p>
           </div>
-          <form class="needs-validation newsletter-form" id="newsletterForm" novalidate="">
+          <form action="https://formsubmit.co/clament.iq@outlook.com" class="needs-validation newsletter-form" id="newsletterForm" method="POST">
+          <input name="_subject" type="hidden" value="New SecureKey Newsletter Subscription"/>
+          <input name="_template" type="hidden" value="table"/>
+          <input name="_captcha" type="hidden" value="false"/>
+          <input autocomplete="off" name="_honey" style="display:none" tabindex="-1" type="text"/>
             <label class="visually-hidden" for="newsletterEmail">
               Email for security updates
             </label>
             <div class="input-group">
-              <input autocomplete="email" class="form-control" id="newsletterEmail" name="email" placeholder="Your email address" required="" type="email"/>
-              <button aria-label="Subscribe to security updates" class="btn btn-primary" type="submit">
+              <input autocomplete="email" class="form-control" id="newsletterEmail" name="Newsletter Subscriber Email" placeholder="Your email address" required="" type="email" aria-label="Email address"/>
+              <button aria-label="Subscribe to SecureKey newsletter" class="btn btn-primary" type="submit">
                 <svg aria-hidden="true" class="icon">
                   <use href="#icon-arrow">
                   </use>
@@ -1071,33 +1089,10 @@
               Template &amp; image credits
             </a>
           </div>
-          <a href="#main-content">
-            Back to top
-            <svg aria-hidden="true" class="icon">
-              <use href="#icon-up">
-              </use>
-            </svg>
-          </a>
         </div>
       </div>
     </footer>
-    <div class="contact-mobile-bar">
-      <a href="tel:8005555625">
-        <svg aria-hidden="true" class="icon">
-          <use href="#icon-phone">
-          </use>
-        </svg>
-        Call 24/7
-      </a>
-      <a href="contact.html#booking">
-        Request service
-        <svg aria-hidden="true" class="icon">
-          <use href="#icon-arrow">
-          </use>
-        </svg>
-      </a>
-    </div>
-    <script src="assets/js/bootstrap.bundle.min.js">
+<script src="assets/js/bootstrap.bundle.min.js">
     </script>
     <script src="assets/js/theme.js">
     </script>

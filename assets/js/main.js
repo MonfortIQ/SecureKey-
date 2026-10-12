@@ -1,6 +1,25 @@
 /** Shared frontend interactions. No account or mailing backend is simulated. */
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
+  // FormSubmit cannot receive a POST from a file:// preview. Keep the preview
+  // on this page and explain how to submit it through a local server instead
+  // of sending the visitor to FormSubmit's "Unable to submit form" page.
+  if (window.location.protocol === 'file:') {
+    document.querySelectorAll('form[action^="https://formsubmit.co/"]').forEach(form => {
+      form.addEventListener('submit', event => {
+        if (!form.checkValidity()) return;
+        event.preventDefault();
+        let feedback = form.querySelector('.form-alert');
+        if (!feedback) {
+          feedback = document.createElement('p');
+          feedback.className = 'alert alert-info form-alert mt-3 mb-0';
+          feedback.setAttribute('role', 'status');
+          form.append(feedback);
+        }
+        feedback.textContent = 'Preview mode: open this site through a local web server or deployed URL to send this form.';
+      });
+    });
+  }
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const backToTop = document.getElementById('backToTop');
   if (backToTop) {
@@ -77,10 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const status = document.querySelector('[data-share-status]');
     try { await navigator.clipboard.writeText(location.href); status.textContent = 'Article link copied.'; }
     catch { status.textContent = 'Copy the article URL from your browser address bar.'; }
-  }));
-  document.querySelectorAll('[data-demo-social]').forEach(button => button.addEventListener('click', () => {
-    const message = button.closest('.footer-brand-block')?.querySelector('.social-feedback') || document.getElementById('socialFeedback');
-    if (message) { message.hidden = false; message.textContent = `${button.dataset.demoSocial} is a template placeholder. Add your business profile URL before publishing.`; }
   }));
   document.querySelectorAll('.compare-toggle-btn').forEach(button => button.addEventListener('click', () => {
     const smart = button.dataset.mode === 'smart';

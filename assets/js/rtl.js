@@ -29,10 +29,12 @@
         if (textSpan) textSpan.textContent = 'LTR';
         btn.setAttribute('aria-label', 'Switch to left to right layout');
         btn.setAttribute('title', 'Switch to LTR');
+        btn.setAttribute('aria-pressed', 'true');
       } else {
         if (textSpan) textSpan.textContent = 'RTL';
         btn.setAttribute('aria-label', 'Switch to right to left layout');
         btn.setAttribute('title', 'Switch to RTL');
+        btn.setAttribute('aria-pressed', 'false');
       }
     });
   }

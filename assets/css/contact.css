@@ -11,11 +11,6 @@
 .contact-page a:focus-visible,.contact-page button:focus-visible,.contact-page summary:focus-visible { outline:3px solid var(--ct-blue); outline-offset:5px; }
 .skip-link { position:fixed; z-index:1100; top:-80px; left:20px; padding:12px 20px; background:var(--ct-surface); }
 .skip-link:focus { top:10px; }
-.availability-bar { background:#101c30; color:#d6deed; font-size:13px; }
-.availability-bar .contact-container { display:flex; align-items:center; justify-content:space-between; min-height:35px; gap:15px; }
-.availability-bar span,.availability-bar a { display:inline-flex; align-items:center; gap:9px; }
-.contact-page .availability-bar a { color:#d6deed; }
-.availability-bar .icon { width:14px; height:14px; }
 .live-dot { display:inline-block; width:6px; height:6px; border-radius:50%; background:#6ae0b9; box-shadow:0 0 0 4px #6ae0b91a; flex:0 0 auto; }
 .contact-header { position:sticky; top:0; z-index:100; background:var(--ct-surface); border-bottom:1px solid var(--ct-border); }
 .contact-navbar { display:flex; align-items:center; gap:35px; min-height:87px; }
@@ -208,7 +203,7 @@ details[open] .faq-plus::after { transform:rotate(0); }
   .details-card { padding:20px; } .detail-row { gap:9px; } .contact-fields { grid-template-columns:1fr; } .next-steps { grid-template-columns:1fr 1fr; gap:25px 35px; } .faq-section { gap:35px; } .footer-grid { grid-template-columns:1.25fr 1fr; gap:35px; }
 }
 @media (max-width:767px) {
-  .contact-container { width:calc(100% - 40px); } .availability-bar .contact-container { justify-content:center; min-height:32px; } .availability-bar span { font-size:11px; } .availability-bar a { display:none; }
+  .contact-container { width:calc(100% - 40px); }
   .contact-hero { padding:22px 0 34px; } .contact-breadcrumb { margin-bottom:24px; } .hero-layout { grid-template-columns:1fr; } .hero-emblem { display:none; } .contact-hero h1 { font-size:clamp(35px,6vw,48px); letter-spacing:-1.5px; }
   .hero-copy > p { font-size:13px; } .hero-assurances { gap:15px; font-size:11px; } .booking-section { padding-top:28px; scroll-margin-top:90px; } .booking-layout { grid-template-columns:1fr; } .booking-card { padding:25px; } .booking-heading h2 { font-size:28px; }
   .urgency-options { grid-template-columns:1fr 1fr; } .contact-fields { grid-template-columns:1fr 1fr; } .contact-sidebar { grid-template-columns:1fr 1fr; margin-top:3px; } .dispatch-card { grid-column:1 / -1; padding:27px; }

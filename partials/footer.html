@@ -26,19 +26,10 @@
           </span>
           24/7 emergency locksmith service
         </span>
-        <div aria-label="Social profiles (template placeholders)" class="footer-social-links">
-          <button aria-label="Facebook profile placeholder" class="footer-social-btn" data-demo-social="Facebook" type="button">
-            <i aria-hidden="true" class="bi bi-facebook">
-            </i>
-          </button>
-          <button aria-label="Instagram profile placeholder" class="footer-social-btn" data-demo-social="Instagram" type="button">
-            <i aria-hidden="true" class="bi bi-instagram">
-            </i>
-          </button>
-          <button aria-label="LinkedIn profile placeholder" class="footer-social-btn" data-demo-social="LinkedIn" type="button">
-            <i aria-hidden="true" class="bi bi-linkedin">
-            </i>
-          </button>
+        <div aria-label="Social profiles" class="footer-social-links">
+          <a aria-label="Facebook" class="footer-social-btn" href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="bi bi-facebook"></i></a>
+          <a aria-label="Instagram" class="footer-social-btn" href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="bi bi-instagram"></i></a>
+          <a aria-label="LinkedIn" class="footer-social-btn" href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="bi bi-linkedin"></i></a>
         </div>
         <p class="social-feedback" hidden="" role="status">
         </p>
@@ -105,8 +96,8 @@
           <br/>
           Appointments: Mon–Sat, 8 am–7 pm
         </p>
-        <a class="footer-email" href="mailto:YOUR-EMAIL@example.com">
-          YOUR-EMAIL@example.com
+        <a class="footer-email" href="mailto:clament.iq@outlook.com">
+          clament.iq@outlook.com
         </a>
         <p>
           742 Evergreen Terrace, Metro Center
@@ -124,13 +115,17 @@
           Lock care tips and practical home security advice.
         </p>
       </div>
-      <form class="needs-validation newsletter-form" id="newsletterForm" novalidate="">
+      <form action="https://formsubmit.co/clament.iq@outlook.com" class="needs-validation newsletter-form" id="newsletterForm" method="POST">
+          <input name="_subject" type="hidden" value="New SecureKey Newsletter Subscription"/>
+          <input name="_template" type="hidden" value="table"/>
+          <input name="_captcha" type="hidden" value="false"/>
+          <input autocomplete="off" name="_honey" style="display:none" tabindex="-1" type="text"/>
         <label class="visually-hidden" for="newsletterEmail">
           Email for security updates
         </label>
         <div class="input-group">
-          <input autocomplete="email" class="form-control" id="newsletterEmail" name="email" placeholder="Your email address" required="" type="email"/>
-          <button aria-label="Subscribe to security updates" class="btn btn-primary" type="submit">
+          <input autocomplete="email" class="form-control" id="newsletterEmail" name="Newsletter Subscriber Email" placeholder="Your email address" required="" type="email" aria-label="Email address"/>
+          <button aria-label="Subscribe to SecureKey newsletter" class="btn btn-primary" type="submit">
             <svg aria-hidden="true" class="icon">
               <use href="#icon-arrow">
               </use>
@@ -161,13 +156,6 @@
           Template &amp; image credits
         </a>
       </div>
-      <a href="#main-content">
-        Back to top
-        <svg aria-hidden="true" class="icon">
-          <use href="#icon-up">
-          </use>
-        </svg>
-      </a>
     </div>
   </div>
 </footer>

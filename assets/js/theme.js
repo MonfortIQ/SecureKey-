@@ -38,10 +38,12 @@
         if (icon) icon.className = 'bi bi-sun-fill text-warning';
         btn.setAttribute('aria-label', 'Switch to light mode');
         btn.setAttribute('title', 'Switch to light mode');
+        btn.setAttribute('aria-pressed', 'true');
       } else {
         if (icon) icon.className = 'bi bi-moon-stars-fill text-secondary';
         btn.setAttribute('aria-label', 'Switch to dark mode');
         btn.setAttribute('title', 'Switch to dark mode');
+        btn.setAttribute('aria-pressed', 'false');
       }
     });
   }
