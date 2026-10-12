@@ -1,0 +1,342 @@
+{
+  "layouts": 112,
+  "failures": [],
+  "contrasts": [
+    {
+      "page": "index.html",
+      "theme": "light",
+      "labels": [
+        {
+          "text": "Fast Arrival",
+          "ratio": 9.451647128541774,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Bonded & Insured",
+          "ratio": 9.451647128541774,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Door assessment",
+          "ratio": 9.451647128541774,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "No Surprises",
+          "ratio": 9.451647128541774,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Urgent Residential Dispatch",
+          "ratio": 6.183880663671718,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Trust & Reliability",
+          "ratio": 5.62958617191222,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Simple & Fast",
+          "ratio": 5.380594819519168,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Full Service Range",
+          "ratio": 5.62958617191222,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Local Coverage",
+          "ratio": 5.380594819519168,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "15–20 Min ETA",
+          "ratio": 10.350972700739907,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "15–25 Min ETA",
+          "ratio": 10.350972700739907,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "20–25 Min ETA",
+          "ratio": 10.350972700739907,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "15–20 Min ETA",
+          "ratio": 10.350972700739907,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "20–25 Min ETA",
+          "ratio": 10.350972700739907,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Fast Dispatch",
+          "ratio": 7.651564373046963,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Homeowner Reviews",
+          "ratio": 5.62958617191222,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Common Questions",
+          "ratio": 5.380594819519168,
+          "fontSize": 15.2,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": "index.html",
+      "theme": "dark",
+      "labels": [
+        {
+          "text": "Fast Arrival",
+          "ratio": 9.451647128541774,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Bonded & Insured",
+          "ratio": 9.451647128541774,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Door assessment",
+          "ratio": 9.451647128541774,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "No Surprises",
+          "ratio": 9.451647128541774,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Urgent Residential Dispatch",
+          "ratio": 8.650602590791372,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Trust & Reliability",
+          "ratio": 8.548438030591305,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Simple & Fast",
+          "ratio": 8.103084868574967,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Full Service Range",
+          "ratio": 8.548438030591305,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Local Coverage",
+          "ratio": 8.103084868574967,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "15–20 Min ETA",
+          "ratio": 7.669273173896674,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "15–25 Min ETA",
+          "ratio": 7.669273173896674,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "20–25 Min ETA",
+          "ratio": 7.669273173896674,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "15–20 Min ETA",
+          "ratio": 7.669273173896674,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "20–25 Min ETA",
+          "ratio": 7.669273173896674,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Fast Dispatch",
+          "ratio": 10.035663503569339,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Homeowner Reviews",
+          "ratio": 8.548438030591305,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Common Questions",
+          "ratio": 8.103084868574967,
+          "fontSize": 15.2,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": "about.html",
+      "theme": "light",
+      "labels": [
+        {
+          "text": "Our Journey",
+          "ratio": 5.62958617191222,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Guiding Principles",
+          "ratio": 5.380594819519168,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Meet Our Technicians",
+          "ratio": 5.62958617191222,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Founder & Master Locksmith",
+          "ratio": 10.276071849129831,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Smart Security Specialist",
+          "ratio": 7.651564373046963,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Lead Emergency Technician",
+          "ratio": 10.217093736083909,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Residential Security Consultant",
+          "ratio": 10.350972700739907,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "CREDENTIAL PLACEHOLDERS",
+          "ratio": 5.380594819519168,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Homeowner stories",
+          "ratio": 5.380594819519168,
+          "fontSize": 15.2,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": "about.html",
+      "theme": "dark",
+      "labels": [
+        {
+          "text": "Our Journey",
+          "ratio": 8.548438030591305,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Guiding Principles",
+          "ratio": 8.103084868574967,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Meet Our Technicians",
+          "ratio": 8.548438030591305,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Founder & Master Locksmith",
+          "ratio": 7.454487353184765,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Smart Security Specialist",
+          "ratio": 10.035663503569339,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Lead Emergency Technician",
+          "ratio": 7.151575771344431,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "Residential Security Consultant",
+          "ratio": 7.669273173896674,
+          "fontSize": 14,
+          "overflow": false
+        },
+        {
+          "text": "CREDENTIAL PLACEHOLDERS",
+          "ratio": 8.103084868574967,
+          "fontSize": 15.2,
+          "overflow": false
+        },
+        {
+          "text": "Homeowner stories",
+          "ratio": 8.103084868574967,
+          "fontSize": 15.2,
+          "overflow": false
+        }
+      ]
+    }
+  ]
+}

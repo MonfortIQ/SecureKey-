@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      Customer Login | SecureKey Locksmith
+    </title>
+    <meta content="Access your SecureKey customer portal. View past service history, rekey records, warranty documentation, and smart lock access profiles." name="description"/>
+    <!-- Bootstrap 5.3.3 CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Bootstrap Icons -->
+    <link href="assets/css/bootstrap-icons.min.css" rel="stylesheet"/>
+    <!-- Custom Stylesheets -->
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <link href="assets/css/responsive.css" rel="stylesheet"/>
+    <link href="assets/css/rtl.css" rel="stylesheet"/>
+    <link href="assets/css/site-shell.css?v=20261012-auth" rel="stylesheet"/>
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg"/>
+</head>
+  <body class="site-page auth-page d-flex flex-column min-vh-100 bg-subtle-section">
+    <svg aria-hidden="true" class="icon-library" focusable="false" xmlns="http://www.w3.org/2000/svg">
+      <symbol id="icon-shield" viewbox="0 0 24 24">
+        <path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z">
+        </path>
+        <path d="m9 12 2 2 4-4">
+        </path>
+      </symbol>
+      <symbol id="icon-arrow" viewbox="0 0 24 24">
+        <path d="M5 12h14m-6-6 6 6-6 6">
+        </path>
+      </symbol>
+      <symbol id="icon-phone" viewbox="0 0 24 24">
+        <path d="m7 3 3 5-3 3c2 3 3 4 6 6l3-3 5 3-1 4C10 22 2 14 3 4l4-1Z">
+        </path>
+      </symbol>
+      <symbol id="icon-clock" viewbox="0 0 24 24">
+        <circle cx="12" cy="12" r="9">
+        </circle>
+        <path d="M12 7v5l3 2">
+        </path>
+      </symbol>
+      <symbol id="icon-calendar" viewbox="0 0 24 24">
+        <rect height="16" rx="3" width="18" x="3" y="5">
+        </rect>
+        <path d="M7 3v4m10-4v4M3 11h18m-13 5h2m4 0h2">
+        </path>
+      </symbol>
+      <symbol id="icon-bolt" viewbox="0 0 24 24">
+        <path d="m13 2-9 12h7l-1 8 10-13h-7l1-7Z">
+        </path>
+      </symbol>
+      <symbol id="icon-pin" viewbox="0 0 24 24">
+        <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z">
+        </path>
+        <circle cx="12" cy="10" r="3">
+        </circle>
+      </symbol>
+      <symbol id="icon-mail" viewbox="0 0 24 24">
+        <rect height="14" rx="3" width="18" x="3" y="5">
+        </rect>
+        <path d="m3 7 9 6 9-6">
+        </path>
+      </symbol>
+      <symbol id="icon-key" viewbox="0 0 24 24">
+        <circle cx="8" cy="8" r="5">
+        </circle>
+        <path d="m12 12 9 9m-4-4 3-3m-6 0 3-3">
+        </path>
+      </symbol>
+      <symbol id="icon-moon" viewbox="0 0 24 24">
+        <path d="M21 13A9 9 0 0 1 11 3a9 9 0 1 0 10 10Z">
+        </path>
+      </symbol>
+      <symbol id="icon-sun" viewbox="0 0 24 24">
+        <circle cx="12" cy="12" r="4">
+        </circle>
+        <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1">
+        </path>
+      </symbol>
+      <symbol id="icon-menu" viewbox="0 0 24 24">
+        <path d="M4 6h16M4 12h16M4 18h16">
+        </path>
+      </symbol>
+      <symbol id="icon-check" viewbox="0 0 24 24">
+        <path d="m5 12 4 4L19 6">
+        </path>
+      </symbol>
+      <symbol id="icon-up" viewbox="0 0 24 24">
+        <path d="M12 19V5m-6 6 6-6 6 6">
+        </path>
+      </symbol>
+      <symbol id="icon-chevron" viewbox="0 0 24 24">
+        <path d="m6 9 6 6 6-6">
+        </path>
+      </symbol>
+    </svg>
+    <a class="skip-link" href="#main-content">
+      Skip to content
+    </a>
+    <header class="contact-header auth-header">
+      <nav aria-label="SecureKey Locksmith" class="contact-navbar contact-container">
+        <a class="contact-brand" href="index.html" aria-label="SecureKey Locksmith home">
+          <span class="brand-mark">
+            <svg aria-hidden="true" class="icon"><use href="#icon-shield"></use></svg>
+          </span>
+          <span>
+            SecureKey
+            <span class="brand-descriptor">LOCKSMITH</span>
+          </span>
+        </a>
+        <div class="contact-header-actions auth-header-actions">
+          <button aria-label="Switch to right to left layout" class="utility-button rtl-toggle-btn" type="button">
+            <span class="rtl-text">RTL</span>
+          </button>
+          <button aria-label="Toggle theme" class="utility-button theme-toggle-btn" type="button">
+            <svg aria-hidden="true" class="icon icon-moon"><use href="#icon-moon"></use></svg>
+            <svg aria-hidden="true" class="icon icon-sun"><use href="#icon-sun"></use></svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-grow-1 d-flex align-items-center py-5" id="main-content">
+      <div class="container">
+        <div class="row justify-content-center align-items-center g-5">
+          <div class="col-lg-6 auth-intro">
+            <img alt="Polished residential door handle and keyhole in evening light" decoding="async" height="941" src="assets/images/utility/login.webp" width="1672"/>
+            <span class="section-subtitle">
+              SECURE ACCESS. SMARTER PROTECTION.
+            </span>
+            <h2 class="section-title">
+              Welcome home.
+              <br/>
+              Good to see you.
+            </h2>
+            <p>
+              A dedicated space for your service appointments and home security records.
+            </p>
+            <a href="contact.html">
+              Need a locksmith? Contact our team
+              <i aria-hidden="true" class="bi bi-arrow-right">
+              </i>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <div class="sk-card p-4 p-md-5 shadow-lg border">
+              <div class="text-center mb-4">
+                <div class="brand-icon mx-auto mb-3" style="width: 52px; height: 52px; font-size: 1.5rem;">
+                  <i aria-hidden="true" class="bi bi-lock-fill">
+                  </i>
+                </div>
+                <h1 class="fs-3 fw-bold mb-1">
+                  Customer Portal Login
+                </h1>
+                <p class="small text-muted mb-0">
+                  Customer login interface for appointments and service records.
+                </p>
+              </div>
+              <p class="demo-note">
+                Template demo: this form validates your details. Authentication is not connected.
+              </p>
+              <form class="needs-validation" id="loginForm" novalidate="">
+                <!-- Email -->
+                <div class="mb-3">
+                  <label class="form-label" for="loginEmail">
+                    Email Address
+                  </label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-transparent text-muted">
+                      <i aria-hidden="true" class="bi bi-envelope">
+                      </i>
+                    </span>
+                    <input autocomplete="email" class="form-control" id="loginEmail" name="email" placeholder="name@example.com" required="" type="email"/>
+                    <div class="invalid-feedback">
+                      Please enter a valid email address.
+                    </div>
+                  </div>
+                </div>
+                <!-- Password -->
+                <div class="mb-3">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <label class="form-label mb-0" for="loginPassword">
+                      Password
+                    </label>
+                    <button class="password-reset-link small text-primary text-decoration-none" data-bs-target="#forgotPasswordModal" data-bs-toggle="modal" type="button">
+                      Forgot Password?
+                    </button>
+                  </div>
+                  <div class="input-group mt-1">
+                    <span class="input-group-text bg-transparent text-muted">
+                      <i aria-hidden="true" class="bi bi-key">
+                      </i>
+                    </span>
+                    <input autocomplete="current-password" class="form-control" id="loginPassword" name="password" placeholder="••••••••" required="" type="password"/>
+                    <div class="invalid-feedback">
+                      Please enter your password.
+                    </div>
+                  </div>
+                </div>
+                <!-- Remember Me -->
+                <div class="mb-4 form-check">
+                  <input class="form-check-input" id="rememberMe" type="checkbox"/>
+                  <label class="form-check-label small text-muted" for="rememberMe">
+                    Remember my device
+                  </label>
+                </div>
+                <!-- Submit Button -->
+                <button class="btn btn-primary w-100 btn-lg mb-3" type="submit">
+                  <i aria-hidden="true" class="bi bi-box-arrow-in-right me-1">
+                  </i>
+                  Sign In to Account
+                </button>
+                <div class="text-center">
+                  <span class="small text-muted">
+                    Don't have an account yet?
+                  </span>
+                  <a class="small fw-bold text-primary" href="register.html">
+                    Register Here
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Forgot Password Modal -->
+    <div aria-hidden="true" aria-labelledby="forgotPasswordLabel" class="modal fade" id="forgotPasswordModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" id="forgotPasswordLabel">
+              <i aria-hidden="true" class="bi bi-key-fill text-primary me-2">
+              </i>
+              Reset Password
+            </h5>
+            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="small text-muted mb-3">
+              Enter your registered email address and your authentication provider can send you a secure link to reset your account credentials.
+            </p>
+            <form class="needs-validation" id="forgotPasswordForm" novalidate="">
+              <div class="mb-3">
+                <label class="form-label" for="resetEmail">
+                  Email Address
+                </label>
+                <input class="form-control" id="resetEmail" placeholder="name@example.com" required="" type="email"/>
+                <div class="invalid-feedback">
+                  Please provide your email.
+                </div>
+              </div>
+              <button class="btn btn-primary w-100" type="submit">
+                Send Reset Link
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="assets/js/theme.js">
+    </script>
+    <script src="assets/js/rtl.js">
+    </script>
+    <script src="assets/js/validation.js">
+    </script>
+    <script src="assets/js/main.js">
+    </script>
+  </body>
+</html>

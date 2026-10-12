@@ -1,0 +1,170 @@
+[
+  {
+    "id": "about/company-hero",
+    "usage": "about.html hero",
+    "alt": "Two residential locksmith technicians beside their service van outside a brick home",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Two fictional locksmith technicians beside an unbranded navy service van outside a red-brick family home, wide environmental composition, tools packed away. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-73c6db08-1f8a-4243-8d23-8fbe73efcfa8.png"
+  },
+  {
+    "id": "services/services-hero",
+    "usage": "services.html hero",
+    "alt": "Residential door handles and locks displayed on a hardware showroom wall",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A professional household hardware display with several distinctly different brass, nickel and matte-black door handles neatly mounted on cream showroom sample panels, wide interior view. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-ecf8b715-000e-4990-abf0-d1141f573f14.png"
+  },
+  {
+    "id": "pricing/quote-hero",
+    "usage": "pricing.html hero",
+    "alt": "Homeowner reviewing a door-hardware quotation with a residential technician",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Homeowner and a navy-shirted residential tradesperson reviewing a blank quotation sheet at an oak kitchen table, one closed boxed door handle on the table, warm real home setting, no readable writing. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-51d47524-a56f-413e-aca8-49888209e528.png"
+  },
+  {
+    "id": "blog/security-journal-hero",
+    "usage": "blog.html hero",
+    "alt": "House keys and a notebook on a desk beside a residential window",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: An open blank notebook, pencil, small pair of house keys and a closed household security reference book on a walnut desk beside a sunny window overlooking a suburban home, overhead editorial composition. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-69f9b6f2-82f0-4ebf-acdb-a2c67bbeabc0.png"
+  },
+  {
+    "id": "contact/service-call-hero",
+    "usage": "contact.html hero",
+    "alt": "Homeowner calling for assistance from her residential front porch",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A smiling female homeowner speaking on a smartphone while standing on a pale-stone front porch with a sage-green house door behind her, horizontal waist-up composition. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-a1fafe4e-8d29-4aa5-a30a-45078603b0f7.png"
+  },
+  {
+    "id": "utility/not-found-hero",
+    "usage": "404.html hero",
+    "alt": "Brass house key on a hallway console beside a closed burgundy door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A single old-fashioned brass house key with a plain navy fabric tag on a small ceramic dish on a hallway console, closed burgundy household door softly blurred behind, warm evening lamplight. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-c41c14cb-2db2-437d-ac20-008c4f6612e1.png"
+  },
+  {
+    "id": "service-details/emergency-lockout-hero",
+    "usage": "service-emergency-lockout.html main",
+    "alt": "Homeowner greeting a technician at an open cottage front door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A grateful older homeowner at a newly opened white cottage front door greeting a uniformed navy-shirted female residential technician, sunny green garden, candid wide home service portrait, no tools in use. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-aedf807b-dcd7-4803-9ff0-adee8a969607.png"
+  },
+  {
+    "id": "service-details/rekeying-hero",
+    "usage": "service-rekeying.html main",
+    "alt": "Fresh house keys presented in front of a red residential door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A fresh silver set of house keys with a blue fabric key ring in a woman's palm in the foreground, a securely closed warm red residential door behind, bright midday close-up, no tools or internal hardware. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-6b8d2b21-3578-42b5-8838-06f387fb6121.png"
+  },
+  {
+    "id": "service-details/lock-repair-hero",
+    "usage": "service-lock-repair.html main",
+    "alt": "Restored cast-iron rim latch on a brown wooden residential door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A restored antique black cast-iron rim latch and brown wooden door edge, interior architectural detail in a Victorian family home, neat fastening screws and aged natural wood, no tools or people. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-1b56333c-67a5-418e-b18d-69f1ba18509f.png"
+  },
+  {
+    "id": "service-details/lock-replacement-hero",
+    "usage": "service-lock-replacement.html main",
+    "alt": "New brass door handle and matching deadbolt on a charcoal front door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A fresh satin-brass lever handle and square matching deadbolt mounted on a charcoal fiberglass household front door, three-quarter exterior view with hydrangeas softly blurred on the porch, crisp modern metal. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-62ad5c7a-1fd7-4576-ac97-79d1bc88c5c1.png"
+  },
+  {
+    "id": "service-details/deadbolt-installation-hero",
+    "usage": "service-deadbolt-installation.html main",
+    "alt": "Brushed-bronze deadbolt on a cream-paneled residential front door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Interior view of a substantial brushed-bronze residential deadbolt thumbturn and matching lever on a cream-paneled oak front door, wide architectural composition, sunny home entry hall and runner rug. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-584835d4-3071-4eac-b216-cec7dad75a0b.png"
+  },
+  {
+    "id": "service-details/smart-lock-installation-hero",
+    "usage": "service-smart-lock-installation.html main",
+    "alt": "Silver touchscreen smart lock on a navy residential entrance",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A newly installed slim silver touchscreen door lock on a navy modern family home front door, glowing unlabelled display, a fully assembled boxed matching lock on a nearby porch bench, wide architectural photograph, no person or tools. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-ac39f32b-4eb6-41e0-8dd6-8f3d9144bf3c.png"
+  },
+  {
+    "id": "service-details/smart-lock-upgrade-hero",
+    "usage": "service-smart-lock-upgrade.html main",
+    "alt": "White retrofit smart lock on the inside of an oak entry door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A sleek round white retrofit smart lock unit on the inside of a honey oak household entry door, warm minimalist hallway, design-focused wide architectural photo, no smartphone or keys. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-56f943a4-a1fd-4986-8ed8-86dc9b8b9028.png"
+  },
+  {
+    "id": "service-details/key-duplication-hero",
+    "usage": "service-key-duplication.html main",
+    "alt": "Color-coded house key blanks displayed in a locksmith workshop",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Rows of differently colored capped brass household key blanks neatly organized on a peg board in a small residential locksmith shop, close editorial shop display, no machinery or procedures. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-c7253ee1-18fc-4bb2-b986-7d71410189a1.png"
+  },
+  {
+    "id": "service-details/broken-key-extraction-hero",
+    "usage": "service-broken-key-extraction.html main",
+    "alt": "Broken silver house key and a replacement key on a terracotta dish",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Macro product still-life of a single broken silver house key in two pieces on a terracotta ceramic saucer, next to a healthy replacement key on a cream linen cloth, soft studio daylight, no cylinder, tools or instructional elements. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-59ebd718-cfe3-4f6b-b0c8-49402ef1ac77.png"
+  },
+  {
+    "id": "service-details/keyless-entry-hero",
+    "usage": "service-keyless-entry.html main",
+    "alt": "Copper keypad door handle on a sage residential front door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A copper-finished household keypad lever lock mounted on a pale sage cottage front door, compact numbered keypad above the lever, overcast soft daylight, porch plants softly blurred. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-bf069173-58dd-4470-b277-0900b6435a57.png"
+  },
+  {
+    "id": "service-details/door-security-hero",
+    "usage": "service-door-security.html main",
+    "alt": "Black residential entrance with two nickel locks and a peephole",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Wide architectural view of a robust closed black residential entrance door with two separate polished nickel locks and a peephole, stone door surround and sidelights, discreet porch lighting, secure family home setting. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-a6485c2d-a9e0-4bcf-8ac7-dfee3c8696ca.png"
+  },
+  {
+    "id": "service-details/new-home-lock-change-hero",
+    "usage": "service-new-home-lock-change.html main",
+    "alt": "Couple holding new house keys outside their light-blue front door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: A young couple smiling outside a newly purchased light-blue residential entrance, one holds a new set of house keys with an unmarked house-shaped key tag, a few moving boxes by the porch, candid wide lifestyle photo. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-bd726ce1-9dfb-4aa7-a5ec-993a1821cbd2.png"
+  },
+  {
+    "id": "home-2/smart-installation",
+    "usage": "index-2.html smart installation card",
+    "alt": "White smart deadbolt on a dark walnut residential entrance",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Close architectural view of a rectangular white smart deadbolt with a small dark touch panel on a dark walnut family home entrance, contemporary cream wall and blurred landscaping, daylight product photograph. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-2db9b758-0547-4240-ae17-a23955faf1ee.png"
+  },
+  {
+    "id": "home-2/retrofit-upgrade",
+    "usage": "index-2.html retrofit upgrade card",
+    "alt": "Circular retrofit smart lock on the inside of a yellow front door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Close-up of a compact circular matte-black retrofit smart lock on the inside of a bright yellow household door, inviting modern entry hall behind, product design photograph, no tools. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-5ee2b954-640f-409d-9db9-3e6985b52a08.png"
+  },
+  {
+    "id": "home-2/keypad-entry",
+    "usage": "index-2.html keyless card",
+    "alt": "Bronze fingerprint and keypad handle on a gray residential door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Close-up of a matte bronze fingerprint-and-keypad door handle on a gray residential side-entry door, circular fingerprint sensor visibly integrated above keypad and lever, crisp product photo, no person. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-8af07595-80ac-437a-9a87-adf215477289.png"
+  },
+  {
+    "id": "home-2/smart-deadbolt",
+    "usage": "index-2.html smart deadbolt card",
+    "alt": "Silver touchscreen smart deadbolt and its closed carton",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Minimal flat-lay of a complete fully assembled brushed-silver smart deadbolt with a small black touchscreen on a charcoal fabric surface, its retail carton closed and unlabelled beside it, stylish product photograph. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-f563639a-ebd9-405c-be35-fd7af10ee3d2.png"
+  },
+  {
+    "id": "home-1/emergency-lock-repair-v2",
+    "usage": "index.html emergency repair card",
+    "alt": "Oil-rubbed-bronze mortise handle on a deep red residential door",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Close architectural detail of a vintage oil-rubbed-bronze residential mortise handle on a deep red wooden door, slightly worn surface, matching door edge latch visible, warm hallway light, no tools, people or procedures. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-7a1535cc-14ee-4408-9872-1ef797be8d34.png"
+  },
+  {
+    "id": "home-1/emergency-rekeying-v2",
+    "usage": "index.html emergency rekeying card",
+    "alt": "Technician handing fresh house keys to a homeowner at an ivory entrance",
+    "prompt": "Use case: photorealistic-natural. Asset type: residential locksmith website photograph. Scene: Close-up of a navy-sleeved residential technician handing a small silver house key ring to a homeowner in a green sweater at a softly blurred ivory entrance, focus on ordinary handover, no tool use or internal lock hardware. Style: premium natural commercial photography, crisp realistic materials and lighting. Composition: one single landscape 16:9 image with the main subject inside central crop-safe area. Request 3840 by 2160 pixels where supported, minimum native 2K if available. Fictional illustrative home service scene. No advertising graphics, text overlays, logos, brand marks, watermark, collage, procedural diagrams or instruction panels.",
+    "source": "C:\\Users\\acer\\.codex\\generated_images\\01a12f05-9c09-7730-b09c-b7f33b690f0c\\exec-3ecae84f-5bad-44f6-b6d2-d129749cdf4f.png"
+  }
+]

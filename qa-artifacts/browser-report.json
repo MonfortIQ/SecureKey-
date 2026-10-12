@@ -1,0 +1,154 @@
+{
+  "pages": 36,
+  "combinations": 2016,
+  "failures": [],
+  "runtimeErrors": [],
+  "requestFailures": [],
+  "httpAssetFailures": [],
+  "pageResults": [
+    {
+      "page": "404.html",
+      "images": 1
+    },
+    {
+      "page": "about.html",
+      "images": 6
+    },
+    {
+      "page": "blog-details-1.html",
+      "images": 1
+    },
+    {
+      "page": "blog-details-2.html",
+      "images": 1
+    },
+    {
+      "page": "blog-details-3.html",
+      "images": 1
+    },
+    {
+      "page": "blog-details-4.html",
+      "images": 1
+    },
+    {
+      "page": "blog-details-5.html",
+      "images": 1
+    },
+    {
+      "page": "blog-details-6.html",
+      "images": 1
+    },
+    {
+      "page": "blog-details-7.html",
+      "images": 1
+    },
+    {
+      "page": "blog-details-8.html",
+      "images": 1
+    },
+    {
+      "page": "blog-details-9.html",
+      "images": 1
+    },
+    {
+      "page": "blog.html",
+      "images": 10
+    },
+    {
+      "page": "coming-soon.html",
+      "images": 0
+    },
+    {
+      "page": "contact.html",
+      "images": 1
+    },
+    {
+      "page": "credits.html",
+      "images": 0
+    },
+    {
+      "page": "index-2.html",
+      "images": 8
+    },
+    {
+      "page": "index.html",
+      "images": 16
+    },
+    {
+      "page": "login.html",
+      "images": 1
+    },
+    {
+      "page": "pricing.html",
+      "images": 1
+    },
+    {
+      "page": "privacy.html",
+      "images": 0
+    },
+    {
+      "page": "register.html",
+      "images": 1
+    },
+    {
+      "page": "service-broken-key-extraction.html",
+      "images": 1
+    },
+    {
+      "page": "service-deadbolt-installation.html",
+      "images": 1
+    },
+    {
+      "page": "service-door-security.html",
+      "images": 1
+    },
+    {
+      "page": "service-emergency-lockout.html",
+      "images": 1
+    },
+    {
+      "page": "service-key-duplication.html",
+      "images": 1
+    },
+    {
+      "page": "service-keyless-entry.html",
+      "images": 1
+    },
+    {
+      "page": "service-lock-repair.html",
+      "images": 1
+    },
+    {
+      "page": "service-lock-replacement.html",
+      "images": 1
+    },
+    {
+      "page": "service-new-home-lock-change.html",
+      "images": 1
+    },
+    {
+      "page": "service-rekeying.html",
+      "images": 1
+    },
+    {
+      "page": "service-smart-lock-installation.html",
+      "images": 1
+    },
+    {
+      "page": "service-smart-lock-upgrade.html",
+      "images": 1
+    },
+    {
+      "page": "services.html",
+      "images": 13
+    },
+    {
+      "page": "terms.html",
+      "images": 0
+    },
+    {
+      "page": "thank-you.html",
+      "images": 0
+    }
+  ]
+}

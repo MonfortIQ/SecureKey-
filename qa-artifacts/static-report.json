@@ -1,0 +1,575 @@
+{
+  "pages": 36,
+  "service_pages": 12,
+  "blog_articles": 9,
+  "images": 94,
+  "total_image_bytes": 9389244,
+  "errors": [],
+  "image_resolution_note": "Two stock sources have native 3888×2592 and 5516×3421 dimensions and 1920px web exports. Generated scenes have native 1672×941, 1536×1024, or 1586×992 dimensions; their native 1920px/4K target is not met. No artificial upscaling is claimed.",
+  "image_sizes": [
+    {
+      "path": "assets/images/home-1/emergency-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 137944
+    },
+    {
+      "path": "assets/images/home-2/smart-lock-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 133830
+    },
+    {
+      "path": "assets/images/services/emergency-lockout.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 134994
+    },
+    {
+      "path": "assets/images/services/emergency-lockout-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 33470
+    },
+    {
+      "path": "assets/images/services/rekeying.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 180742
+    },
+    {
+      "path": "assets/images/services/rekeying-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 35066
+    },
+    {
+      "path": "assets/images/services/lock-repair.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 74780
+    },
+    {
+      "path": "assets/images/services/lock-repair-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 14170
+    },
+    {
+      "path": "assets/images/services/lock-replacement.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 96560
+    },
+    {
+      "path": "assets/images/services/lock-replacement-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 22976
+    },
+    {
+      "path": "assets/images/services/deadbolt-installation.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 130078
+    },
+    {
+      "path": "assets/images/services/deadbolt-installation-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 29084
+    },
+    {
+      "path": "assets/images/services/smart-lock-installation.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 84942
+    },
+    {
+      "path": "assets/images/services/smart-lock-installation-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 21408
+    },
+    {
+      "path": "assets/images/services/smart-lock-upgrade.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 123850
+    },
+    {
+      "path": "assets/images/services/smart-lock-upgrade-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 21658
+    },
+    {
+      "path": "assets/images/services/key-duplication.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 234380
+    },
+    {
+      "path": "assets/images/services/key-duplication-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 47880
+    },
+    {
+      "path": "assets/images/services/broken-key-extraction.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 148464
+    },
+    {
+      "path": "assets/images/services/broken-key-extraction-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 27838
+    },
+    {
+      "path": "assets/images/services/keyless-entry.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 65568
+    },
+    {
+      "path": "assets/images/services/keyless-entry-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 17370
+    },
+    {
+      "path": "assets/images/services/door-security.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 84592
+    },
+    {
+      "path": "assets/images/services/door-security-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 17166
+    },
+    {
+      "path": "assets/images/services/new-home-lock-change.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 138070
+    },
+    {
+      "path": "assets/images/services/new-home-lock-change-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 28914
+    },
+    {
+      "path": "assets/images/blog/rekey-or-replace.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 192028
+    },
+    {
+      "path": "assets/images/blog/rekey-or-replace-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 35228
+    },
+    {
+      "path": "assets/images/blog/front-door-security.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 197306
+    },
+    {
+      "path": "assets/images/blog/front-door-security-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 41400
+    },
+    {
+      "path": "assets/images/blog/locked-out.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 159482
+    },
+    {
+      "path": "assets/images/blog/locked-out-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 36616
+    },
+    {
+      "path": "assets/images/blog/smart-lock-safety.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 55964
+    },
+    {
+      "path": "assets/images/blog/smart-lock-safety-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 14836
+    },
+    {
+      "path": "assets/images/blog/how-smart-locks-work.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 127070
+    },
+    {
+      "path": "assets/images/blog/how-smart-locks-work-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 26332
+    },
+    {
+      "path": "assets/images/blog/replace-old-locks.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 204624
+    },
+    {
+      "path": "assets/images/blog/replace-old-locks-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 37132
+    },
+    {
+      "path": "assets/images/blog/moving-home.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 108608
+    },
+    {
+      "path": "assets/images/blog/moving-home-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 25576
+    },
+    {
+      "path": "assets/images/blog/family-keyless-entry.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 170458
+    },
+    {
+      "path": "assets/images/blog/family-keyless-entry-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 32554
+    },
+    {
+      "path": "assets/images/blog/deadbolt-guide.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 205862
+    },
+    {
+      "path": "assets/images/blog/deadbolt-guide-card.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 39072
+    },
+    {
+      "path": "assets/images/about/locksmith-story.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 149730
+    },
+    {
+      "path": "assets/images/home-2/phone-access.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 121656
+    },
+    {
+      "path": "assets/images/home-1/locksmith-inspection.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 111114
+    },
+    {
+      "path": "assets/images/team/technician-1.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 120670
+    },
+    {
+      "path": "assets/images/team/technician-2.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 85278
+    },
+    {
+      "path": "assets/images/team/technician-3.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 123212
+    },
+    {
+      "path": "assets/images/team/technician-4.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 111050
+    },
+    {
+      "path": "assets/images/utility/login.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 67380
+    },
+    {
+      "path": "assets/images/utility/register.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 183706
+    },
+    {
+      "path": "assets/images/utility/coming-soon.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 207196
+    },
+    {
+      "path": "assets/images/home-2/smart-lock-hero-stock.webp",
+      "width": 1920,
+      "height": 1280,
+      "bytes": 52560
+    },
+    {
+      "path": "assets/images/home-2/traditional-access.webp",
+      "width": 1920,
+      "height": 1191,
+      "bytes": 135056
+    },
+    {
+      "path": "assets/images/home-1/emergency-house-lockout.webp",
+      "width": 1280,
+      "height": 800,
+      "bytes": 80344
+    },
+    {
+      "path": "assets/images/home-1/emergency-house-lockout-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 29762
+    },
+    {
+      "path": "assets/images/home-1/emergency-broken-key.webp",
+      "width": 1280,
+      "height": 800,
+      "bytes": 94890
+    },
+    {
+      "path": "assets/images/home-1/emergency-broken-key-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 29550
+    },
+    {
+      "path": "assets/images/home-1/emergency-key-replacement.webp",
+      "width": 1280,
+      "height": 800,
+      "bytes": 146540
+    },
+    {
+      "path": "assets/images/home-1/emergency-key-replacement-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 46642
+    },
+    {
+      "path": "assets/images/home-1/emergency-lock-replacement.webp",
+      "width": 1280,
+      "height": 800,
+      "bytes": 68650
+    },
+    {
+      "path": "assets/images/home-1/emergency-lock-replacement-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 24164
+    },
+    {
+      "path": "assets/images/about/company-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 217522
+    },
+    {
+      "path": "assets/images/services/services-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 82894
+    },
+    {
+      "path": "assets/images/pricing/quote-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 142118
+    },
+    {
+      "path": "assets/images/blog/security-journal-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 171986
+    },
+    {
+      "path": "assets/images/contact/service-call-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 131626
+    },
+    {
+      "path": "assets/images/utility/not-found-hero.webp",
+      "width": 1672,
+      "height": 940,
+      "bytes": 90790
+    },
+    {
+      "path": "assets/images/service-details/emergency-lockout-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 147784
+    },
+    {
+      "path": "assets/images/service-details/rekeying-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 104918
+    },
+    {
+      "path": "assets/images/service-details/lock-repair-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 282132
+    },
+    {
+      "path": "assets/images/service-details/lock-replacement-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 104052
+    },
+    {
+      "path": "assets/images/service-details/deadbolt-installation-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 142498
+    },
+    {
+      "path": "assets/images/service-details/smart-lock-installation-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 132808
+    },
+    {
+      "path": "assets/images/service-details/smart-lock-upgrade-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 132992
+    },
+    {
+      "path": "assets/images/service-details/key-duplication-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 170994
+    },
+    {
+      "path": "assets/images/service-details/broken-key-extraction-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 231574
+    },
+    {
+      "path": "assets/images/service-details/keyless-entry-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 107270
+    },
+    {
+      "path": "assets/images/service-details/door-security-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 190804
+    },
+    {
+      "path": "assets/images/service-details/new-home-lock-change-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 142980
+    },
+    {
+      "path": "assets/images/home-2/smart-installation.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 113980
+    },
+    {
+      "path": "assets/images/home-2/smart-installation-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 27606
+    },
+    {
+      "path": "assets/images/home-2/retrofit-upgrade.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 76440
+    },
+    {
+      "path": "assets/images/home-2/retrofit-upgrade-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 22114
+    },
+    {
+      "path": "assets/images/home-2/keypad-entry.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 83588
+    },
+    {
+      "path": "assets/images/home-2/keypad-entry-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 17530
+    },
+    {
+      "path": "assets/images/home-2/smart-deadbolt.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 203018
+    },
+    {
+      "path": "assets/images/home-2/smart-deadbolt-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 40390
+    },
+    {
+      "path": "assets/images/home-1/emergency-lock-repair-v2.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 135010
+    },
+    {
+      "path": "assets/images/home-1/emergency-lock-repair-v2-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 28860
+    },
+    {
+      "path": "assets/images/home-1/emergency-rekeying-v2.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 103192
+    },
+    {
+      "path": "assets/images/home-1/emergency-rekeying-v2-card.webp",
+      "width": 640,
+      "height": 400,
+      "bytes": 24682
+    }
+  ]
+}

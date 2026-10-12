@@ -1,0 +1,134 @@
+/* ===================================================================
+   SecureKey Locksmith - Right-To-Left (RTL) Stylesheet
+   Activated dynamically when <html dir="rtl"> is present
+   =================================================================== */
+
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Directional Text Overrides */
+html[dir="rtl"] .text-start {
+  text-align: right !important;
+}
+
+html[dir="rtl"] .text-end {
+  text-align: left !important;
+}
+
+html[dir="rtl"] .me-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+html[dir="rtl"] .ms-auto {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+/* Dropdowns in RTL */
+html[dir="rtl"] .dropdown-menu {
+  text-align: right;
+  left: auto;
+  right: 0;
+}
+
+html[dir="rtl"] .dropdown-item {
+  text-align: right;
+  justify-content: flex-start;
+}
+
+html[dir="rtl"] .dropdown-item:hover,
+html[dir="rtl"] .dropdown-item:focus {
+  transform: translateX(-3px);
+}
+
+/* Directional Icons Flipping */
+html[dir="rtl"] .bi-arrow-right,
+html[dir="rtl"] .bi-arrow-right-short,
+html[dir="rtl"] .bi-chevron-right,
+html[dir="rtl"] .bi-box-arrow-up-right,
+html[dir="rtl"] .bi-arrow-up-right {
+  transform: scaleX(-1);
+  display: inline-block;
+}
+
+/* Offcanvas in RTL */
+html[dir="rtl"] .offcanvas-end {
+  right: auto;
+  left: 0;
+  transform: translateX(-100%);
+}
+
+html[dir="rtl"] .offcanvas-end.show {
+  transform: none;
+}
+
+html[dir="rtl"] .offcanvas-nav .nav-link:hover,
+html[dir="rtl"] .offcanvas-nav .nav-link.active {
+  padding-left: 0.5rem;
+  padding-right: 0.75rem;
+}
+
+/* Hero Badges Floating */
+html[dir="rtl"] .hero-badge-float {
+  left: auto;
+  right: 24px;
+}
+
+html[dir="rtl"] .hero-smart-badge {
+  right: auto;
+  left: 24px;
+}
+
+/* Breadcrumb in RTL */
+html[dir="rtl"] .breadcrumb-item + .breadcrumb-item::before {
+  transform: scaleX(-1);
+  display: inline-block;
+}
+
+/* Category lists and footer links */
+html[dir="rtl"] .category-list a:hover {
+  padding-left: 0.5rem;
+  padding-right: 0.75rem;
+}
+
+html[dir="rtl"] .footer-links a:hover {
+  transform: translateX(-4px);
+}
+
+/* Back to Top in RTL */
+html[dir="rtl"] .back-to-top {
+  right: auto;
+  left: 25px;
+}
+
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .back-to-top {
+    left: 18px;
+    right: auto;
+  }
+}
+
+/* Input groups and form controls */
+html[dir="rtl"] .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-right: -1px;
+  margin-left: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+html[dir="rtl"] .input-group > :not(:last-child):not(.dropdown-toggle) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

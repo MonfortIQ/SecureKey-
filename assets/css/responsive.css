@@ -1,0 +1,217 @@
+/* ===================================================================
+   SecureKey Locksmith - Responsive Stylesheet
+   Breakpoints: 320px, 375px, 430px, 768px, 820px, 1024px, 1280px, 1440px, 1920px
+   =================================================================== */
+
+/* ===================================================================
+   Large Desktop (1440px and above)
+   =================================================================== */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+  
+  .hero-home-1, .hero-home-2 {
+    padding: 7rem 0 5.5rem;
+  }
+}
+
+/* ===================================================================
+   Laptop & Below Breakpoint (<= 1024px)
+   CRITICAL REQUIREMENT: Navbar collapses at 1024px to prevent crowding
+   =================================================================== */
+@media (max-width: 1024px) {
+  /* Hide desktop horizontal menu */
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+  }
+  
+  /* Show toggler on <= 1024px */
+  .navbar-toggler {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid var(--sk-border-color);
+    background-color: var(--sk-bg-subtle);
+    color: var(--sk-text-main);
+    padding: 0;
+    font-size: 1.35rem;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 3px rgba(var(--sk-primary-rgb), 0.2);
+  }
+
+  .topbar {
+    display: none; /* Hide cluttered topbar on tablets and laptops */
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+
+  .brand-icon {
+    width: 38px;
+    height: 38px;
+    font-size: 1.15rem;
+  }
+
+  /* Section padding balanced for medium screens */
+  .section-padding {
+    padding: 4rem 0;
+  }
+
+  .hero-home-1, .hero-home-2 {
+    padding: 4.5rem 0 3.5rem;
+  }
+
+  .hero-image-wrap img {
+    height: 400px;
+  }
+
+  .pricing-card.featured {
+    transform: none;
+  }
+}
+
+/* ===================================================================
+   Tablet (768px to 991px)
+   =================================================================== */
+@media (max-width: 991.98px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-badge-float {
+    position: static;
+    margin-top: 1.25rem;
+  }
+
+  .hero-image-wrap {
+    margin-top: 2rem;
+  }
+
+  .hero-image-wrap img {
+    height: 350px;
+  }
+
+  .comparison-table-wrap {
+    overflow-x: auto;
+  }
+
+  .emergency-number-box {
+    font-size: 1.35rem;
+    padding: 0.85rem 1.25rem;
+  }
+}
+
+/* ===================================================================
+   Mobile Screens (<= 767.98px)
+   =================================================================== */
+@media (max-width: 767.98px) {
+  body {
+    padding-bottom: 70px; /* Space for sticky emergency bar */
+  }
+
+  .mobile-sticky-bar {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile-sticky-bar .btn {
+    flex: 1;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+
+  .hero-title {
+    font-size: 2.1rem;
+    line-height: 1.2;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  .section-padding {
+    padding: 3.5rem 0;
+  }
+
+  .hero-home-1, .hero-home-2 {
+    padding: 3.5rem 0 2.5rem;
+  }
+
+  .hero-image-wrap img {
+    height: 280px;
+  }
+
+  .btn-lg {
+    padding: 0.75rem 1.4rem;
+    font-size: 0.95rem;
+  }
+
+  .header-actions .btn-nav-cta {
+    display: none !important;
+  }
+
+  .back-to-top {
+    bottom: 85px; /* Above mobile sticky bar */
+    right: 18px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .emergency-banner {
+    padding: 2.25rem 1.25rem;
+    text-align: center;
+  }
+
+  .emergency-number-box {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .footer-main {
+    padding-top: 3.5rem;
+  }
+
+  .footer-bottom {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+}
+
+/* ===================================================================
+   Small Mobile Screens (<= 375px & 320px)
+   =================================================================== */
+@media (max-width: 375px) {
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .brand-text {
+    font-size: 1.15rem;
+  }
+
+  .brand-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.65rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  .sk-card {
+    padding: 1.5rem 1.25rem;
+  }
+}

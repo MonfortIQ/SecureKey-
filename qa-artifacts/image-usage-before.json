@@ -1,0 +1,635 @@
+{
+  "assets/images/about/locksmith-story.webp": [
+    {
+      "page": "about.html",
+      "src": "assets/images/about/locksmith-story.webp",
+      "alt": "Experienced locksmith checking door hardware in a workshop",
+      "link": null,
+      "section": "story-title"
+    }
+  ],
+  "assets/images/team/technician-1.webp": [
+    {
+      "page": "about.html",
+      "src": "assets/images/team/technician-1.webp",
+      "alt": "Demo portrait of a locksmith technician in work clothing",
+      "link": null,
+      "section": "team-title"
+    }
+  ],
+  "assets/images/team/technician-2.webp": [
+    {
+      "page": "about.html",
+      "src": "assets/images/team/technician-2.webp",
+      "alt": "Demo portrait of a smart lock installer in work clothing",
+      "link": null,
+      "section": "team-title"
+    }
+  ],
+  "assets/images/team/technician-3.webp": [
+    {
+      "page": "about.html",
+      "src": "assets/images/team/technician-3.webp",
+      "alt": "Demo portrait of a residential security technician in work clothing",
+      "link": null,
+      "section": "team-title"
+    }
+  ],
+  "assets/images/team/technician-4.webp": [
+    {
+      "page": "about.html",
+      "src": "assets/images/team/technician-4.webp",
+      "alt": "Demo portrait of a residential security consultant in work clothing",
+      "link": null,
+      "section": "team-title"
+    }
+  ],
+  "assets/images/blog/rekey-or-replace.webp": [
+    {
+      "page": "blog-details-1.html",
+      "src": "assets/images/blog/rekey-or-replace.webp",
+      "alt": "Two lock cylinders and matching keys laid out for comparison",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/front-door-security.webp": [
+    {
+      "page": "blog-details-2.html",
+      "src": "assets/images/blog/front-door-security.webp",
+      "alt": "Solid front door with a high quality deadbolt and porch lighting",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/locked-out.webp": [
+    {
+      "page": "blog-details-3.html",
+      "src": "assets/images/blog/locked-out.webp",
+      "alt": "Homeowner checking a locked residential front door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/smart-lock-safety.webp": [
+    {
+      "page": "blog-details-4.html",
+      "src": "assets/images/blog/smart-lock-safety.webp",
+      "alt": "Black fingerprint smart lock mounted on a residential door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/how-smart-locks-work.webp": [
+    {
+      "page": "blog-details-5.html",
+      "src": "assets/images/blog/how-smart-locks-work.webp",
+      "alt": "Smartphone showing a lock symbol beside a smart door lock",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/replace-old-locks.webp": [
+    {
+      "page": "blog-details-6.html",
+      "src": "assets/images/blog/replace-old-locks.webp",
+      "alt": "Worn brass door lock displaying scratches and corrosion",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/moving-home.webp": [
+    {
+      "page": "blog-details-7.html",
+      "src": "assets/images/blog/moving-home.webp",
+      "alt": "House keys and moving boxes at a bright new home entrance",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/family-keyless-entry.webp": [
+    {
+      "page": "blog-details-8.html",
+      "src": "assets/images/blog/family-keyless-entry.webp",
+      "alt": "Family entering their home using a keypad door lock",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/deadbolt-guide.webp": [
+    {
+      "page": "blog-details-9.html",
+      "src": "assets/images/blog/deadbolt-guide.webp",
+      "alt": "Heavy duty residential deadbolt and bolt mechanism on a workbench",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/rekey-or-replace-card.webp": [
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/rekey-or-replace-card.webp",
+      "alt": "Two lock cylinders and matching keys laid out for comparison",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/front-door-security-card.webp": [
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/front-door-security-card.webp",
+      "alt": "Solid front door with a high quality deadbolt and porch lighting",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/locked-out-card.webp": [
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/locked-out-card.webp",
+      "alt": "Homeowner checking a locked residential front door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/smart-lock-safety-card.webp": [
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/smart-lock-safety-card.webp",
+      "alt": "Black fingerprint smart lock mounted on a residential door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/how-smart-locks-work-card.webp": [
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/how-smart-locks-work-card.webp",
+      "alt": "Smartphone showing a lock symbol beside a smart door lock",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/replace-old-locks-card.webp": [
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/replace-old-locks-card.webp",
+      "alt": "Worn brass door lock displaying scratches and corrosion",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/moving-home-card.webp": [
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/moving-home-card.webp",
+      "alt": "House keys and moving boxes at a bright new home entrance",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/family-keyless-entry-card.webp": [
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/family-keyless-entry-card.webp",
+      "alt": "Family entering their home using a keypad door lock",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/blog/deadbolt-guide-card.webp": [
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/deadbolt-guide-card.webp",
+      "alt": "Heavy duty residential deadbolt and bolt mechanism on a workbench",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/home-2/smart-lock-hero-stock.webp": [
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/smart-lock-hero-stock.webp",
+      "alt": "Nuki smart lock on a residential door controlled with a smartphone",
+      "link": null,
+      "section": "hero-smart-heading"
+    }
+  ],
+  "assets/images/services/smart-lock-installation-card.webp": [
+    {
+      "page": "index-2.html",
+      "src": "assets/images/services/smart-lock-installation-card.webp",
+      "alt": "Installer fitting a matte black smart lock on a white front door",
+      "link": null,
+      "section": "smart-services-title"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/smart-lock-installation-card.webp",
+      "alt": "Installer fitting a matte black smart lock on a white front door",
+      "link": null,
+      "section": "popular-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/smart-lock-installation-card.webp",
+      "alt": "Installer fitting a matte black smart lock on a white front door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/smart-lock-upgrade-card.webp": [
+    {
+      "page": "index-2.html",
+      "src": "assets/images/services/smart-lock-upgrade-card.webp",
+      "alt": "Modern touch keypad smart lock on a dark wood door",
+      "link": null,
+      "section": "smart-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/smart-lock-upgrade-card.webp",
+      "alt": "Modern touch keypad smart lock on a dark wood door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/keyless-entry-card.webp": [
+    {
+      "page": "index-2.html",
+      "src": "assets/images/services/keyless-entry-card.webp",
+      "alt": "Hand entering an access code on a residential keypad lock",
+      "link": null,
+      "section": "smart-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/keyless-entry-card.webp",
+      "alt": "Hand entering an access code on a residential keypad lock",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/deadbolt-installation-card.webp": [
+    {
+      "page": "index-2.html",
+      "src": "assets/images/services/deadbolt-installation-card.webp",
+      "alt": "Brushed steel deadbolt fitted to a wood front door",
+      "link": null,
+      "section": "smart-services-title"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/deadbolt-installation-card.webp",
+      "alt": "Brushed steel deadbolt fitted to a wood front door",
+      "link": null,
+      "section": "popular-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/deadbolt-installation-card.webp",
+      "alt": "Brushed steel deadbolt fitted to a wood front door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/home-2/phone-access.webp": [
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/phone-access.webp",
+      "alt": "Homeowner unlocking a residential smart lock using a phone",
+      "link": null,
+      "section": "integration-title"
+    }
+  ],
+  "assets/images/home-2/traditional-access.webp": [
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/traditional-access.webp",
+      "alt": "Traditional door lock operated with physical keys",
+      "link": null,
+      "section": "upgrade-demo-title"
+    }
+  ],
+  "assets/images/home-2/smart-lock-hero.webp": [
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/smart-lock-hero.webp",
+      "alt": "Illustrative keyless smart lock on a residential door",
+      "link": null,
+      "section": "upgrade-demo-title"
+    }
+  ],
+  "assets/images/home-1/emergency-hero.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-hero.webp",
+      "alt": "Locksmith working on a residential front door while a homeowner waits inside",
+      "link": null,
+      "section": "hero-heading"
+    }
+  ],
+  "assets/images/home-1/emergency-house-lockout-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-house-lockout-card.webp",
+      "alt": "Residential locksmith checking a brass deadbolt on a cream front door",
+      "link": null,
+      "section": "emergency-services-title"
+    }
+  ],
+  "assets/images/home-1/emergency-broken-key-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-broken-key-card.webp",
+      "alt": "A broken brass house key beside a residential deadbolt on a wooden table",
+      "link": null,
+      "section": "emergency-services-title"
+    }
+  ],
+  "assets/images/home-1/emergency-rekeying-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-rekeying-card.webp",
+      "alt": "A fresh set of house keys beside brass door hardware on a navy mat",
+      "link": null,
+      "section": "emergency-services-title"
+    }
+  ],
+  "assets/images/home-1/emergency-lock-repair-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-lock-repair-card.webp",
+      "alt": "Worn satin nickel lever and latch on an open white residential door",
+      "link": null,
+      "section": "emergency-services-title"
+    }
+  ],
+  "assets/images/home-1/emergency-key-replacement-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-key-replacement-card.webp",
+      "alt": "A house key being cut on a professional locksmith key-cutting machine",
+      "link": null,
+      "section": "emergency-services-title"
+    }
+  ],
+  "assets/images/home-1/emergency-lock-replacement-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-lock-replacement-card.webp",
+      "alt": "New satin nickel deadbolt being installed on a dark green residential door",
+      "link": null,
+      "section": "emergency-services-title"
+    }
+  ],
+  "assets/images/home-1/locksmith-inspection.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/locksmith-inspection.webp",
+      "alt": "Locksmith inspecting a residential lock and strike alignment",
+      "link": null,
+      "section": "why-us-title"
+    }
+  ],
+  "assets/images/services/emergency-lockout-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/services/emergency-lockout-card.webp",
+      "alt": "Residential locksmith opening a front door for a homeowner",
+      "link": null,
+      "section": "popular-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/emergency-lockout-card.webp",
+      "alt": "Residential locksmith opening a front door for a homeowner",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/rekeying-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/services/rekeying-card.webp",
+      "alt": "Brass residential lock cylinder and three house keys on a locksmith mat",
+      "link": null,
+      "section": "popular-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/rekeying-card.webp",
+      "alt": "Brass residential lock cylinder and three house keys on a locksmith mat",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/lock-replacement-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/services/lock-replacement-card.webp",
+      "alt": "New satin nickel handle and lock fitted to a blue residential door",
+      "link": null,
+      "section": "popular-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/lock-replacement-card.webp",
+      "alt": "New satin nickel handle and lock fitted to a blue residential door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/key-duplication-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/services/key-duplication-card.webp",
+      "alt": "House key held securely in a locksmith key cutting machine",
+      "link": null,
+      "section": "popular-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/key-duplication-card.webp",
+      "alt": "House key held securely in a locksmith key cutting machine",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/lock-repair-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/services/lock-repair-card.webp",
+      "alt": "Worn silver residential door handle and aligned latch",
+      "link": null,
+      "section": "popular-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/lock-repair-card.webp",
+      "alt": "Worn silver residential door handle and aligned latch",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/door-security-card.webp": [
+    {
+      "page": "index.html",
+      "src": "assets/images/services/door-security-card.webp",
+      "alt": "Reinforced strike plate and deadbolt on a residential door frame",
+      "link": null,
+      "section": "popular-services-title"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/door-security-card.webp",
+      "alt": "Reinforced strike plate and deadbolt on a residential door frame",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/utility/login.webp": [
+    {
+      "page": "login.html",
+      "src": "assets/images/utility/login.webp",
+      "alt": "Polished residential door handle and keyhole in evening light",
+      "link": null,
+      "section": null
+    }
+  ],
+  "assets/images/utility/register.webp": [
+    {
+      "page": "register.html",
+      "src": "assets/images/utility/register.webp",
+      "alt": "Bright residential doorway with a spare key and welcome mat",
+      "link": null,
+      "section": null
+    }
+  ],
+  "assets/images/services/broken-key-extraction.webp": [
+    {
+      "page": "service-broken-key-extraction.html",
+      "src": "assets/images/services/broken-key-extraction.webp",
+      "alt": "Broken house key and a lock cylinder on a work mat",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/deadbolt-installation.webp": [
+    {
+      "page": "service-deadbolt-installation.html",
+      "src": "assets/images/services/deadbolt-installation.webp",
+      "alt": "Brushed steel deadbolt fitted to a wood front door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/door-security.webp": [
+    {
+      "page": "service-door-security.html",
+      "src": "assets/images/services/door-security.webp",
+      "alt": "Reinforced strike plate and deadbolt on a residential door frame",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/emergency-lockout.webp": [
+    {
+      "page": "service-emergency-lockout.html",
+      "src": "assets/images/services/emergency-lockout.webp",
+      "alt": "Residential locksmith opening a front door for a homeowner",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/key-duplication.webp": [
+    {
+      "page": "service-key-duplication.html",
+      "src": "assets/images/services/key-duplication.webp",
+      "alt": "House key held securely in a locksmith key cutting machine",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/keyless-entry.webp": [
+    {
+      "page": "service-keyless-entry.html",
+      "src": "assets/images/services/keyless-entry.webp",
+      "alt": "Hand entering an access code on a residential keypad lock",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/lock-repair.webp": [
+    {
+      "page": "service-lock-repair.html",
+      "src": "assets/images/services/lock-repair.webp",
+      "alt": "Worn silver residential door handle and aligned latch",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/lock-replacement.webp": [
+    {
+      "page": "service-lock-replacement.html",
+      "src": "assets/images/services/lock-replacement.webp",
+      "alt": "New satin nickel handle and lock fitted to a blue residential door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/new-home-lock-change.webp": [
+    {
+      "page": "service-new-home-lock-change.html",
+      "src": "assets/images/services/new-home-lock-change.webp",
+      "alt": "New homeowner receiving fresh keys beside a front door lock",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/rekeying.webp": [
+    {
+      "page": "service-rekeying.html",
+      "src": "assets/images/services/rekeying.webp",
+      "alt": "Brass residential lock cylinder and three house keys on a locksmith mat",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/smart-lock-installation.webp": [
+    {
+      "page": "service-smart-lock-installation.html",
+      "src": "assets/images/services/smart-lock-installation.webp",
+      "alt": "Installer fitting a matte black smart lock on a white front door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/smart-lock-upgrade.webp": [
+    {
+      "page": "service-smart-lock-upgrade.html",
+      "src": "assets/images/services/smart-lock-upgrade.webp",
+      "alt": "Modern touch keypad smart lock on a dark wood door",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/broken-key-extraction-card.webp": [
+    {
+      "page": "services.html",
+      "src": "assets/images/services/broken-key-extraction-card.webp",
+      "alt": "Broken house key and a lock cylinder on a work mat",
+      "link": null,
+      "section": "section-padding"
+    }
+  ],
+  "assets/images/services/new-home-lock-change-card.webp": [
+    {
+      "page": "services.html",
+      "src": "assets/images/services/new-home-lock-change-card.webp",
+      "alt": "New homeowner receiving fresh keys beside a front door lock",
+      "link": null,
+      "section": "section-padding"
+    }
+  ]
+}

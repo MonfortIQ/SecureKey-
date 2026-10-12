@@ -1,0 +1,2968 @@
+{
+  "files": 94,
+  "unique_photo_families": 63,
+  "exact_duplicates": [],
+  "near_duplicate_candidates": [
+    {
+      "a": "assets/images/blog/rekey-or-replace-card.webp",
+      "b": "assets/images/contact/service-call-hero.webp",
+      "hamming_distance": 14
+    },
+    {
+      "a": "assets/images/blog/rekey-or-replace.webp",
+      "b": "assets/images/contact/service-call-hero.webp",
+      "hamming_distance": 14
+    },
+    {
+      "a": "assets/images/home-1/emergency-rekeying-v2-card.webp",
+      "b": "assets/images/home-2/smart-installation-card.webp",
+      "hamming_distance": 12
+    },
+    {
+      "a": "assets/images/home-1/emergency-rekeying-v2-card.webp",
+      "b": "assets/images/home-2/smart-installation.webp",
+      "hamming_distance": 14
+    },
+    {
+      "a": "assets/images/home-1/emergency-rekeying-v2.webp",
+      "b": "assets/images/home-2/smart-installation.webp",
+      "hamming_distance": 14
+    },
+    {
+      "a": "assets/images/home-2/retrofit-upgrade.webp",
+      "b": "assets/images/home-2/smart-deadbolt.webp",
+      "hamming_distance": 14
+    }
+  ],
+  "near_duplicate_review": [
+    {
+      "a": "assets/images/blog/rekey-or-replace-card.webp",
+      "b": "assets/images/contact/service-call-hero.webp",
+      "hamming_distance": 14,
+      "verdict": "distinct composition and subject; retained after contact-sheet review"
+    },
+    {
+      "a": "assets/images/blog/rekey-or-replace.webp",
+      "b": "assets/images/contact/service-call-hero.webp",
+      "hamming_distance": 14,
+      "verdict": "distinct composition and subject; retained after contact-sheet review"
+    },
+    {
+      "a": "assets/images/home-1/emergency-rekeying-v2-card.webp",
+      "b": "assets/images/home-2/smart-installation-card.webp",
+      "hamming_distance": 12,
+      "verdict": "distinct composition and subject; retained after contact-sheet review"
+    },
+    {
+      "a": "assets/images/home-1/emergency-rekeying-v2-card.webp",
+      "b": "assets/images/home-2/smart-installation.webp",
+      "hamming_distance": 14,
+      "verdict": "distinct composition and subject; retained after contact-sheet review"
+    },
+    {
+      "a": "assets/images/home-1/emergency-rekeying-v2.webp",
+      "b": "assets/images/home-2/smart-installation.webp",
+      "hamming_distance": 14,
+      "verdict": "distinct composition and subject; retained after contact-sheet review"
+    },
+    {
+      "a": "assets/images/home-2/retrofit-upgrade.webp",
+      "b": "assets/images/home-2/smart-deadbolt.webp",
+      "hamming_distance": 14,
+      "verdict": "distinct composition and subject; retained after contact-sheet review"
+    }
+  ],
+  "homepage_shared_families": [],
+  "unrelated_reuse": {},
+  "repeated_on_page": [],
+  "reused_families": {
+    "blog/rekey-or-replace": [
+      {
+        "page": "blog-details-1.html",
+        "src": "assets/images/blog/rekey-or-replace.webp",
+        "family": "blog/rekey-or-replace",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Two lock cylinders and matching keys laid out for comparison",
+        "item": "blog-details-1.html"
+      },
+      {
+        "page": "blog.html",
+        "src": "assets/images/blog/rekey-or-replace-card.webp",
+        "family": "blog/rekey-or-replace",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Two lock cylinders and matching keys laid out for comparison",
+        "item": "blog-details-1.html"
+      }
+    ],
+    "blog/front-door-security": [
+      {
+        "page": "blog-details-2.html",
+        "src": "assets/images/blog/front-door-security.webp",
+        "family": "blog/front-door-security",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Solid front door with a high quality deadbolt and porch lighting",
+        "item": "blog-details-2.html"
+      },
+      {
+        "page": "blog.html",
+        "src": "assets/images/blog/front-door-security-card.webp",
+        "family": "blog/front-door-security",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Solid front door with a high quality deadbolt and porch lighting",
+        "item": "blog-details-2.html"
+      }
+    ],
+    "blog/locked-out": [
+      {
+        "page": "blog-details-3.html",
+        "src": "assets/images/blog/locked-out.webp",
+        "family": "blog/locked-out",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Homeowner checking a locked residential front door",
+        "item": "blog-details-3.html"
+      },
+      {
+        "page": "blog.html",
+        "src": "assets/images/blog/locked-out-card.webp",
+        "family": "blog/locked-out",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Homeowner checking a locked residential front door",
+        "item": "blog-details-3.html"
+      }
+    ],
+    "blog/smart-lock-safety": [
+      {
+        "page": "blog-details-4.html",
+        "src": "assets/images/blog/smart-lock-safety.webp",
+        "family": "blog/smart-lock-safety",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Black fingerprint smart lock mounted on a residential door",
+        "item": "blog-details-4.html"
+      },
+      {
+        "page": "blog.html",
+        "src": "assets/images/blog/smart-lock-safety-card.webp",
+        "family": "blog/smart-lock-safety",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Black fingerprint smart lock mounted on a residential door",
+        "item": "blog-details-4.html"
+      }
+    ],
+    "blog/how-smart-locks-work": [
+      {
+        "page": "blog-details-5.html",
+        "src": "assets/images/blog/how-smart-locks-work.webp",
+        "family": "blog/how-smart-locks-work",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Smartphone showing a lock symbol beside a smart door lock",
+        "item": "blog-details-5.html"
+      },
+      {
+        "page": "blog.html",
+        "src": "assets/images/blog/how-smart-locks-work-card.webp",
+        "family": "blog/how-smart-locks-work",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Smartphone showing a lock symbol beside a smart door lock",
+        "item": "blog-details-5.html"
+      }
+    ],
+    "blog/replace-old-locks": [
+      {
+        "page": "blog-details-6.html",
+        "src": "assets/images/blog/replace-old-locks.webp",
+        "family": "blog/replace-old-locks",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Worn brass door lock displaying scratches and corrosion",
+        "item": "blog-details-6.html"
+      },
+      {
+        "page": "blog.html",
+        "src": "assets/images/blog/replace-old-locks-card.webp",
+        "family": "blog/replace-old-locks",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Worn brass door lock displaying scratches and corrosion",
+        "item": "blog-details-6.html"
+      }
+    ],
+    "blog/moving-home": [
+      {
+        "page": "blog-details-7.html",
+        "src": "assets/images/blog/moving-home.webp",
+        "family": "blog/moving-home",
+        "section": "section-padding",
+        "link": null,
+        "alt": "House keys and moving boxes at a bright new home entrance",
+        "item": "blog-details-7.html"
+      },
+      {
+        "page": "blog.html",
+        "src": "assets/images/blog/moving-home-card.webp",
+        "family": "blog/moving-home",
+        "section": "section-padding",
+        "link": null,
+        "alt": "House keys and moving boxes at a bright new home entrance",
+        "item": "blog-details-7.html"
+      }
+    ],
+    "blog/family-keyless-entry": [
+      {
+        "page": "blog-details-8.html",
+        "src": "assets/images/blog/family-keyless-entry.webp",
+        "family": "blog/family-keyless-entry",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Family entering their home using a keypad door lock",
+        "item": "blog-details-8.html"
+      },
+      {
+        "page": "blog.html",
+        "src": "assets/images/blog/family-keyless-entry-card.webp",
+        "family": "blog/family-keyless-entry",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Family entering their home using a keypad door lock",
+        "item": "blog-details-8.html"
+      }
+    ],
+    "blog/deadbolt-guide": [
+      {
+        "page": "blog-details-9.html",
+        "src": "assets/images/blog/deadbolt-guide.webp",
+        "family": "blog/deadbolt-guide",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Heavy duty residential deadbolt and bolt mechanism on a workbench",
+        "item": "blog-details-9.html"
+      },
+      {
+        "page": "blog.html",
+        "src": "assets/images/blog/deadbolt-guide-card.webp",
+        "family": "blog/deadbolt-guide",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Heavy duty residential deadbolt and bolt mechanism on a workbench",
+        "item": "blog-details-9.html"
+      }
+    ],
+    "services/emergency-lockout": [
+      {
+        "page": "index.html",
+        "src": "assets/images/services/emergency-lockout-card.webp",
+        "family": "services/emergency-lockout",
+        "section": "popular-services-title",
+        "link": null,
+        "alt": "Residential locksmith opening a front door for a homeowner",
+        "item": "service-emergency-lockout.html"
+      },
+      {
+        "page": "services.html",
+        "src": "assets/images/services/emergency-lockout-card.webp",
+        "family": "services/emergency-lockout",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Residential locksmith opening a front door for a homeowner",
+        "item": "service-emergency-lockout.html"
+      }
+    ],
+    "services/rekeying": [
+      {
+        "page": "index.html",
+        "src": "assets/images/services/rekeying-card.webp",
+        "family": "services/rekeying",
+        "section": "popular-services-title",
+        "link": null,
+        "alt": "Brass residential lock cylinder and three house keys on a locksmith mat",
+        "item": "service-rekeying.html"
+      },
+      {
+        "page": "services.html",
+        "src": "assets/images/services/rekeying-card.webp",
+        "family": "services/rekeying",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Brass residential lock cylinder and three house keys on a locksmith mat",
+        "item": "service-rekeying.html"
+      }
+    ],
+    "services/deadbolt-installation": [
+      {
+        "page": "index.html",
+        "src": "assets/images/services/deadbolt-installation-card.webp",
+        "family": "services/deadbolt-installation",
+        "section": "popular-services-title",
+        "link": null,
+        "alt": "Brushed steel deadbolt fitted to a wood front door",
+        "item": "service-deadbolt-installation.html"
+      },
+      {
+        "page": "services.html",
+        "src": "assets/images/services/deadbolt-installation-card.webp",
+        "family": "services/deadbolt-installation",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Brushed steel deadbolt fitted to a wood front door",
+        "item": "service-deadbolt-installation.html"
+      }
+    ],
+    "services/smart-lock-installation": [
+      {
+        "page": "index.html",
+        "src": "assets/images/services/smart-lock-installation-card.webp",
+        "family": "services/smart-lock-installation",
+        "section": "popular-services-title",
+        "link": null,
+        "alt": "Installer fitting a matte black smart lock on a white front door",
+        "item": "service-smart-lock-installation.html"
+      },
+      {
+        "page": "services.html",
+        "src": "assets/images/services/smart-lock-installation-card.webp",
+        "family": "services/smart-lock-installation",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Installer fitting a matte black smart lock on a white front door",
+        "item": "service-smart-lock-installation.html"
+      }
+    ],
+    "services/lock-replacement": [
+      {
+        "page": "index.html",
+        "src": "assets/images/services/lock-replacement-card.webp",
+        "family": "services/lock-replacement",
+        "section": "popular-services-title",
+        "link": null,
+        "alt": "New satin nickel handle and lock fitted to a blue residential door",
+        "item": "service-lock-replacement.html"
+      },
+      {
+        "page": "services.html",
+        "src": "assets/images/services/lock-replacement-card.webp",
+        "family": "services/lock-replacement",
+        "section": "section-padding",
+        "link": null,
+        "alt": "New satin nickel handle and lock fitted to a blue residential door",
+        "item": "service-lock-replacement.html"
+      }
+    ],
+    "services/key-duplication": [
+      {
+        "page": "index.html",
+        "src": "assets/images/services/key-duplication-card.webp",
+        "family": "services/key-duplication",
+        "section": "popular-services-title",
+        "link": null,
+        "alt": "House key held securely in a locksmith key cutting machine",
+        "item": "service-key-duplication.html"
+      },
+      {
+        "page": "services.html",
+        "src": "assets/images/services/key-duplication-card.webp",
+        "family": "services/key-duplication",
+        "section": "section-padding",
+        "link": null,
+        "alt": "House key held securely in a locksmith key cutting machine",
+        "item": "service-key-duplication.html"
+      }
+    ],
+    "services/lock-repair": [
+      {
+        "page": "index.html",
+        "src": "assets/images/services/lock-repair-card.webp",
+        "family": "services/lock-repair",
+        "section": "popular-services-title",
+        "link": null,
+        "alt": "Worn silver residential door handle and aligned latch",
+        "item": "service-lock-repair.html"
+      },
+      {
+        "page": "services.html",
+        "src": "assets/images/services/lock-repair-card.webp",
+        "family": "services/lock-repair",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Worn silver residential door handle and aligned latch",
+        "item": "service-lock-repair.html"
+      }
+    ],
+    "services/door-security": [
+      {
+        "page": "index.html",
+        "src": "assets/images/services/door-security-card.webp",
+        "family": "services/door-security",
+        "section": "popular-services-title",
+        "link": null,
+        "alt": "Reinforced strike plate and deadbolt on a residential door frame",
+        "item": "service-door-security.html"
+      },
+      {
+        "page": "services.html",
+        "src": "assets/images/services/door-security-card.webp",
+        "family": "services/door-security",
+        "section": "section-padding",
+        "link": null,
+        "alt": "Reinforced strike plate and deadbolt on a residential door frame",
+        "item": "service-door-security.html"
+      }
+    ]
+  },
+  "missing": [],
+  "unused_assets": [],
+  "inventory": [
+    {
+      "path": "assets/images/about/company-hero.webp",
+      "family": "about/company-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 217522,
+      "sha256": "3dbad435b3fcba3106571dd1a66edbbc59644eeb3897f26c2c52e4de049b1fe6",
+      "phash": "3713a72346b9cb19",
+      "mirror_phash": "95b90d896c5361f3",
+      "perceptual_views": [
+        "3713a72346b9cb19",
+        "95b90d896c5361f3",
+        "c8735823b9f93459",
+        "6c31c631c6f9c999",
+        "469a6c9b6c536333",
+        "64b14e71cad9c9a9",
+        "ce1be4db60736303"
+      ]
+    },
+    {
+      "path": "assets/images/about/locksmith-story.webp",
+      "family": "about/locksmith-story",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 149730,
+      "sha256": "9c8de67f32e8e20f3cf55f486a67ae45169ff71f219805f6969f754952158781",
+      "phash": "38e38cb90407df8f",
+      "mirror_phash": "92593613f6ad5545",
+      "perceptual_views": [
+        "38e38cb90407df8f",
+        "92593613f6ad5545",
+        "c7f323b9830700ef",
+        "0c71dcb864079fad",
+        "b6597412d6ad1517",
+        "1e71ceb8230f0bad",
+        "b5db6412c9a53517"
+      ]
+    },
+    {
+      "path": "assets/images/blog/deadbolt-guide-card.webp",
+      "family": "blog/deadbolt-guide",
+      "width": 640,
+      "height": 360,
+      "bytes": 39072,
+      "sha256": "41c6dad812b83214155050de6d980a2e04ea7c7e826595eaefa7c330f6bae312",
+      "phash": "c24aada91e9e71c3",
+      "mirror_phash": "79e40713b4745b69",
+      "perceptual_views": [
+        "c24aada91e9e71c3",
+        "79e40713b4745b69",
+        "3cca52a9e19e0ee3",
+        "c2547db95e966143",
+        "68d45713f4744b69",
+        "c2f0fcf17a5e2103",
+        "685a565bd0f48ba9"
+      ]
+    },
+    {
+      "path": "assets/images/blog/deadbolt-guide.webp",
+      "family": "blog/deadbolt-guide",
+      "width": 1672,
+      "height": 941,
+      "bytes": 205862,
+      "sha256": "11a258b3843c4c9d2b700b1391c102c1151600b66cc7c668c480bd78b517a3a0",
+      "phash": "c24aada91e9e71c3",
+      "mirror_phash": "79e40713b4745b69",
+      "perceptual_views": [
+        "c24aada91e9e71c3",
+        "79e40713b4745b69",
+        "3c4a52b9e19e0ee3",
+        "c2547db95e966143",
+        "68d45713f4744b69",
+        "c2f0fcf17a5e2103",
+        "685a565bd0f48ba9"
+      ]
+    },
+    {
+      "path": "assets/images/blog/family-keyless-entry-card.webp",
+      "family": "blog/family-keyless-entry",
+      "width": 640,
+      "height": 360,
+      "bytes": 32554,
+      "sha256": "df4682616cec3d2d33639b4d4f69a8d8373652a94cc8aa617a8785a307805800",
+      "phash": "7c3133e70146c75b",
+      "mirror_phash": "868a994da36c6df1",
+      "perceptual_views": [
+        "7c3133e70146c75b",
+        "868a994da36c6df1",
+        "8330cce7f646385b",
+        "316033e68d46c77b",
+        "9b8a994c27ec65d1",
+        "31f013868d4ecf6b",
+        "9b52b92c37e465c1"
+      ]
+    },
+    {
+      "path": "assets/images/blog/family-keyless-entry.webp",
+      "family": "blog/family-keyless-entry",
+      "width": 1672,
+      "height": 941,
+      "bytes": 170458,
+      "sha256": "627c0d3c562496064af1b79264a37f1cbbbb2508a37c7e72240c07b032105ef3",
+      "phash": "7c3133e70146c75b",
+      "mirror_phash": "868a994da36c6df1",
+      "perceptual_views": [
+        "7c3133e70146c75b",
+        "868a994da36c6df1",
+        "8330cce7f646385b",
+        "316033e68d46c77b",
+        "9a8a994c27ec6dd1",
+        "31f013868d4ecf6b",
+        "9b52b92c37e465c1"
+      ]
+    },
+    {
+      "path": "assets/images/blog/front-door-security-card.webp",
+      "family": "blog/front-door-security",
+      "width": 640,
+      "height": 360,
+      "bytes": 41400,
+      "sha256": "3019d9183ce81fb7807f95d4d493c26bf3648696ab7ef7d96c03d6394c653816",
+      "phash": "c2631efadc815527",
+      "mirror_phash": "6849b450762bdf8d",
+      "perceptual_views": [
+        "c2631efadc815527",
+        "6849b450762bdf8d",
+        "2de3e1fa23918a27",
+        "026bbca800ddf5b7",
+        "e8c11612aa775f1d",
+        "0c3bbc1800d5f777",
+        "a41116b2aa775d5d"
+      ]
+    },
+    {
+      "path": "assets/images/blog/front-door-security.webp",
+      "family": "blog/front-door-security",
+      "width": 1672,
+      "height": 941,
+      "bytes": 197306,
+      "sha256": "f26bfc4f0a5db1a746f2ca2a6058449d97c58aa7a35aed38fc2bb04598b18a3d",
+      "phash": "c2631efadc815527",
+      "mirror_phash": "6849b450762bdf8d",
+      "perceptual_views": [
+        "c2631efadc815527",
+        "6849b450762bdf8d",
+        "2de3e1fa23918a27",
+        "026bbca800ddf5b7",
+        "e8c11612aa775f1d",
+        "0c3bbc1800d5f777",
+        "a41116b2aa775d5d"
+      ]
+    },
+    {
+      "path": "assets/images/blog/how-smart-locks-work-card.webp",
+      "family": "blog/how-smart-locks-work",
+      "width": 640,
+      "height": 360,
+      "bytes": 26332,
+      "sha256": "c13f50a42400231e6c1921b2f2989501a3ff4705469c0658044ec240f69ab0f8",
+      "phash": "050d703b3f610fcf",
+      "mirror_phash": "0db5599595c9a565",
+      "perceptual_views": [
+        "050d703b3f610fcf",
+        "0db5599595c9a565",
+        "3a1f0c3fc061f0cf",
+        "011d72333f630f4f",
+        "99d5581995c9a5e5",
+        "211f70823de38f4f",
+        "d9d55819974925e5"
+      ]
+    },
+    {
+      "path": "assets/images/blog/how-smart-locks-work.webp",
+      "family": "blog/how-smart-locks-work",
+      "width": 1672,
+      "height": 941,
+      "bytes": 127070,
+      "sha256": "41c5da0687e60c39965e22a929dbbefc5133eab8ac298f7e26d59fb4454e20dd",
+      "phash": "050d703b3f610fcf",
+      "mirror_phash": "0db5599595c9a565",
+      "perceptual_views": [
+        "050d703b3f610fcf",
+        "0db5599595c9a565",
+        "3a1f0c3fc061f0cf",
+        "211d72333d630f4f",
+        "99d5581995c9a5e5",
+        "211f70823de38f4f",
+        "d9d55819974925e5"
+      ]
+    },
+    {
+      "path": "assets/images/blog/locked-out-card.webp",
+      "family": "blog/locked-out",
+      "width": 640,
+      "height": 360,
+      "bytes": 36616,
+      "sha256": "57f39894e2ee6d8b06e4bac4d40a868eedb9752076f58d54e885dae131e0c31d",
+      "phash": "34fb003621fc2f57",
+      "mirror_phash": "9e518a1c8b5685fd",
+      "perceptual_views": [
+        "34fb003621fc2f57",
+        "9e518a1c8b5685fd",
+        "c9db8b261e1cd057",
+        "34db41b6815c2f57",
+        "9c716b1c0b5605fd",
+        "a696c9a6016c2df7",
+        "4c3c631c6bc6875d"
+      ]
+    },
+    {
+      "path": "assets/images/blog/locked-out.webp",
+      "family": "blog/locked-out",
+      "width": 1672,
+      "height": 941,
+      "bytes": 159482,
+      "sha256": "d4aeecd672826f5c3f1f1e06d385baf49ba1b36b13fafe566c825749eaf91006",
+      "phash": "34fb003621fc2f57",
+      "mirror_phash": "9e518a1c8b5685fd",
+      "perceptual_views": [
+        "34fb003621fc2f57",
+        "9e518a1c8b5685fd",
+        "c9db8b261e1cd057",
+        "34db41b6815c2f57",
+        "9c716b1c0b5605fd",
+        "a696c9a6016c2df7",
+        "4c3c631c6bc6875d"
+      ]
+    },
+    {
+      "path": "assets/images/blog/moving-home-card.webp",
+      "family": "blog/moving-home",
+      "width": 640,
+      "height": 360,
+      "bytes": 25576,
+      "sha256": "9f49f2f7153c08fd18160bc03fdd404bb09bee44356ca929a5f834ff5fec5d22",
+      "phash": "c96618fc41cf84b7",
+      "mirror_phash": "63ccb254cb652e1d",
+      "perceptual_views": [
+        "c96618fc41cf84b7",
+        "63ccb254cb652e1d",
+        "0466037c9c8f6bb7",
+        "29665cb8638f14b7",
+        "03dcd652c925be1d",
+        "79c67488a70f1657",
+        "534cd6224da5bc5d"
+      ]
+    },
+    {
+      "path": "assets/images/blog/moving-home.webp",
+      "family": "blog/moving-home",
+      "width": 1672,
+      "height": 941,
+      "bytes": 108608,
+      "sha256": "41343c9c51774513da6e9242203f1beb520951aa6e0cf1f0e57d15e5ada8ff15",
+      "phash": "c96618fc41cf84b7",
+      "mirror_phash": "63ccb254cb652e1d",
+      "perceptual_views": [
+        "c96618fc41cf84b7",
+        "63ccb254cb652e1d",
+        "0466037c9c8f6bb7",
+        "29665cb8638f14b7",
+        "03dcd652c925be1d",
+        "79c67488a70f1657",
+        "534cd6224da5bc5d"
+      ]
+    },
+    {
+      "path": "assets/images/blog/rekey-or-replace-card.webp",
+      "family": "blog/rekey-or-replace",
+      "width": 640,
+      "height": 360,
+      "bytes": 35228,
+      "sha256": "30e98394ecac0f87252f5f746a9e0e0290a021c9f3e56fd6a37f0fb4b1a2a0e0",
+      "phash": "a2e9cd9efae18091",
+      "mirror_phash": "0ac3e73c504bea3b",
+      "perceptual_views": [
+        "a2e9cd9efae18091",
+        "0ac3e73c504bea3b",
+        "5d69329605e17f91",
+        "97e54d9e9ae18093",
+        "3d4fe734304b2a39",
+        "8b87695ef2e1c413",
+        "202de3f4384b6eb9"
+      ]
+    },
+    {
+      "path": "assets/images/blog/rekey-or-replace.webp",
+      "family": "blog/rekey-or-replace",
+      "width": 1672,
+      "height": 941,
+      "bytes": 192028,
+      "sha256": "862d7eb16a98040f21e62a30e121d12a50c124ea0e3c3f156be77ec8b6803f39",
+      "phash": "a2e9cd9efae18091",
+      "mirror_phash": "0ac3e73c504bea3b",
+      "perceptual_views": [
+        "a2e9cd9efae18091",
+        "0ac3e73c504bea3b",
+        "5d69329605e17f91",
+        "97e54d9e9ae18093",
+        "3d4fe734304b2a39",
+        "8b87695ef2e1c413",
+        "202de3f4384b6eb9"
+      ]
+    },
+    {
+      "path": "assets/images/blog/replace-old-locks-card.webp",
+      "family": "blog/replace-old-locks",
+      "width": 640,
+      "height": 360,
+      "bytes": 37132,
+      "sha256": "3ae17b35101a4084c74f36bd5b40a6b458b6e5b5006c94eda1d6c7ba8f1c7c94",
+      "phash": "e1d1b6ac1c535355",
+      "mirror_phash": "091b0c06b6b1e9ff",
+      "perceptual_views": [
+        "e1d1b6ac1c535355",
+        "091b0c06b6b1e9ff",
+        "5ed149ace313ac55",
+        "83b1be3c1c1b4b55",
+        "291a149696b1e1ff",
+        "87907e3c391b4b55",
+        "2d1294969391e1ff"
+      ]
+    },
+    {
+      "path": "assets/images/blog/replace-old-locks.webp",
+      "family": "blog/replace-old-locks",
+      "width": 1672,
+      "height": 941,
+      "bytes": 204624,
+      "sha256": "e0b98836645f1da279ea7e46662a233c0134cba29eab525558549927ade31e91",
+      "phash": "e1f1b6ac1c135355",
+      "mirror_phash": "091b0c06b6b1e9ff",
+      "perceptual_views": [
+        "e1f1b6ac1c135355",
+        "091b0c06b6b1e9ff",
+        "5ed149ace313ac55",
+        "8391be3c3c1b4b55",
+        "291a149696b1e1ff",
+        "87907e3c391b4b55",
+        "2d1294969391e1ff"
+      ]
+    },
+    {
+      "path": "assets/images/blog/security-journal-hero.webp",
+      "family": "blog/security-journal-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 171986,
+      "sha256": "457b502bd79dbb6a54770a96229414d70893d09ff55ad0a1a0c9a0a32b4c9811",
+      "phash": "e20b261cc12e7fcb",
+      "mirror_phash": "4eb18cb67b84d561",
+      "perceptual_views": [
+        "e20b261cc12e7fcb",
+        "4eb18cb67b84d561",
+        "1f0bd99c3e2e80cb",
+        "220e365cd32c6fcb",
+        "8ca49cf67986d561",
+        "030e7edcc9ac3d0b",
+        "ade45576630697a1"
+      ]
+    },
+    {
+      "path": "assets/images/blog/smart-lock-safety-card.webp",
+      "family": "blog/smart-lock-safety",
+      "width": 640,
+      "height": 360,
+      "bytes": 14836,
+      "sha256": "a1530d086fe4206d3e2745b97bf24a95c83acbeee201dd6eba14d3d603f5cb1e",
+      "phash": "9b9b0099fc99076d",
+      "mirror_phash": "3131aa335633adc7",
+      "perceptual_views": [
+        "9b9b0099fc99076d",
+        "3131aa335633adc7",
+        "2499fd990199f86d",
+        "5a990699ecd90f65",
+        "7033a8334673a5cf",
+        "669b6619a4d13f25",
+        "cc31cc310e73d58f"
+      ]
+    },
+    {
+      "path": "assets/images/blog/smart-lock-safety.webp",
+      "family": "blog/smart-lock-safety",
+      "width": 1672,
+      "height": 941,
+      "bytes": 55964,
+      "sha256": "14f56d9c068124b4f005c0127d354516fe601ed4389f613d1046d9a88625b8e0",
+      "phash": "9b9b0099fc99076d",
+      "mirror_phash": "3131aa335633adc7",
+      "perceptual_views": [
+        "9b9b0099fc99076d",
+        "3131aa335633adc7",
+        "2499fd990199f86d",
+        "5a990699ecd90f65",
+        "7033a8334673a5cf",
+        "669b6619a4d13f25",
+        "cc31cc310e73d58f"
+      ]
+    },
+    {
+      "path": "assets/images/contact/service-call-hero.webp",
+      "family": "contact/service-call-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 131626,
+      "sha256": "f1a538fc2ab209c9927146782c2782355922182388fe3fe1a186119eff3f9289",
+      "phash": "53e4758eb3660d83",
+      "mirror_phash": "d94cdf2419cca729",
+      "perceptual_views": [
+        "53e4758eb3660d83",
+        "d94cdf2419cca729",
+        "ace68a9e4c66f283",
+        "88e7549e9be30c93",
+        "224dfe343949e639",
+        "8666549a93637c97",
+        "254cfe1039c9d63d"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-broken-key-card.webp",
+      "family": "home-1/emergency-broken-key",
+      "width": 640,
+      "height": 400,
+      "bytes": 29550,
+      "sha256": "e7b2a68d794cfbf61f27ea4e39aca454f668cb047f1c260c33bea1ddd9b22588",
+      "phash": "650108a5fbafa0fb",
+      "mirror_phash": "cfeba20f55151a51",
+      "perceptual_views": [
+        "650108a5fbafa0fb",
+        "cfeba20f55151a51",
+        "9a01f78500ae4ffb",
+        "ad290885d3f6a0fb",
+        "87cbb22f795c0a51",
+        "ac6958d7d2f2a0c3",
+        "06cbf27d78582a69"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-broken-key.webp",
+      "family": "home-1/emergency-broken-key",
+      "width": 1280,
+      "height": 800,
+      "bytes": 94890,
+      "sha256": "0f68d1e196aae038e55af4fc3e7642340bad91674baf40ed7b4364c5047b40ca",
+      "phash": "650108a5fbafa0fb",
+      "mirror_phash": "cfeba20f55151a51",
+      "perceptual_views": [
+        "650108a5fbafa0fb",
+        "cfeba20f55151a51",
+        "9a01f78500ae4ffb",
+        "ad290885d3f6a0fb",
+        "87cbb22f795c0a51",
+        "ac6958d7d2f2a0c3",
+        "06cbf27d78582a69"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-hero.webp",
+      "family": "home-1/emergency-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 137944,
+      "sha256": "cd070f6f6b432cd402ee7d98c22efb7fe5bd8f1e02a55946a7ad8e597a2e1c6b",
+      "phash": "04e363883d678f1f",
+      "mirror_phash": "ec49d92257cd2535",
+      "perceptual_views": [
+        "04e363883d678f1f",
+        "ec49d92257cd2535",
+        "b9e39c888267709f",
+        "4681e388bd270f9f",
+        "4c69592657cda535",
+        "c68ce11cbc260ddf",
+        "6c264b36168da775"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-house-lockout-card.webp",
+      "family": "home-1/emergency-house-lockout",
+      "width": 640,
+      "height": 400,
+      "bytes": 29762,
+      "sha256": "ef0f47941f68b7f6338d74ac3bde6d7f922e0156e58c9ed352d69bc5e961313e",
+      "phash": "613113e6c16f8b9d",
+      "mirror_phash": "c959b94c6bc52137",
+      "perceptual_views": [
+        "613113e6c16f8b9d",
+        "c959b94c6bc52137",
+        "903168e6366f749d",
+        "433117e6896f8b1d",
+        "e99bb94c238521b7",
+        "4b405bc609af9b5d",
+        "e1aaf12ca30531f7"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-house-lockout.webp",
+      "family": "home-1/emergency-house-lockout",
+      "width": 1280,
+      "height": 800,
+      "bytes": 80344,
+      "sha256": "99fa2d2ddfb623718f08ed0eed7ce7cf1d7f8dc744e6b64d9c6dc8fa543a4e76",
+      "phash": "613113e6c16f8b9d",
+      "mirror_phash": "c959b94c6bc52137",
+      "perceptual_views": [
+        "613113e6c16f8b9d",
+        "c959b94c6bc52137",
+        "903168e6366f749d",
+        "433117e6896f8b1d",
+        "e99bb94c238521b7",
+        "4b405bc609af9b5d",
+        "e1aaf12ca30531f7"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-key-replacement-card.webp",
+      "family": "home-1/emergency-key-replacement",
+      "width": 640,
+      "height": 400,
+      "bytes": 46642,
+      "sha256": "db6040b5b4a03e0d310be63a1687c2d04d8f87a341cb71107219a7676d71c1db",
+      "phash": "43f234bf1e85c343",
+      "mirror_phash": "a9589e15b02f69e9",
+      "perceptual_views": [
+        "43f234bf1e85c343",
+        "a9589e15b02f69e9",
+        "bcd0cb97e185bc41",
+        "73d8343d5a874363",
+        "49329e97f02de989",
+        "e399bc3d4807436b",
+        "49331697e2ade9c1"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-key-replacement.webp",
+      "family": "home-1/emergency-key-replacement",
+      "width": 1280,
+      "height": 800,
+      "bytes": 146540,
+      "sha256": "4f83d1ebf117128c13168cb2715cafccc04afd11ca68bdc764e636b8a440087b",
+      "phash": "43f234bf1ec54343",
+      "mirror_phash": "a9589e15b02f69e9",
+      "perceptual_views": [
+        "43f234bf1ec54343",
+        "a9589e15b02f69e9",
+        "bcd0cb97e185bc41",
+        "73d8343d5a874363",
+        "49329e97f02de989",
+        "e399bc3d4807436b",
+        "49331697e2ade9c1"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-lock-repair-v2-card.webp",
+      "family": "home-1/emergency-lock-repair-v2",
+      "width": 640,
+      "height": 400,
+      "bytes": 28860,
+      "sha256": "e2d0c873034d0f703514aeeda21bc502176f3d75039462bf9434936cb703a0ff",
+      "phash": "bd1a636a4a817f25",
+      "mirror_phash": "1ea288cae02bfd8f",
+      "perceptual_views": [
+        "bd1a636a4a817f25",
+        "1ea288cae02bfd8f",
+        "6b1add6af581a825",
+        "d08962e0aad5bfa5",
+        "7a23c84a407fdd0f",
+        "8311ab44ab579fa5",
+        "29bb01ee01fd350f"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-lock-repair-v2.webp",
+      "family": "home-1/emergency-lock-repair-v2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 135010,
+      "sha256": "92f7eeb8bfae24672909654dfb54a443f368814e5d40feb4648afab1ef99c352",
+      "phash": "bd55aaea42815765",
+      "mirror_phash": "17fb0040e82bfd8f",
+      "perceptual_views": [
+        "bd55aaea42815765",
+        "17fb0040e82bfd8f",
+        "4a555deabd81a865",
+        "d49962e44a91ff25",
+        "7a2ac84ae02bf58f",
+        "83892be6aa5597a5",
+        "693381cc00ffbd0f"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-lock-replacement-card.webp",
+      "family": "home-1/emergency-lock-replacement",
+      "width": 640,
+      "height": 400,
+      "bytes": 24164,
+      "sha256": "893ba827d514fb4b91f99aca5089b894ec84a9f4747b3c150322a8191507b38d",
+      "phash": "cdcdb4312d278713",
+      "mirror_phash": "66271e9a878d29b9",
+      "perceptual_views": [
+        "cdcdb4312d278713",
+        "66271e9a878d29b9",
+        "32cd4b71d2377813",
+        "dc4d34703d678713",
+        "66271cd807cd2db9",
+        "6009b272ede78f13",
+        "cae718d8474d25b9"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-lock-replacement.webp",
+      "family": "home-1/emergency-lock-replacement",
+      "width": 1280,
+      "height": 800,
+      "bytes": 68650,
+      "sha256": "4d7f98d04df32dc9263aec37e0887858a6ac78390eb89cc3e3b8d07083d0a72d",
+      "phash": "cdcdb4312d278713",
+      "mirror_phash": "66271e9a878d29b9",
+      "perceptual_views": [
+        "cdcdb4312d278713",
+        "66271e9a878d29b9",
+        "32cd4b71d2377813",
+        "dc4d34703d678713",
+        "66271cd807cd2db9",
+        "6009b272ede78f13",
+        "cae718d8474d25b9"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-rekeying-v2-card.webp",
+      "family": "home-1/emergency-rekeying-v2",
+      "width": 640,
+      "height": 400,
+      "bytes": 24682,
+      "sha256": "512613504ba571854a443cdae0185131fb330e67dacb6573c5073dba29dfe5d1",
+      "phash": "668309f4d14f0fe3",
+      "mirror_phash": "8c29a35e7ae5a549",
+      "perceptual_views": [
+        "668309f4d14f0fe3",
+        "8c29a35e7ae5a549",
+        "9983f6f02c4770e3",
+        "268309f0d06fafe3",
+        "8c39bbda7ac50549",
+        "ae93097082af3fc3",
+        "157db3da68059569"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/emergency-rekeying-v2.webp",
+      "family": "home-1/emergency-rekeying-v2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 103192,
+      "sha256": "4b8a68a9babbe96991db92dc7284a7a2b17da6d36bbd8c762e968fca4c0049e1",
+      "phash": "66c349bcf2470763",
+      "mirror_phash": "cc69a31650edadc9",
+      "perceptual_views": [
+        "66c349bcf2470763",
+        "cc69a31650edadc9",
+        "99c396bc0547f863",
+        "268309f4d34f0fe3",
+        "8c39b35679e58549",
+        "26930970d22fafe3",
+        "8d39b3de78c50549"
+      ]
+    },
+    {
+      "path": "assets/images/home-1/locksmith-inspection.webp",
+      "family": "home-1/locksmith-inspection",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 111114,
+      "sha256": "95d618e12374893909444cc73a2291ea987a74064f196d77b80d0f567586100d",
+      "phash": "c3e3448cb32a55ed",
+      "mirror_phash": "6949ee261980ff47",
+      "perceptual_views": [
+        "c3e3448cb32a55ed",
+        "6949ee261980ff47",
+        "3ce33b0c4c2aaaed",
+        "cc830c1cb32e776d",
+        "e229a6b61984ddc7",
+        "8803fc1c137d7e65",
+        "02a906b6b957d4cf"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/keypad-entry-card.webp",
+      "family": "home-2/keypad-entry",
+      "width": 640,
+      "height": 400,
+      "bytes": 17530,
+      "sha256": "0c2530eb2200ee2f793c6c2eedf07f3d86fb93ae466b6d409d95db6bd14ee848",
+      "phash": "019b4699f19b0fc7",
+      "mirror_phash": "a73164535f31a54d",
+      "perceptual_views": [
+        "019b4699f19b0fc7",
+        "a73164535f31a54d",
+        "d29b3199029bf0e7",
+        "251b4691b11b3fc7",
+        "873164735b31956d",
+        "261b4a2131bf3f87",
+        "8cb1e44b9b15d52d"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/keypad-entry.webp",
+      "family": "home-2/keypad-entry",
+      "width": 1672,
+      "height": 941,
+      "bytes": 83588,
+      "sha256": "7d263eda7dbc9704b22f036e843cfa8ad7bed3b982126f7435a183c61d67a496",
+      "phash": "2d00ceb9319b0fe7",
+      "mirror_phash": "47aa74539b31a54d",
+      "perceptual_views": [
+        "2d00ceb9319b0fe7",
+        "47aa74539b31a54d",
+        "920031f9ce9bf0e7",
+        "249b4691f11b0fe7",
+        "c73164535f31a54d",
+        "261942f1311f3fc7",
+        "84b1e85b1b95956d"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/phone-access.webp",
+      "family": "home-2/phone-access",
+      "width": 1672,
+      "height": 941,
+      "bytes": 121656,
+      "sha256": "4b59fc42fd7ee06f7acd3b4a6b85200d191cc307df251659d8f9533c18892ad8",
+      "phash": "e7201fe0838f1d9b",
+      "mirror_phash": "5d8abd4a2925b731",
+      "perceptual_views": [
+        "e7201fe0838f1d9b",
+        "5d8abd4a2925b731",
+        "9c20f8e07c8fe29b",
+        "87a81fe0878e1d9b",
+        "bd02b54a6d24b771",
+        "00bc5ecf848f3c5b",
+        "2a16f4656e2596f1"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/retrofit-upgrade-card.webp",
+      "family": "home-2/retrofit-upgrade",
+      "width": 640,
+      "height": 400,
+      "bytes": 22114,
+      "sha256": "de6fa2a2601c2238c47ba28b92c3d7cd23b47a18da9f92594d39f32d7b9ca72b",
+      "phash": "407fb6c94958f915",
+      "mirror_phash": "a0d11c62c3f253bf",
+      "perceptual_views": [
+        "407fb6c94958f915",
+        "a0d11c62c3f253bf",
+        "bf7b49c8b6580615",
+        "4d7ab6486942a9b7",
+        "e7d01ce2c3ea131d",
+        "cd6ab64869e23917",
+        "e7c01ce2c3c893bd"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/retrofit-upgrade.webp",
+      "family": "home-2/retrofit-upgrade",
+      "width": 1672,
+      "height": 941,
+      "bytes": 76440,
+      "sha256": "5661ce07fbe3abf42bf162991b09ca279f93bf045998bf76b8130fd83fa0a0d8",
+      "phash": "da1fa6db49503915",
+      "mirror_phash": "70d50c71e37013bf",
+      "perceptual_views": [
+        "da1fa6db49503915",
+        "70d50c71e37013bf",
+        "207f49dbb658c615",
+        "497fb7c84950b915",
+        "63d00d62e3d813bf",
+        "cd7bb648496031b7",
+        "65d11ce2e3da131d"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/smart-deadbolt-card.webp",
+      "family": "home-2/smart-deadbolt",
+      "width": 640,
+      "height": 400,
+      "bytes": 40390,
+      "sha256": "33900fe6a085cdc77e6bbc84f8a992b094809042623fe89185e11f98cdea3197",
+      "phash": "e6e29c0ce61e19e9",
+      "mirror_phash": "4c68b6ae4cb4b363",
+      "perceptual_views": [
+        "e6e29c0ce61e19e9",
+        "4c68b6ae4cb4b363",
+        "19e2e30c1d1ee6e9",
+        "8e465c5cc2fa19e9",
+        "646df6f46850b343",
+        "835e74bcc3ba1929",
+        "4df5d656691093c3"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/smart-deadbolt.webp",
+      "family": "home-2/smart-deadbolt",
+      "width": 1672,
+      "height": 941,
+      "bytes": 203018,
+      "sha256": "0f389b47aef7979f889b1d74188d394b9de5ad988a55605b09bfe82b89211a8c",
+      "phash": "66e70c8ce61699cb",
+      "mirror_phash": "ec4dae264cbc3361",
+      "perceptual_views": [
+        "66e70c8ce61699cb",
+        "ec4dae264cbc3361",
+        "19e7f384191666cb",
+        "c2c71c1ee31e19e9",
+        "686db6b648b4b343",
+        "a357541e43ba19e9",
+        "41fdf6d44950b343"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/smart-installation-card.webp",
+      "family": "home-2/smart-installation",
+      "width": 640,
+      "height": 400,
+      "bytes": 27606,
+      "sha256": "005e0d956110b33dcb3c4c123979c455bcb5a678d8b90920726672c0dcdbe6bd",
+      "phash": "740378f0c33e87e3",
+      "mirror_phash": "5ea9535a69d42d49",
+      "perceptual_views": [
+        "740378f0c33e87e3",
+        "5ea9535a69d42d49",
+        "8b0386f03c7e78e3",
+        "600759b0cb7cc7e3",
+        "8aadf31a61d62d49",
+        "2036db908f7c87e3",
+        "8a9c733a2dd62d49"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/smart-installation.webp",
+      "family": "home-2/smart-installation",
+      "width": 1672,
+      "height": 941,
+      "bytes": 113980,
+      "sha256": "8b7104e19f20c14fc14e77699afbf2f921661d27c7a0859b73e6890f248e292a",
+      "phash": "74005df4c33ec373",
+      "mirror_phash": "5e295556699469d9",
+      "perceptual_views": [
+        "74005df4c33ec373",
+        "5e295556699469d9",
+        "8b0382fc3c3e3c73",
+        "740259f4c33e87e3",
+        "5eac715e69942d49",
+        "6006dbb0c77c87e3",
+        "caacf11a69d62d49"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/smart-lock-hero-stock.webp",
+      "family": "home-2/smart-lock-hero-stock",
+      "width": 1920,
+      "height": 1280,
+      "bytes": 52560,
+      "sha256": "d7949eb5205ba4e275d983fdaf7bbd6079ffd06ac97a7c24feccc1a76650a50b",
+      "phash": "6dcc0de33887c257",
+      "mirror_phash": "c764a749922568fd",
+      "perceptual_views": [
+        "6dcc0de33887c257",
+        "c764a749922568fd",
+        "92cc32c3c3873d57",
+        "29ce99c3788dc267",
+        "8364b369d22769cd",
+        "394e1ad3709c83e7",
+        "83e4b2e9da36294d"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/smart-lock-hero.webp",
+      "family": "home-2/smart-lock-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 133830,
+      "sha256": "9cc4cbc45f51e97d9f27eec2a42e58068e211242fdf371f4d9e280699e91ef13",
+      "phash": "c001b04fef43e737",
+      "mirror_phash": "69a35a6545e14d9d",
+      "perceptual_views": [
+        "c001b04fef43e737",
+        "69a35a6545e14d9d",
+        "3d094fdf105b1837",
+        "4b0930cfef40a737",
+        "e1839a7545d90d9d",
+        "0d39304acf629777",
+        "65d71a6045d81ddd"
+      ]
+    },
+    {
+      "path": "assets/images/home-2/traditional-access.webp",
+      "family": "home-2/traditional-access",
+      "width": 1920,
+      "height": 1191,
+      "bytes": 135056,
+      "sha256": "2fd3123d5db9481406601c34f724e767f3f277fb1e5e5754a383d0e9f3bbba5f",
+      "phash": "9a2ad5d1d994ca27",
+      "mirror_phash": "20807f7b733e688d",
+      "perceptual_views": [
+        "9a2ad5d1d994ca27",
+        "20807f7b733e688d",
+        "752a6ad526943d27",
+        "9baa55d1d91446a7",
+        "2100ff7b21beec0d",
+        "c99a5451c9b666a7",
+        "6330de7b631ccc0d"
+      ]
+    },
+    {
+      "path": "assets/images/pricing/quote-hero.webp",
+      "family": "pricing/quote-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 142118,
+      "sha256": "f8f893a1fbcc241208e8d8af96bb0648fd50231cbeb4e9ba63b9424ed689e757",
+      "phash": "e4a376a42369b517",
+      "mirror_phash": "4e09dc0e89c39ebd",
+      "perceptual_views": [
+        "e4a376a42369b517",
+        "4e09dc0e89c39ebd",
+        "1ba389a4dc69cb17",
+        "f6813624afe95417",
+        "4c2b9c8e0543bebd",
+        "76853e248fe95417",
+        "dc2f948e2143f29d"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/broken-key-extraction-hero.webp",
+      "family": "service-details/broken-key-extraction-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 231574,
+      "sha256": "79b71f593a38e45d2f027940a600a35892a2fbd2a944e0d7e5c70daadba7ad1c",
+      "phash": "9bc38d09340dd8fd",
+      "mirror_phash": "316937231ea75257",
+      "perceptual_views": [
+        "9bc38d09340dd8fd",
+        "316937231ea75257",
+        "64c37289cb0d07fd",
+        "9c03cc19747dc0fd",
+        "20a926b3dec76a47",
+        "8c0ff4bc747c80ad",
+        "26a55e16ded62a07"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/deadbolt-installation-hero.webp",
+      "family": "service-details/deadbolt-installation-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 142498,
+      "sha256": "dde5042663d24d0c0358238f6cc41805ee3a55df165303bfbac71186293193f7",
+      "phash": "38b618699e79ed81",
+      "mirror_phash": "931cb44734d3476b",
+      "perceptual_views": [
+        "38b618699e79ed81",
+        "931cb44734d3476b",
+        "c6b6e1ed617912c1",
+        "a8b71e691e7185c5",
+        "121d74c334d34d6f",
+        "8cb54e690e7987c5",
+        "261de4c3a4d30d6f"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/door-security-hero.webp",
+      "family": "service-details/door-security-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 190804,
+      "sha256": "aef49fab5022b13c0140dc1c388b035c80501c394b5019fdd5a68b5b2233d97b",
+      "phash": "5af05ec1fe0017b5",
+      "mirror_phash": "505ab42b54aabd1f",
+      "perceptual_views": [
+        "5af05ec1fe0017b5",
+        "505ab42b54aabd1f",
+        "aff1e9c18128e8b5",
+        "02e05683fe791f95",
+        "a84af42954d3b51f",
+        "ae03d45f80785f95",
+        "049954752ad2f53f"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/emergency-lockout-hero.webp",
+      "family": "service-details/emergency-lockout-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 147784,
+      "sha256": "aeeefb5f32c672263584b18e47b5103d2834cafece6e5abc0845a5bb263f9b4b",
+      "phash": "78494a852e6cf997",
+      "mirror_phash": "d4e3e10f44c6533d",
+      "perceptual_views": [
+        "78494a852e6cf997",
+        "d4e3e10f44c6533d",
+        "8359b4b5d17c0697",
+        "28286f97a464f9d3",
+        "c682c53d0ece5379",
+        "be2a4f968464d953",
+        "1480e53c2ece73f9"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/key-duplication-hero.webp",
+      "family": "service-details/key-duplication-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 170994,
+      "sha256": "c010077b481de31733cee810053e2d3b6ba517827e20f718f1345ab864f9f384",
+      "phash": "56db33f50b0aa9a1",
+      "mirror_phash": "fc71995fe1a0430b",
+      "perceptual_views": [
+        "56db33f50b0aa9a1",
+        "fc71995fe1a0430b",
+        "a9dbccb5f40a16a1",
+        "dec921a4a96ae9a5",
+        "f4e3ab0e83e04b0f",
+        "6bedf1b4292aa125",
+        "e1e34b1ea3802baf"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/keyless-entry-hero.webp",
+      "family": "service-details/keyless-entry-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 107270,
+      "sha256": "e9aec8d256e0811691bd4a147125964b15a79828067a593f55ac80a6a1515c3d",
+      "phash": "01747d811cdbc773",
+      "mirror_phash": "215e552bb2714dd9",
+      "perceptual_views": [
+        "01747d811cdbc773",
+        "215e552bb2714dd9",
+        "fe740081e3db3873",
+        "0de4fc0118dbc773",
+        "a54a54abb0716dd9",
+        "fd02e0497a598773",
+        "57a84ae3d0712dd9"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/lock-repair-hero.webp",
+      "family": "service-details/lock-repair-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 282132,
+      "sha256": "13a79878472f457fcccf4ba21595ed96081c311ddf3231220a169fefa28a7686",
+      "phash": "94bc7b6087d30b0f",
+      "mirror_phash": "1e16d1da1d79a1a5",
+      "perceptual_views": [
+        "94bc7b6087d30b0f",
+        "1e16d1da1d79a1a5",
+        "4bbc847078d3f40f",
+        "12b46b7017931b3f",
+        "1c1ec1da3d39b195",
+        "b29069239f030bff",
+        "993ac38935b9b155"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/lock-replacement-hero.webp",
+      "family": "service-details/lock-replacement-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 104052,
+      "sha256": "19d94ed25848bacfefa10f09301aeee24a8f283f7adef101c2a0a74a3b87be9e",
+      "phash": "19e02fada124e7e3",
+      "mirror_phash": "b34b87171b8e4d49",
+      "perceptual_views": [
+        "19e02fada124e7e3",
+        "b34b87171b8e4d49",
+        "e6e1d0bd5e2418e3",
+        "1de5263da124e7c3",
+        "b34b8c970b8e4d69",
+        "0de5263d812ee7c3",
+        "a74f8c972b844d69"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/new-home-lock-change-hero.webp",
+      "family": "service-details/new-home-lock-change-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 142980,
+      "sha256": "ca9f2dce3d67a232d860cc18df8df0f74933e47a72616fb762c5a5fee8a225ad",
+      "phash": "290ddfb8489bae0b",
+      "mirror_phash": "e7a77712e27104a5",
+      "perceptual_views": [
+        "290ddfb8489bae0b",
+        "e7a77712e27104a5",
+        "d70d20b8b7db510b",
+        "686ddcb8285ba60f",
+        "c6e77712c2f10ca5",
+        "642ecc902c5b967f",
+        "4c95663ac4f13cd5"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/rekeying-hero.webp",
+      "family": "service-details/rekeying-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 104918,
+      "sha256": "1d98b06a4a0c611607677de4cee0bb0e0b53fb2262aecf8e906dbc0b4f5c910f",
+      "phash": "0cbbe759276c508d",
+      "mirror_phash": "a6114d738dc67a27",
+      "perceptual_views": [
+        "0cbbe759276c508d",
+        "a6114d738dc67a27",
+        "e3bb1819c86c2f8d",
+        "9cbbe308377c508d",
+        "361149a29dd6fa27",
+        "c9bdc30c3764889f",
+        "631769a69dce2235"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/smart-lock-installation-hero.webp",
+      "family": "service-details/smart-lock-installation-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 132808,
+      "sha256": "88be763817e527a46f25bdb80b693d5bc4c2d6cbdf86273c7a91d644da2f913e",
+      "phash": "0691052d9da78fbb",
+      "mirror_phash": "cc3be587371d2511",
+      "perceptual_views": [
+        "0691052d9da78fbb",
+        "cc3be587371d2511",
+        "9993702f42b750bb",
+        "06038d2d9db7879b",
+        "6c3927d5175d4531",
+        "8017996d91d7879b",
+        "281d33c7137d6d31"
+      ]
+    },
+    {
+      "path": "assets/images/service-details/smart-lock-upgrade-hero.webp",
+      "family": "service-details/smart-lock-upgrade-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 132992,
+      "sha256": "ca78add26f5d0e824d8eb813871ddcb758732929cf87e6456bdf0c0e040b1cea",
+      "phash": "300fd81e3c668fd3",
+      "mirror_phash": "1ea5729596cc2579",
+      "perceptual_views": [
+        "300fd81e3c668fd3",
+        "1ea5729596cc2579",
+        "4b0f073ec36670d3",
+        "300f58fabd668f81",
+        "9aa5f25817cc652b",
+        "bc0f48f2bce64f01",
+        "96a5e258164ce5bb"
+      ]
+    },
+    {
+      "path": "assets/images/services/broken-key-extraction-card.webp",
+      "family": "services/broken-key-extraction",
+      "width": 640,
+      "height": 360,
+      "bytes": 27838,
+      "sha256": "499e4c4fd9a5ded07d29358aaeff004040d7be47e7fd043153fd19f02732876d",
+      "phash": "93973c125225676f",
+      "mirror_phash": "3d1d16b8d88dc5c5",
+      "perceptual_views": [
+        "93973c125225676f",
+        "3d1d16b8d88dc5c5",
+        "28b7c3528d67906f",
+        "97933c0262256f6f",
+        "3d3916a8c8cfc5c5",
+        "a5933c2a2265676f",
+        "1f399680c8cfcdc5"
+      ]
+    },
+    {
+      "path": "assets/images/services/broken-key-extraction.webp",
+      "family": "services/broken-key-extraction",
+      "width": 1672,
+      "height": 941,
+      "bytes": 148464,
+      "sha256": "3517c7ffa51248f190f7338279df6e43521574d93284da77e25441b376704ee7",
+      "phash": "93973c125225676f",
+      "mirror_phash": "3d1d16b8d88dc5c5",
+      "perceptual_views": [
+        "93973c125225676f",
+        "3d1d16b8d88dc5c5",
+        "28b7c3528d67906f",
+        "97933c026265676f",
+        "3d3916a8c8cfc5c5",
+        "25b33c2a2265676f",
+        "9f199680c8cfcdc5"
+      ]
+    },
+    {
+      "path": "assets/images/services/deadbolt-installation-card.webp",
+      "family": "services/deadbolt-installation",
+      "width": 640,
+      "height": 360,
+      "bytes": 29084,
+      "sha256": "413de378493dc5d45c4b7496fb263044d96978e41c6d52c19b99024d41e1ae42",
+      "phash": "518d72362132fdc7",
+      "mirror_phash": "f927dc940398574d",
+      "perceptual_views": [
+        "518d72362132fdc7",
+        "f927dc940398574d",
+        "ae8d893e5e3202e7",
+        "538d26b28d32ddc3",
+        "f9270c1c27987769",
+        "43c5a6f28d33dd03",
+        "c96f0c18279977a9"
+      ]
+    },
+    {
+      "path": "assets/images/services/deadbolt-installation.webp",
+      "family": "services/deadbolt-installation",
+      "width": 1672,
+      "height": 941,
+      "bytes": 130078,
+      "sha256": "52ce30d9993aa150554607aae441747742f65fc0cefbb4da505e30ceedf3d6a1",
+      "phash": "518d72362132fdc7",
+      "mirror_phash": "f927dc940398574d",
+      "perceptual_views": [
+        "518d72362132fdc7",
+        "f927dc940398574d",
+        "ae8d893e5e3202e7",
+        "538d26b28d32ddc3",
+        "f9278c1827987769",
+        "43c5a6f28d33dd03",
+        "c96f0c18279977a9"
+      ]
+    },
+    {
+      "path": "assets/images/services/door-security-card.webp",
+      "family": "services/door-security",
+      "width": 640,
+      "height": 360,
+      "bytes": 17166,
+      "sha256": "a542cc5a1b55d5af208b4aaa340823ca71ce42a1e3f43424a5c5b08612850243",
+      "phash": "49e9b632a0370f73",
+      "mirror_phash": "e7435c980a9da5d9",
+      "perceptual_views": [
+        "49e9b632a0370f73",
+        "e7435c980a9da5d9",
+        "b2e809325f37e073",
+        "4da99612a0371ff3",
+        "e7431c9c4a95b559",
+        "09959236e1363fe3",
+        "e13f389c4b9c9549"
+      ]
+    },
+    {
+      "path": "assets/images/services/door-security.webp",
+      "family": "services/door-security",
+      "width": 1672,
+      "height": 941,
+      "bytes": 84592,
+      "sha256": "558d7fc995a34df827f3d099765ed9063c06e0672f0db5eb27f80d713cc3583b",
+      "phash": "49e9b632a0370f73",
+      "mirror_phash": "e7435c980a9da5d9",
+      "perceptual_views": [
+        "49e9b632a0370f73",
+        "e7435c980a9da5d9",
+        "b2e809325f37e073",
+        "4da99612a0371ff3",
+        "e7431c9c4a95b559",
+        "09959236e1363fe3",
+        "e13f389c4b9c9549"
+      ]
+    },
+    {
+      "path": "assets/images/services/emergency-lockout-card.webp",
+      "family": "services/emergency-lockout",
+      "width": 640,
+      "height": 360,
+      "bytes": 33470,
+      "sha256": "711aa071a4ed802c10116806ef508f551653527953faa0855f9e3009b79619bf",
+      "phash": "4f190126f1217fe7",
+      "mirror_phash": "6591ab8c5b83d54d",
+      "perceptual_views": [
+        "4f190126f1217fe7",
+        "6591ab8c5b83d54d",
+        "b03bfe660e6180e7",
+        "4f3a1066d16167e7",
+        "e590b8cc5bc3c54d",
+        "4f7e9226d1096787",
+        "c5d4188c7ba3cd2d"
+      ]
+    },
+    {
+      "path": "assets/images/services/emergency-lockout.webp",
+      "family": "services/emergency-lockout",
+      "width": 1672,
+      "height": 941,
+      "bytes": 134994,
+      "sha256": "0dbeda406f1a6830e3d439166775370b8e9a25b74fe47c7955dfd5036e044014",
+      "phash": "4f190126f1217fe7",
+      "mirror_phash": "6591ab8c5b83d54d",
+      "perceptual_views": [
+        "4f190126f1217fe7",
+        "6591ab8c5b83d54d",
+        "b03bfe660e6180e7",
+        "4f3a1066d16167e7",
+        "e590b8cc5bc3c54d",
+        "4f7e9226d1096787",
+        "c5d4188c7ba3cd2d"
+      ]
+    },
+    {
+      "path": "assets/images/services/key-duplication-card.webp",
+      "family": "services/key-duplication",
+      "width": 640,
+      "height": 360,
+      "bytes": 47880,
+      "sha256": "af3936a0dccb639a1cf1e441a32d71bd05e594885187e54bfc07ddca04ce599e",
+      "phash": "dad0cc8d094da1df",
+      "mirror_phash": "707a460723f70b75",
+      "perceptual_views": [
+        "dad0cc8d094da1df",
+        "707a460723f70b75",
+        "01d0128d765d5edf",
+        "88d06d2d097ab1df",
+        "467ac787a3d41955",
+        "8c006d2d3b7e938f",
+        "66aac78795d43925"
+      ]
+    },
+    {
+      "path": "assets/images/services/key-duplication.webp",
+      "family": "services/key-duplication",
+      "width": 1672,
+      "height": 941,
+      "bytes": 234380,
+      "sha256": "d4b8256f7f448b406db36af4fd2f04f40db6af0a2f27e68e2984c649c2f56856",
+      "phash": "dad0cc8d094da1df",
+      "mirror_phash": "707a460723f70b75",
+      "perceptual_views": [
+        "dad0cc8d094da1df",
+        "707a460723f70b75",
+        "01d0128d765d5edf",
+        "88d06d2d097ab1df",
+        "467ac787a3d41955",
+        "8c006d2d3b7e938f",
+        "66aac78795d43925"
+      ]
+    },
+    {
+      "path": "assets/images/services/keyless-entry-card.webp",
+      "family": "services/keyless-entry",
+      "width": 640,
+      "height": 360,
+      "bytes": 17370,
+      "sha256": "4a0e1f9316e458a32b79ced89bbb2ac6f3895b078dade39f05d0997cb1268b86",
+      "phash": "638994d8ca4d7fc1",
+      "mirror_phash": "c9231e7260e7d563",
+      "perceptual_views": [
+        "638994d8ca4d7fc1",
+        "c9231e7260e7d563",
+        "9cc96bda354d90c9",
+        "f3091c5acb2d6f81",
+        "59a3b6f06107d52b",
+        "c2491c0acbadefc5",
+        "5873b6f04107556f"
+      ]
+    },
+    {
+      "path": "assets/images/services/keyless-entry.webp",
+      "family": "services/keyless-entry",
+      "width": 1672,
+      "height": 941,
+      "bytes": 65568,
+      "sha256": "b4fbcb612ca24ed2e3dffeb062333d961810989c08a43985f87a0bc33bc7cd50",
+      "phash": "638994d8ca4d7fc1",
+      "mirror_phash": "c9231e7260e7d563",
+      "perceptual_views": [
+        "638994d8ca4d7fc1",
+        "c9231e7260e7d563",
+        "bcc96bd8354d90c9",
+        "f3091c5acb2d6f81",
+        "59a3b6f06107d52b",
+        "c2491c0acbadefc5",
+        "5873b6f04107556f"
+      ]
+    },
+    {
+      "path": "assets/images/services/lock-repair-card.webp",
+      "family": "services/lock-repair",
+      "width": 640,
+      "height": 360,
+      "bytes": 14170,
+      "sha256": "36a9e0187b16c0d135036f646c3e3eb606327fa85d687c95fdc4ddec7fc04a95",
+      "phash": "0ee1f2d44d11b597",
+      "mirror_phash": "04435874e79b1f3d",
+      "perceptual_views": [
+        "0ee1f2d44d11b597",
+        "04435874e79b1f3d",
+        "71e90ddeb2114a97",
+        "8e8562560d51b5df",
+        "042dc8b487db1f75",
+        "1e85405e2d7195df",
+        "0427c8f007db3f75"
+      ]
+    },
+    {
+      "path": "assets/images/services/lock-repair.webp",
+      "family": "services/lock-repair",
+      "width": 1672,
+      "height": 941,
+      "bytes": 74780,
+      "sha256": "e88c43b6f677190c2865919e0ef29c26d6b6acd820581f287a84f30ed4992044",
+      "phash": "0ee1f2d44d11b597",
+      "mirror_phash": "04435874e79b1f3d",
+      "perceptual_views": [
+        "0ee1f2d44d11b597",
+        "04435874e79b1f3d",
+        "71e90ddeb2114a97",
+        "8e8562560d51b5df",
+        "042dc8b487db1f75",
+        "1e85405e2d7195df",
+        "0427c8f007db3f75"
+      ]
+    },
+    {
+      "path": "assets/images/services/lock-replacement-card.webp",
+      "family": "services/lock-replacement",
+      "width": 640,
+      "height": 360,
+      "bytes": 22976,
+      "sha256": "6a12cd220f61bbc7bfdec7fff694d33e560a062b8de952544b98bcd5e7ce265e",
+      "phash": "f40dd9e5711f0313",
+      "mirror_phash": "5aa4134e99b5a9b9",
+      "perceptual_views": [
+        "f40dd9e5711f0313",
+        "5aa4134e99b5a9b9",
+        "0f0c2ee48e1ffc13",
+        "e00c99c1f37f0f13",
+        "4aa4336a59d5a5b9",
+        "c10c1b81e77f4f13",
+        "6ba6b12b4955a5b1"
+      ]
+    },
+    {
+      "path": "assets/images/services/lock-replacement.webp",
+      "family": "services/lock-replacement",
+      "width": 1672,
+      "height": 941,
+      "bytes": 96560,
+      "sha256": "f71ee6148ed47f8fe666a96a41e4fb5980ba230e3c3ff8389b4568ff6360a611",
+      "phash": "f40dd9e5711f0313",
+      "mirror_phash": "5aa4134e99b5a9b9",
+      "perceptual_views": [
+        "f40dd9e5711f0313",
+        "5aa4134e99b5a9b9",
+        "0f0c26e58e1ffc13",
+        "e00c99c1f37f0f13",
+        "4aa4336a59d5a5b9",
+        "c10c1b81e77f4f13",
+        "6ba6b12b4955a5b1"
+      ]
+    },
+    {
+      "path": "assets/images/services/new-home-lock-change-card.webp",
+      "family": "services/new-home-lock-change",
+      "width": 640,
+      "height": 360,
+      "bytes": 28914,
+      "sha256": "e42e6087a12c8400d8331757a4fef7dbf0b9a9202faa7abf9104d6ef67ba116a",
+      "phash": "5696580a0bff7d03",
+      "mirror_phash": "fc3c72a0a151d7a9",
+      "perceptual_views": [
+        "5696580a0bff7d03",
+        "fc3c72a0a151d7a9",
+        "a996a70af4ff8203",
+        "c698e8082bf1fd47",
+        "6c3262a2a15b57ed",
+        "a690e90c37e1f06f",
+        "0c3a53a69d4b5ae5"
+      ]
+    },
+    {
+      "path": "assets/images/services/new-home-lock-change.webp",
+      "family": "services/new-home-lock-change",
+      "width": 1672,
+      "height": 941,
+      "bytes": 138070,
+      "sha256": "cccbeb8bd9bfabfd25f0486916c86ff48a713d509f5d34489578fb48132cc804",
+      "phash": "5696580a0bff7d03",
+      "mirror_phash": "fc3c72a0a151d7a9",
+      "perceptual_views": [
+        "5696580a0bff7d03",
+        "fc3c72a0a151d7a9",
+        "a996a70af4ff8203",
+        "c698e8082bf1fd47",
+        "6c3262a2a15b57ed",
+        "a690e90c37e1f06f",
+        "0c3a53a69d4b5ae5"
+      ]
+    },
+    {
+      "path": "assets/images/services/rekeying-card.webp",
+      "family": "services/rekeying",
+      "width": 640,
+      "height": 360,
+      "bytes": 35066,
+      "sha256": "f5e0b7be887cd0f5493de6f7810dfbd64ef5123868cabb91e86f0e209cd9f3f5",
+      "phash": "1f9ce4e382a3a9a3",
+      "mirror_phash": "f53e4ec9380d0b1b",
+      "perceptual_views": [
+        "1f9ce4e382a3a9a3",
+        "f53e4ec9380d0b1b",
+        "e09c1b636da356a3",
+        "7d94e0e383a5a9e1",
+        "d73e4a49391f034b",
+        "ed8d85e313f56141",
+        "cb262a09a91f8beb"
+      ]
+    },
+    {
+      "path": "assets/images/services/rekeying.webp",
+      "family": "services/rekeying",
+      "width": 1672,
+      "height": 941,
+      "bytes": 180742,
+      "sha256": "427b50dfbabba29d467bc6cf4007a79ca19361df8bd9e085cd176f38caf12e2c",
+      "phash": "1f9ce4e382a3a9a3",
+      "mirror_phash": "f53e4ec9380d0b1b",
+      "perceptual_views": [
+        "1f9ce4e382a3a9a3",
+        "f53e4ec9380d0b1b",
+        "e09c1b636da356a3",
+        "7d94e0e383a5a9e1",
+        "d73e4a49391f034b",
+        "ed8d85e313f56141",
+        "cb262a09a91f8beb"
+      ]
+    },
+    {
+      "path": "assets/images/services/services-hero.webp",
+      "family": "services/services-hero",
+      "width": 1672,
+      "height": 941,
+      "bytes": 82894,
+      "sha256": "a2b6ccc7ac9c49bebb720bdb41dce1fb474d0173fc2930200018c5d3c9bbaa93",
+      "phash": "14b9d79118ef4bc1",
+      "mirror_phash": "aa137d3ba245a16b",
+      "perceptual_views": [
+        "14b9d79118ef4bc1",
+        "aa137d3ba245a16b",
+        "eb992810e76fb4c1",
+        "1b1953d838eeabc1",
+        "b9b3f9729244816b",
+        "29f88364b86eafc1",
+        "8356e9ee13cc056b"
+      ]
+    },
+    {
+      "path": "assets/images/services/smart-lock-installation-card.webp",
+      "family": "services/smart-lock-installation",
+      "width": 640,
+      "height": 360,
+      "bytes": 21408,
+      "sha256": "c158e78eb2e9f784d3021fb243165f824de1ea2b06f4083da6bc4892c78f1c51",
+      "phash": "a649263878f9d371",
+      "mirror_phash": "1de38c92525371db",
+      "perceptual_views": [
+        "a649263878f9d371",
+        "1de38c92525371db",
+        "585fd93807f92471",
+        "b6793630f8d9c321",
+        "1cd39c9a5273698b",
+        "9679f630c8d1cba1",
+        "3cd35c9a627b610b"
+      ]
+    },
+    {
+      "path": "assets/images/services/smart-lock-installation.webp",
+      "family": "services/smart-lock-installation",
+      "width": 1672,
+      "height": 941,
+      "bytes": 84942,
+      "sha256": "077032eeea58958f463c4dd3d09da54df3d6885adfc19158f22b5a03e9367bb7",
+      "phash": "a649263878f9d371",
+      "mirror_phash": "1df18c92525371db",
+      "perceptual_views": [
+        "a649263878f9d371",
+        "1df18c92525371db",
+        "585fd93807f92471",
+        "b6793630f8d9c321",
+        "1cd39c9a5273698b",
+        "9679f630c8d1cba1",
+        "3cd35c9a627b610b"
+      ]
+    },
+    {
+      "path": "assets/images/services/smart-lock-upgrade-card.webp",
+      "family": "services/smart-lock-upgrade",
+      "width": 640,
+      "height": 360,
+      "bytes": 21658,
+      "sha256": "19e11da901c0ba7ae2061cc522dc58f43e560b5ad44f74867b116b20350b0147",
+      "phash": "922feed0c9170763",
+      "mirror_phash": "398554727395adc9",
+      "perceptual_views": [
+        "922feed0c9170763",
+        "398554727395adc9",
+        "6c6f01d8261ff863",
+        "d8efecd009171723",
+        "7155467463959dc9",
+        "d8afacc001373f63",
+        "7055466aab9d95c9"
+      ]
+    },
+    {
+      "path": "assets/images/services/smart-lock-upgrade.webp",
+      "family": "services/smart-lock-upgrade",
+      "width": 1672,
+      "height": 941,
+      "bytes": 123850,
+      "sha256": "13dd737f8d78ac75a24f46a91bea497ef6322a4767cc3ec4a80365c84b3d4a2a",
+      "phash": "922feed0c9170763",
+      "mirror_phash": "398554727395adc9",
+      "perceptual_views": [
+        "922feed0c9170763",
+        "398554727395adc9",
+        "6c6f01d8261ff863",
+        "d8efecd009171723",
+        "7155467463959dc9",
+        "d8afacc001373f63",
+        "7055466aab9d95c9"
+      ]
+    },
+    {
+      "path": "assets/images/team/technician-1.webp",
+      "family": "team/technician-1",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 120670,
+      "sha256": "8d2de112bbce4edbce99cf452f70a2e045380aa0f851e4eedc69624287a7fbcb",
+      "phash": "9f6261252c7a435f",
+      "mirror_phash": "35c8cb0f96d06975",
+      "perceptual_views": [
+        "9f6261252c7a435f",
+        "35c8cb0f96d06975",
+        "60629e25c37a3c5f",
+        "176265053c7a43df",
+        "b5404daf96d06975",
+        "17d2e015bce8439f",
+        "b5704fbf16506135"
+      ]
+    },
+    {
+      "path": "assets/images/team/technician-2.webp",
+      "family": "team/technician-2",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 85278,
+      "sha256": "3781a162ad203c9a2987ecb4c2ed077eb2dcea9b92a7e62deba125def3ceb551",
+      "phash": "5d53073fea848355",
+      "mirror_phash": "75592d15402e29ff",
+      "perceptual_views": [
+        "5d53073fea848355",
+        "75592d15402e29ff",
+        "20f378bf15847c55",
+        "ddc28cffe8848351",
+        "77683455422e29fb",
+        "ccc29eff68041b4b",
+        "66683477c2aeb1e1"
+      ]
+    },
+    {
+      "path": "assets/images/team/technician-3.webp",
+      "family": "team/technician-3",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 123212,
+      "sha256": "8209f60d5acffc1d8df61717d80118f6e782e9cb7d4fc9d268a6a656f5750eb4",
+      "phash": "a8134d2c49793f8f",
+      "mirror_phash": "02f9e786e3d39505",
+      "perceptual_views": [
+        "a8134d2c49793f8f",
+        "02f9e786e3d39505",
+        "5713b22c3679c0af",
+        "88034d3c0b89bfbf",
+        "62bde796a1331515",
+        "48036f0c13a9ff5d",
+        "63994586b90355f7"
+      ]
+    },
+    {
+      "path": "assets/images/team/technician-4.webp",
+      "family": "team/technician-4",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 111050,
+      "sha256": "b8135621e7218cd6ee253e90a39c510676e17fdce4d9d5ef5b133e0e7acf2b8d",
+      "phash": "71e19000ce96ff37",
+      "mirror_phash": "db6a2aaa643c5599",
+      "perceptual_views": [
+        "71e19000ce96ff37",
+        "db6a2aaa643c5599",
+        "8fe17f8033d64037",
+        "d2c086d8ce1efd31",
+        "786a287264b4d79b",
+        "c2818e5a4c5efd71",
+        "682b3450c6f457db"
+      ]
+    },
+    {
+      "path": "assets/images/utility/coming-soon.webp",
+      "family": "utility/coming-soon",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 207196,
+      "sha256": "bea52439cb75418d7156e4fea465335b444f64cce77469917160af9a9165235e",
+      "phash": "9996d9ce0e0b17b1",
+      "mirror_phash": "733c736424a1bd1b",
+      "perceptual_views": [
+        "9996d9ce0e0b17b1",
+        "733c736424a1bd1b",
+        "669626cef10be8b1",
+        "a19e898f8e2b3791",
+        "2b362327a4a1bd3b",
+        "0b8c8e291e7977d1",
+        "ab262483a4c3dd7b"
+      ]
+    },
+    {
+      "path": "assets/images/utility/login.webp",
+      "family": "utility/login",
+      "width": 1672,
+      "height": 941,
+      "bytes": 67380,
+      "sha256": "233f1d7ab8ca2083db445a2dcd09764ae662d8d6d1a1bf47d835a09b333fea4d",
+      "phash": "cc883b7fcc321f03",
+      "mirror_phash": "662391d5669ab5a9",
+      "perceptual_views": [
+        "cc883b7fcc321f03",
+        "662391d5669ab5a9",
+        "7389dc7f3332e003",
+        "8c093b77cc327f03",
+        "26a391dd6698d5a9",
+        "846b3326cc327f1b",
+        "3ec1999c6698d5b1"
+      ]
+    },
+    {
+      "path": "assets/images/utility/not-found-hero.webp",
+      "family": "utility/not-found-hero",
+      "width": 1672,
+      "height": 940,
+      "bytes": 90790,
+      "sha256": "ab58caec6f910f4cbc85025fea2457f141eaec6457350dd05eb91eb9f6d0fd02",
+      "phash": "8f037c7b69612393",
+      "mirror_phash": "25a9d6d1c3cb8939",
+      "perceptual_views": [
+        "8f037c7b69612393",
+        "25a9d6d1c3cb8939",
+        "7003c37f9661dc93",
+        "0f07f8fcc3615313",
+        "a5a9525249cbe9b9",
+        "4f1ff0f083e51313",
+        "a5355a5a290fa9b9"
+      ]
+    },
+    {
+      "path": "assets/images/utility/register.webp",
+      "family": "utility/register",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 183706,
+      "sha256": "b4d54beb92f118c3bb4c511044449cb7e5acb27dd3a2bb85d8bfc5bf6a1353c6",
+      "phash": "48794a87d3157769",
+      "mirror_phash": "6253400d793fddc3",
+      "perceptual_views": [
+        "48794a87d3157769",
+        "6253400d793fddc3",
+        "37f915a72c958869",
+        "c8e1aa87539d3761",
+        "624b002df9379dcb",
+        "c8a387975b987661",
+        "62092d3df132dccb"
+      ]
+    }
+  ],
+  "usage_mapping": [
+    {
+      "page": "404.html",
+      "src": "assets/images/utility/not-found-hero.webp",
+      "family": "utility/not-found-hero",
+      "section": "",
+      "link": null,
+      "alt": "Brass house key on a hallway console beside a closed burgundy door",
+      "item": "404.html"
+    },
+    {
+      "page": "about.html",
+      "src": "assets/images/about/company-hero.webp",
+      "family": "about/company-hero",
+      "section": "about-hero-title",
+      "link": null,
+      "alt": "Two residential locksmith technicians beside their service van outside a brick home",
+      "item": "about.html"
+    },
+    {
+      "page": "about.html",
+      "src": "assets/images/about/locksmith-story.webp",
+      "family": "about/locksmith-story",
+      "section": "story-title",
+      "link": null,
+      "alt": "Experienced locksmith checking door hardware in a workshop",
+      "item": "about.html"
+    },
+    {
+      "page": "about.html",
+      "src": "assets/images/team/technician-1.webp",
+      "family": "team/technician-1",
+      "section": "team-title",
+      "link": null,
+      "alt": "Demo portrait of a locksmith technician in work clothing",
+      "item": "about.html"
+    },
+    {
+      "page": "about.html",
+      "src": "assets/images/team/technician-2.webp",
+      "family": "team/technician-2",
+      "section": "team-title",
+      "link": null,
+      "alt": "Demo portrait of a smart lock installer in work clothing",
+      "item": "about.html"
+    },
+    {
+      "page": "about.html",
+      "src": "assets/images/team/technician-3.webp",
+      "family": "team/technician-3",
+      "section": "team-title",
+      "link": null,
+      "alt": "Demo portrait of a residential security technician in work clothing",
+      "item": "about.html"
+    },
+    {
+      "page": "about.html",
+      "src": "assets/images/team/technician-4.webp",
+      "family": "team/technician-4",
+      "section": "team-title",
+      "link": null,
+      "alt": "Demo portrait of a residential security consultant in work clothing",
+      "item": "about.html"
+    },
+    {
+      "page": "blog-details-1.html",
+      "src": "assets/images/blog/rekey-or-replace.webp",
+      "family": "blog/rekey-or-replace",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Two lock cylinders and matching keys laid out for comparison",
+      "item": "blog-details-1.html"
+    },
+    {
+      "page": "blog-details-2.html",
+      "src": "assets/images/blog/front-door-security.webp",
+      "family": "blog/front-door-security",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Solid front door with a high quality deadbolt and porch lighting",
+      "item": "blog-details-2.html"
+    },
+    {
+      "page": "blog-details-3.html",
+      "src": "assets/images/blog/locked-out.webp",
+      "family": "blog/locked-out",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Homeowner checking a locked residential front door",
+      "item": "blog-details-3.html"
+    },
+    {
+      "page": "blog-details-4.html",
+      "src": "assets/images/blog/smart-lock-safety.webp",
+      "family": "blog/smart-lock-safety",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Black fingerprint smart lock mounted on a residential door",
+      "item": "blog-details-4.html"
+    },
+    {
+      "page": "blog-details-5.html",
+      "src": "assets/images/blog/how-smart-locks-work.webp",
+      "family": "blog/how-smart-locks-work",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Smartphone showing a lock symbol beside a smart door lock",
+      "item": "blog-details-5.html"
+    },
+    {
+      "page": "blog-details-6.html",
+      "src": "assets/images/blog/replace-old-locks.webp",
+      "family": "blog/replace-old-locks",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Worn brass door lock displaying scratches and corrosion",
+      "item": "blog-details-6.html"
+    },
+    {
+      "page": "blog-details-7.html",
+      "src": "assets/images/blog/moving-home.webp",
+      "family": "blog/moving-home",
+      "section": "section-padding",
+      "link": null,
+      "alt": "House keys and moving boxes at a bright new home entrance",
+      "item": "blog-details-7.html"
+    },
+    {
+      "page": "blog-details-8.html",
+      "src": "assets/images/blog/family-keyless-entry.webp",
+      "family": "blog/family-keyless-entry",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Family entering their home using a keypad door lock",
+      "item": "blog-details-8.html"
+    },
+    {
+      "page": "blog-details-9.html",
+      "src": "assets/images/blog/deadbolt-guide.webp",
+      "family": "blog/deadbolt-guide",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Heavy duty residential deadbolt and bolt mechanism on a workbench",
+      "item": "blog-details-9.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/security-journal-hero.webp",
+      "family": "blog/security-journal-hero",
+      "section": "blog-hero-title",
+      "link": null,
+      "alt": "House keys and a notebook on a desk beside a residential window",
+      "item": "blog.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/rekey-or-replace-card.webp",
+      "family": "blog/rekey-or-replace",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Two lock cylinders and matching keys laid out for comparison",
+      "item": "blog-details-1.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/front-door-security-card.webp",
+      "family": "blog/front-door-security",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Solid front door with a high quality deadbolt and porch lighting",
+      "item": "blog-details-2.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/locked-out-card.webp",
+      "family": "blog/locked-out",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Homeowner checking a locked residential front door",
+      "item": "blog-details-3.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/smart-lock-safety-card.webp",
+      "family": "blog/smart-lock-safety",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Black fingerprint smart lock mounted on a residential door",
+      "item": "blog-details-4.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/how-smart-locks-work-card.webp",
+      "family": "blog/how-smart-locks-work",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Smartphone showing a lock symbol beside a smart door lock",
+      "item": "blog-details-5.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/replace-old-locks-card.webp",
+      "family": "blog/replace-old-locks",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Worn brass door lock displaying scratches and corrosion",
+      "item": "blog-details-6.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/moving-home-card.webp",
+      "family": "blog/moving-home",
+      "section": "section-padding",
+      "link": null,
+      "alt": "House keys and moving boxes at a bright new home entrance",
+      "item": "blog-details-7.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/family-keyless-entry-card.webp",
+      "family": "blog/family-keyless-entry",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Family entering their home using a keypad door lock",
+      "item": "blog-details-8.html"
+    },
+    {
+      "page": "blog.html",
+      "src": "assets/images/blog/deadbolt-guide-card.webp",
+      "family": "blog/deadbolt-guide",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Heavy duty residential deadbolt and bolt mechanism on a workbench",
+      "item": "blog-details-9.html"
+    },
+    {
+      "page": "contact.html",
+      "src": "assets/images/contact/service-call-hero.webp",
+      "family": "contact/service-call-hero",
+      "section": "contact-title",
+      "link": null,
+      "alt": "Homeowner calling for assistance from her residential front porch",
+      "item": "contact.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/smart-lock-hero-stock.webp",
+      "family": "home-2/smart-lock-hero-stock",
+      "section": "hero-smart-heading",
+      "link": null,
+      "alt": "Nuki smart lock on a residential door controlled with a smartphone",
+      "item": "index-2.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/smart-installation-card.webp",
+      "family": "home-2/smart-installation",
+      "section": "smart-services-title",
+      "link": null,
+      "alt": "White smart deadbolt on a dark walnut residential entrance",
+      "item": "service-smart-lock-installation.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/retrofit-upgrade-card.webp",
+      "family": "home-2/retrofit-upgrade",
+      "section": "smart-services-title",
+      "link": null,
+      "alt": "Circular retrofit smart lock on the inside of a yellow front door",
+      "item": "service-smart-lock-upgrade.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/keypad-entry-card.webp",
+      "family": "home-2/keypad-entry",
+      "section": "smart-services-title",
+      "link": null,
+      "alt": "Bronze fingerprint and keypad handle on a gray residential door",
+      "item": "service-keyless-entry.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/smart-deadbolt-card.webp",
+      "family": "home-2/smart-deadbolt",
+      "section": "smart-services-title",
+      "link": null,
+      "alt": "Silver touchscreen smart deadbolt and its closed carton",
+      "item": "service-deadbolt-installation.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/phone-access.webp",
+      "family": "home-2/phone-access",
+      "section": "integration-title",
+      "link": null,
+      "alt": "Homeowner unlocking a residential smart lock using a phone",
+      "item": "index-2.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/traditional-access.webp",
+      "family": "home-2/traditional-access",
+      "section": "upgrade-demo-title",
+      "link": null,
+      "alt": "Traditional door lock operated with physical keys",
+      "item": "index-2.html"
+    },
+    {
+      "page": "index-2.html",
+      "src": "assets/images/home-2/smart-lock-hero.webp",
+      "family": "home-2/smart-lock-hero",
+      "section": "upgrade-demo-title",
+      "link": null,
+      "alt": "Illustrative keyless smart lock on a residential door",
+      "item": "index-2.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-hero.webp",
+      "family": "home-1/emergency-hero",
+      "section": "hero-heading",
+      "link": null,
+      "alt": "Locksmith working on a residential front door while a homeowner waits inside",
+      "item": "index.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-house-lockout-card.webp",
+      "family": "home-1/emergency-house-lockout",
+      "section": "emergency-services-title",
+      "link": null,
+      "alt": "Residential locksmith checking a brass deadbolt on a cream front door",
+      "item": "service-emergency-lockout.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-broken-key-card.webp",
+      "family": "home-1/emergency-broken-key",
+      "section": "emergency-services-title",
+      "link": null,
+      "alt": "A broken brass house key beside a residential deadbolt on a wooden table",
+      "item": "service-broken-key-extraction.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-rekeying-v2-card.webp",
+      "family": "home-1/emergency-rekeying-v2",
+      "section": "emergency-services-title",
+      "link": null,
+      "alt": "Technician handing fresh house keys to a homeowner at an ivory entrance",
+      "item": "service-rekeying.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-lock-repair-v2-card.webp",
+      "family": "home-1/emergency-lock-repair-v2",
+      "section": "emergency-services-title",
+      "link": null,
+      "alt": "Oil-rubbed-bronze mortise handle on a deep red residential door",
+      "item": "service-lock-repair.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-key-replacement-card.webp",
+      "family": "home-1/emergency-key-replacement",
+      "section": "emergency-services-title",
+      "link": null,
+      "alt": "A house key being cut on a professional locksmith key-cutting machine",
+      "item": "service-key-duplication.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/emergency-lock-replacement-card.webp",
+      "family": "home-1/emergency-lock-replacement",
+      "section": "emergency-services-title",
+      "link": null,
+      "alt": "New satin nickel deadbolt being installed on a dark green residential door",
+      "item": "service-lock-replacement.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/home-1/locksmith-inspection.webp",
+      "family": "home-1/locksmith-inspection",
+      "section": "why-us-title",
+      "link": null,
+      "alt": "Locksmith inspecting a residential lock and strike alignment",
+      "item": "index.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/emergency-lockout-card.webp",
+      "family": "services/emergency-lockout",
+      "section": "popular-services-title",
+      "link": null,
+      "alt": "Residential locksmith opening a front door for a homeowner",
+      "item": "service-emergency-lockout.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/rekeying-card.webp",
+      "family": "services/rekeying",
+      "section": "popular-services-title",
+      "link": null,
+      "alt": "Brass residential lock cylinder and three house keys on a locksmith mat",
+      "item": "service-rekeying.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/deadbolt-installation-card.webp",
+      "family": "services/deadbolt-installation",
+      "section": "popular-services-title",
+      "link": null,
+      "alt": "Brushed steel deadbolt fitted to a wood front door",
+      "item": "service-deadbolt-installation.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/smart-lock-installation-card.webp",
+      "family": "services/smart-lock-installation",
+      "section": "popular-services-title",
+      "link": null,
+      "alt": "Installer fitting a matte black smart lock on a white front door",
+      "item": "service-smart-lock-installation.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/lock-replacement-card.webp",
+      "family": "services/lock-replacement",
+      "section": "popular-services-title",
+      "link": null,
+      "alt": "New satin nickel handle and lock fitted to a blue residential door",
+      "item": "service-lock-replacement.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/key-duplication-card.webp",
+      "family": "services/key-duplication",
+      "section": "popular-services-title",
+      "link": null,
+      "alt": "House key held securely in a locksmith key cutting machine",
+      "item": "service-key-duplication.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/lock-repair-card.webp",
+      "family": "services/lock-repair",
+      "section": "popular-services-title",
+      "link": null,
+      "alt": "Worn silver residential door handle and aligned latch",
+      "item": "service-lock-repair.html"
+    },
+    {
+      "page": "index.html",
+      "src": "assets/images/services/door-security-card.webp",
+      "family": "services/door-security",
+      "section": "popular-services-title",
+      "link": null,
+      "alt": "Reinforced strike plate and deadbolt on a residential door frame",
+      "item": "service-door-security.html"
+    },
+    {
+      "page": "login.html",
+      "src": "assets/images/utility/login.webp",
+      "family": "utility/login",
+      "section": "",
+      "link": null,
+      "alt": "Polished residential door handle and keyhole in evening light",
+      "item": "login.html"
+    },
+    {
+      "page": "pricing.html",
+      "src": "assets/images/pricing/quote-hero.webp",
+      "family": "pricing/quote-hero",
+      "section": "pricing-hero-title",
+      "link": null,
+      "alt": "Homeowner reviewing a door-hardware quotation with a residential technician",
+      "item": "pricing.html"
+    },
+    {
+      "page": "register.html",
+      "src": "assets/images/utility/register.webp",
+      "family": "utility/register",
+      "section": "",
+      "link": null,
+      "alt": "Bright residential doorway with a spare key and welcome mat",
+      "item": "register.html"
+    },
+    {
+      "page": "service-broken-key-extraction.html",
+      "src": "assets/images/service-details/broken-key-extraction-hero.webp",
+      "family": "service-details/broken-key-extraction-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Broken silver house key and a replacement key on a terracotta dish",
+      "item": "service-broken-key-extraction.html"
+    },
+    {
+      "page": "service-deadbolt-installation.html",
+      "src": "assets/images/service-details/deadbolt-installation-hero.webp",
+      "family": "service-details/deadbolt-installation-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Brushed-bronze deadbolt on a cream-paneled residential front door",
+      "item": "service-deadbolt-installation.html"
+    },
+    {
+      "page": "service-door-security.html",
+      "src": "assets/images/service-details/door-security-hero.webp",
+      "family": "service-details/door-security-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Black residential entrance with two nickel locks and a peephole",
+      "item": "service-door-security.html"
+    },
+    {
+      "page": "service-emergency-lockout.html",
+      "src": "assets/images/service-details/emergency-lockout-hero.webp",
+      "family": "service-details/emergency-lockout-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Homeowner greeting a technician at an open cottage front door",
+      "item": "service-emergency-lockout.html"
+    },
+    {
+      "page": "service-key-duplication.html",
+      "src": "assets/images/service-details/key-duplication-hero.webp",
+      "family": "service-details/key-duplication-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Color-coded house key blanks displayed in a locksmith workshop",
+      "item": "service-key-duplication.html"
+    },
+    {
+      "page": "service-keyless-entry.html",
+      "src": "assets/images/service-details/keyless-entry-hero.webp",
+      "family": "service-details/keyless-entry-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Copper keypad door handle on a sage residential front door",
+      "item": "service-keyless-entry.html"
+    },
+    {
+      "page": "service-lock-repair.html",
+      "src": "assets/images/service-details/lock-repair-hero.webp",
+      "family": "service-details/lock-repair-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Restored cast-iron rim latch on a brown wooden residential door",
+      "item": "service-lock-repair.html"
+    },
+    {
+      "page": "service-lock-replacement.html",
+      "src": "assets/images/service-details/lock-replacement-hero.webp",
+      "family": "service-details/lock-replacement-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "New brass door handle and matching deadbolt on a charcoal front door",
+      "item": "service-lock-replacement.html"
+    },
+    {
+      "page": "service-new-home-lock-change.html",
+      "src": "assets/images/service-details/new-home-lock-change-hero.webp",
+      "family": "service-details/new-home-lock-change-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Couple holding new house keys outside their light-blue front door",
+      "item": "service-new-home-lock-change.html"
+    },
+    {
+      "page": "service-rekeying.html",
+      "src": "assets/images/service-details/rekeying-hero.webp",
+      "family": "service-details/rekeying-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Fresh house keys presented in front of a red residential door",
+      "item": "service-rekeying.html"
+    },
+    {
+      "page": "service-smart-lock-installation.html",
+      "src": "assets/images/service-details/smart-lock-installation-hero.webp",
+      "family": "service-details/smart-lock-installation-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Silver touchscreen smart lock on a navy residential entrance",
+      "item": "service-smart-lock-installation.html"
+    },
+    {
+      "page": "service-smart-lock-upgrade.html",
+      "src": "assets/images/service-details/smart-lock-upgrade-hero.webp",
+      "family": "service-details/smart-lock-upgrade-hero",
+      "section": "section-padding",
+      "link": null,
+      "alt": "White retrofit smart lock on the inside of an oak entry door",
+      "item": "service-smart-lock-upgrade.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/services-hero.webp",
+      "family": "services/services-hero",
+      "section": "services-hero-title",
+      "link": null,
+      "alt": "Residential door handles and locks displayed on a hardware showroom wall",
+      "item": "services.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/emergency-lockout-card.webp",
+      "family": "services/emergency-lockout",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Residential locksmith opening a front door for a homeowner",
+      "item": "service-emergency-lockout.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/rekeying-card.webp",
+      "family": "services/rekeying",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Brass residential lock cylinder and three house keys on a locksmith mat",
+      "item": "service-rekeying.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/lock-repair-card.webp",
+      "family": "services/lock-repair",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Worn silver residential door handle and aligned latch",
+      "item": "service-lock-repair.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/lock-replacement-card.webp",
+      "family": "services/lock-replacement",
+      "section": "section-padding",
+      "link": null,
+      "alt": "New satin nickel handle and lock fitted to a blue residential door",
+      "item": "service-lock-replacement.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/deadbolt-installation-card.webp",
+      "family": "services/deadbolt-installation",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Brushed steel deadbolt fitted to a wood front door",
+      "item": "service-deadbolt-installation.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/smart-lock-installation-card.webp",
+      "family": "services/smart-lock-installation",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Installer fitting a matte black smart lock on a white front door",
+      "item": "service-smart-lock-installation.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/smart-lock-upgrade-card.webp",
+      "family": "services/smart-lock-upgrade",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Modern touch keypad smart lock on a dark wood door",
+      "item": "service-smart-lock-upgrade.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/key-duplication-card.webp",
+      "family": "services/key-duplication",
+      "section": "section-padding",
+      "link": null,
+      "alt": "House key held securely in a locksmith key cutting machine",
+      "item": "service-key-duplication.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/broken-key-extraction-card.webp",
+      "family": "services/broken-key-extraction",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Broken house key and a lock cylinder on a work mat",
+      "item": "service-broken-key-extraction.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/keyless-entry-card.webp",
+      "family": "services/keyless-entry",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Hand entering an access code on a residential keypad lock",
+      "item": "service-keyless-entry.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/door-security-card.webp",
+      "family": "services/door-security",
+      "section": "section-padding",
+      "link": null,
+      "alt": "Reinforced strike plate and deadbolt on a residential door frame",
+      "item": "service-door-security.html"
+    },
+    {
+      "page": "services.html",
+      "src": "assets/images/services/new-home-lock-change-card.webp",
+      "family": "services/new-home-lock-change",
+      "section": "section-padding",
+      "link": null,
+      "alt": "New homeowner receiving fresh keys beside a front door lock",
+      "item": "service-new-home-lock-change.html"
+    },
+    {
+      "page": "coming-soon.html",
+      "src": "assets/images/utility/coming-soon.webp",
+      "family": "utility/coming-soon",
+      "css": "assets/css/site-shell.css"
+    }
+  ],
+  "major_page_photos": {
+    "index.html": "home-1/emergency-hero",
+    "index-2.html": "home-2/smart-lock-hero-stock",
+    "about.html": "about/company-hero",
+    "services.html": "services/services-hero",
+    "pricing.html": "pricing/quote-hero",
+    "blog.html": "blog/security-journal-hero",
+    "contact.html": "contact/service-call-hero",
+    "login.html": "utility/login",
+    "register.html": "utility/register",
+    "404.html": "utility/not-found-hero",
+    "coming-soon.html": "utility/coming-soon"
+  },
+  "service_detail_photos": {
+    "service-broken-key-extraction.html": "service-details/broken-key-extraction-hero",
+    "service-deadbolt-installation.html": "service-details/deadbolt-installation-hero",
+    "service-door-security.html": "service-details/door-security-hero",
+    "service-emergency-lockout.html": "service-details/emergency-lockout-hero",
+    "service-key-duplication.html": "service-details/key-duplication-hero",
+    "service-keyless-entry.html": "service-details/keyless-entry-hero",
+    "service-lock-repair.html": "service-details/lock-repair-hero",
+    "service-lock-replacement.html": "service-details/lock-replacement-hero",
+    "service-new-home-lock-change.html": "service-details/new-home-lock-change-hero",
+    "service-rekeying.html": "service-details/rekeying-hero",
+    "service-smart-lock-installation.html": "service-details/smart-lock-installation-hero",
+    "service-smart-lock-upgrade.html": "service-details/smart-lock-upgrade-hero"
+  },
+  "blog_article_photos": {
+    "blog-details-1.html": "blog/rekey-or-replace",
+    "blog-details-2.html": "blog/front-door-security",
+    "blog-details-3.html": "blog/locked-out",
+    "blog-details-4.html": "blog/smart-lock-safety",
+    "blog-details-5.html": "blog/how-smart-locks-work",
+    "blog-details-6.html": "blog/replace-old-locks",
+    "blog-details-7.html": "blog/moving-home",
+    "blog-details-8.html": "blog/family-keyless-entry",
+    "blog-details-9.html": "blog/deadbolt-guide"
+  },
+  "acceptance_errors": []
+}
