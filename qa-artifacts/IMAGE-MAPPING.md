@@ -31,15 +31,15 @@ Responsive thumbnails and their larger image are one photograph, not separate vi
 | blog.html | section-padding | blog/family-keyless-entry |
 | blog.html | section-padding | blog/deadbolt-guide |
 | contact.html | contact-title | contact/service-call-hero |
-| index-2.html | hero-smart-heading | home-2/smart-lock-hero-stock |
+| index-2.html | hero-smart-heading | home-2/smart-lock-hero |
 | index-2.html | smart-services-title | home-2/smart-installation |
 | index-2.html | smart-services-title | home-2/retrofit-upgrade |
 | index-2.html | smart-services-title | home-2/keypad-entry |
 | index-2.html | smart-services-title | home-2/smart-deadbolt |
-| index-2.html | section-padding pt-0 | service-details/smart-lock-upgrade-hero |
-| index-2.html | section-padding pt-0 | service-details/smart-lock-installation-hero |
-| index-2.html | section-padding pt-0 | service-details/keyless-entry-hero |
-| index-2.html | section-padding pt-0 | service-details/deadbolt-installation-hero |
+| index-2.html | section-padding pt-0 | home-2/smart-replacement |
+| index-2.html | section-padding pt-0 | home-2/wifi-setup |
+| index-2.html | section-padding pt-0 | home-2/bluetooth-setup |
+| index-2.html | section-padding pt-0 | home-2/app-config |
 | index-2.html | integration-title | home-2/phone-access |
 | index-2.html | upgrade-demo-title | home-2/traditional-access |
 | index-2.html | upgrade-demo-title | home-2/smart-lock-hero |
