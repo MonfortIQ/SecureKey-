@@ -1,25 +1,88 @@
-/** Shared frontend interactions. No account or mailing backend is simulated. */
+/** Shared frontend interactions. Account forms are demos; FormSubmit handles configured mailing forms. */
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
-  // FormSubmit cannot receive a POST from a file:// preview. Keep the preview
-  // on this page and explain how to submit it through a local server instead
-  // of sending the visitor to FormSubmit's "Unable to submit form" page.
-  if (window.location.protocol === 'file:') {
-    document.querySelectorAll('form[action^="https://formsubmit.co/"]').forEach(form => {
+  // Submit FormSubmit forms into a hidden frame so the visitor stays on the
+  // current page and receives an in-page success message. A normal top-level
+  // POST would navigate to FormSubmit's hosted confirmation page.
+  const formSubmitForms = [...document.querySelectorAll('form[action^="https://formsubmit.co/"]')];
+  function getFormFeedback(form) {
+    if (form.id === 'contactForm') return document.getElementById('bookingFeedback');
+    let feedback = form.querySelector('.form-alert');
+    if (!feedback) {
+      feedback = document.createElement('p');
+      feedback.className = 'alert alert-info form-alert mt-3 mb-0';
+      feedback.setAttribute('role', 'status');
+      feedback.setAttribute('aria-live', 'polite');
+      form.append(feedback);
+    }
+    return feedback;
+  }
+  function showFormFeedback(form, message, type = 'info') {
+    const feedback = getFormFeedback(form);
+    if (!feedback) return;
+    feedback.hidden = false;
+    feedback.className = form.id === 'contactForm'
+      ? 'booking-feedback alert-' + type
+      : `alert alert-${type} form-alert mt-3 mb-0`;
+    feedback.textContent = message;
+  }
+  formSubmitForms.forEach((form, index) => {
+    if (window.location.protocol === 'file:') {
       form.addEventListener('submit', event => {
         if (!form.checkValidity()) return;
         event.preventDefault();
-        let feedback = form.querySelector('.form-alert');
-        if (!feedback) {
-          feedback = document.createElement('p');
-          feedback.className = 'alert alert-info form-alert mt-3 mb-0';
-          feedback.setAttribute('role', 'status');
-          form.append(feedback);
-        }
-        feedback.textContent = 'Preview mode: open this site through a local web server or deployed URL to send this form.';
+        showFormFeedback(form, 'Preview mode: open this site through a local web server or deployed URL to send this form.');
       });
+      return;
+    }
+    const frame = document.createElement('iframe');
+    frame.name = `formsubmit-response-${index}`;
+    frame.title = 'Form submission response';
+    frame.hidden = true;
+    frame.tabIndex = -1;
+    frame.setAttribute('aria-hidden', 'true');
+    document.body.append(frame);
+    form.target = frame.name;
+    let submitted = false;
+    let fallbackTimer;
+    const submitButton = form.querySelector('button[type="submit"]');
+    const originalButtonMarkup = submitButton?.innerHTML;
+    function completeSubmission() {
+      if (!submitted) return;
+      submitted = false;
+      clearTimeout(fallbackTimer);
+      form.reset();
+      if (form.id === 'contactForm') {
+        form.querySelector('#urgencyEmergency')?.dispatchEvent(new Event('change', {bubbles: true}));
+      }
+      form.classList.remove('was-validated');
+      form.querySelectorAll('.is-valid, .is-invalid').forEach(control => {
+        control.classList.remove('is-valid', 'is-invalid');
+      });
+      showFormFeedback(form, 'Thanks! Your form was submitted successfully.', 'success');
+      if (submitButton) {
+        submitButton.disabled = false;
+        if (originalButtonMarkup !== undefined) submitButton.innerHTML = originalButtonMarkup;
+      }
+    }
+    frame.addEventListener('load', completeSubmission);
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) return;
+      if (submitted) {
+        event.preventDefault();
+        return;
+      }
+      submitted = true;
+      showFormFeedback(form, 'Sending your form…');
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = 'Sending…';
+      }
+      // Some browsers suppress iframe load events for cross-origin responses;
+      // provide a conservative fallback while preserving the real POST.
+      fallbackTimer = setTimeout(completeSubmission, 4000);
     });
-  }
+  });
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const backToTop = document.getElementById('backToTop');
   if (backToTop) {

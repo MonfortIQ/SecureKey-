@@ -824,5 +824,77 @@
     "bytes": 103192,
     "license": "AI-generated fictional demo photograph using the built-in imagegen tool; no stock attribution required.",
     "card_path": "assets/images/home-1/emergency-rekeying-v2-card.webp"
+  },
+  {
+    "id": "contact/contact-hero-generated",
+    "path": "assets/images/contact/contact-hero-generated.png",
+    "alt": "Locksmith speaking with a homeowner during a residential service visit",
+    "usage": "contact.html hero",
+    "source_width": 1942,
+    "source_height": 809,
+    "width": 1942,
+    "height": 809,
+    "bytes": 2274362,
+    "license": "AI-generated fictional demo photograph using the built-in imagegen tool; no stock attribution required."
+  },
+  {
+    "id": "about/company-hero-generated",
+    "path": "assets/images/about/company-hero-generated.png",
+    "alt": "Two residential locksmith technicians outside their local workshop",
+    "usage": "about.html hero",
+    "source_width": 1983,
+    "source_height": 793,
+    "width": 1983,
+    "height": 793,
+    "bytes": 2108068,
+    "license": "AI-generated fictional demo photograph using the built-in imagegen tool; no stock attribution required."
+  },
+  {
+    "id": "about/locksmith-story-generated",
+    "path": "assets/images/about/locksmith-story-generated.png",
+    "alt": "Technician carefully installing residential door hardware at a workshop bench",
+    "usage": "about.html story section",
+    "source_width": 1672,
+    "source_height": 941,
+    "width": 1672,
+    "height": 941,
+    "bytes": 2101213,
+    "license": "AI-generated fictional demo photograph using the built-in imagegen tool; no stock attribution required."
+  },
+  {
+    "id": "home-1/emergency-hero-generated",
+    "path": "assets/images/home-1/emergency-hero-generated.png",
+    "alt": "Locksmith responding to a residential service call at dusk",
+    "usage": "index.html primary hero",
+    "source_width": 1774,
+    "source_height": 887,
+    "width": 1774,
+    "height": 887,
+    "bytes": 1950238,
+    "license": "AI-generated fictional demo photograph using the built-in imagegen tool; no stock attribution required."
+  },
+  {
+    "id": "home-1/locksmith-inspection-generated",
+    "path": "assets/images/home-1/locksmith-inspection-generated.png",
+    "alt": "Technician checking the alignment of a residential door handle and strike plate",
+    "usage": "index.html inspection section",
+    "source_width": 1536,
+    "source_height": 1024,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2081020,
+    "license": "AI-generated fictional demo photograph using the built-in imagegen tool; no stock attribution required."
+  },
+  {
+    "id": "services/services-hero-generated",
+    "path": "assets/images/services/services-hero-generated.png",
+    "alt": "Residential door hardware and locksmith tools displayed in a bright showroom",
+    "usage": "services.html hero",
+    "source_width": 2103,
+    "source_height": 748,
+    "width": 2103,
+    "height": 748,
+    "bytes": 1977025,
+    "license": "AI-generated fictional demo photograph using the built-in imagegen tool; no stock attribution required."
   }
 ]

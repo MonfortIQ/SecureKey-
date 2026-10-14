@@ -1,10 +1,10 @@
 # Demo photography
 
-All 61 generated photographs in this directory were created with OpenAI's built-in imagegen tool for this residential locksmith template. They depict fictional people, services and properties. Team portraits are demonstration characters, not photographs of real SecureKey employees. Two additional licensed stock photographs complement the generated collection.
+All generated photographs in this directory were created with OpenAI's built-in imagegen tool for this residential locksmith template. They depict fictional people, services and properties. Team portraits are demonstration characters, not photographs of real SecureKey employees. Two additional licensed stock photographs complement the generated collection.
 
 The homepages share no photographs. All eleven major page visuals, twelve service-detail photos, nine blog article photos, four team portraits, and individual emergency/smart service cards have distinct subjects or compositions. Service-detail main images differ from their listing-card photos. Article listing/detail reuse and responsive-size variants identify the same item and do not count as separate photographs.
 
-Images are encoded as optimized WebP. Services and blog entries also include 640-pixel-wide card variants. Generated source dimensions are 1672 × 941, 1672 × 940, 1536 × 1024, or 1586 × 992 pixels; these are not native 4K photographs. The exact source dimensions, descriptive alternative text, intended use and file size of every image are recorded in `asset-manifest.json`.
+The established collection is encoded as optimized WebP; the six newly generated page-specific replacements are kept as PNG assets to preserve their generated detail. Services and blog entries also include 640-pixel-wide card variants. Generated source dimensions vary by composition and are not native 4K photographs. The exact source dimensions, descriptive alternative text, intended use and file size of every image are recorded in `asset-manifest.json`.
 
 Prompt provenance is documented in the image manifest. Common generation instructions requested lifelike residential lock hardware, natural light, professional commercial photography, fictional demo scenes, and no logos or watermarks.
 

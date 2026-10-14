@@ -25,17 +25,17 @@ There are 37 standalone HTML pages:
 
 ## Configure contact delivery
 
-In `contact.html`, replace the form action's `YOUR-EMAIL@example.com` with your verified FormSubmit recipient. The placeholder is deliberately blocked by `assets/js/contact.js`, which shows a helpful message instead of posting customer information to an unconfigured destination.
+In `contact.html`, the FormSubmit action is configured for `clament.iq@outlook.com`. Confirm that this recipient is verified with FormSubmit before using live submissions.
 
-The form includes `_subject`, `_captcha`, `_template`, `_next`, and a honeypot. The `_next` field is converted to an absolute `thank-you.html` URL at submission. Verify the published URL and activate your recipient with FormSubmit before using live submissions. For a deployment without JavaScript, set `_next` to the absolute published success-page URL in the HTML.
+The form includes `_subject`, `_captcha`, `_template`, `_next`, and a honeypot. On HTTP(S) pages, `assets/js/contact.js` converts `_next` to the current site's absolute `thank-you.html` URL. For a deployment without JavaScript, replace the `YOUR-DOMAIN.com` placeholder in the HTML with the absolute published success-page URL.
 
-When a page is opened directly as a `file://` URL, browser security prevents FormSubmit from receiving the POST. The site keeps the form on the preview page with a setup message; use a local web server or deployed URL to submit it.
+When the site is served over HTTP(S), FormSubmit forms post into a hidden response frame and show a success message on the same page instead of navigating away. When a page is opened directly as a `file://` URL, browser security prevents FormSubmit from receiving the POST; the site keeps the form on the preview page with a setup message. Use a local web server or deployed URL to submit it.
 
 Emergency mode hides and disables scheduling. Appointment mode requires a current or future date and a preferred time. Required text, email, and phone fields receive browser validation, visible error messages, and focus on the first invalid control.
 
 ## Frontend-only forms
 
-Login, registration, password recovery, newsletters, and launch notifications demonstrate frontend validation. They do not authenticate, store credentials, create accounts, send messages, or add subscribers. Their feedback explains this. Connect your own services before using these forms in production.
+Login, registration, and password recovery are frontend-only demos; they do not authenticate, store credentials, or create accounts. Newsletters and launch notifications submit to the configured FormSubmit recipient and show same-page feedback, but they do not create subscriber accounts. Verify the recipient and connect a dedicated mailing service if you need subscriber management.
 
 Social profile buttons are labeled placeholders and show setup feedback. Replace them with your actual business profile links. Article sharing uses the current article URL. Sharing a localhost URL does not create a publicly accessible article.
 
