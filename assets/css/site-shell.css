@@ -283,8 +283,12 @@ html { scroll-padding-top:90px; }
 .door-handle { position:absolute; width:24px; height:7px; background:var(--ct-blue); border-radius:4px; inset-inline-end:17px; top:160px; }
 .door-error-tag { position:absolute; background:var(--ct-surface); border:1px solid var(--ct-border); border-radius:8px; padding:12px 18px; font-size:14px; letter-spacing:1px; bottom:30px; transform:rotate(-5deg); }
 .avatar-initials { display:inline-grid; place-items:center; color:var(--ct-blue); background:var(--ct-blue-soft); font-size:15px; font-weight:600; }
-.testimonial-track { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
-.testimonial-slide { min-width:0; }
+.testimonial-track { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; align-items:stretch; }
+.testimonial-slide { min-width:0; display:flex; }
+.site-page .testimonial-card { width:100%; }
+.site-page .testimonial-author { margin-top:auto; min-height:48px; }
+.site-page .testimonial-author > div { min-width:0; }
+.site-page .author-meta { display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .testimonial-slider-controls { display:none; }
 @media (max-width:991px) {
   .testimonial-track { display:flex; gap:0; overflow:hidden; }
@@ -1306,3 +1310,18 @@ html[dir="rtl"] .site-page .section-title {
 [data-bs-theme="light"] .site-page .service-areas .card-icon i {
   color:inherit !important;
 }
+
+/* Keep one visible select chevron after all theme background rules. */
+.site-page .form-select {
+  appearance:none;
+  -webkit-appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='m5 7 5 5 5-5' fill='none' stroke='%23334155' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-position:right 16px center;
+  background-size:16px 16px;
+  padding-inline-end:48px;
+}
+[data-bs-theme="dark"] .site-page .form-select {
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='m5 7 5 5 5-5' fill='none' stroke='%23dbeafe' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E");
+}
+[dir="rtl"] .site-page .form-select { background-position:left 16px center; }

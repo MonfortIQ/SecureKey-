@@ -38,7 +38,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   const phone = document.getElementById('phoneNumber');
   function validatePhone() {
-    phone.setCustomValidity(phone.value.replace(/\D/g, '').length >= 7 ? '' : 'Please enter a valid phone number.');
+    const value = phone.value.trim();
+    const digits = value.replace(/\D/g, '');
+    const validCharacters = /^[0-9+().\s-]+$/.test(value);
+    phone.setCustomValidity(!value || !validCharacters || digits.length < 7 || digits.length > 15 ? 'Please enter a valid phone number using digits only plus phone punctuation.' : '');
   }
   phone.addEventListener('input', validatePhone);
   form.addEventListener('submit', event => {

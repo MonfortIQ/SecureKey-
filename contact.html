@@ -462,7 +462,7 @@
                         *
                       </span>
                     </label>
-                    <input aria-describedby="phoneError" autocomplete="tel" class="form-control" id="phoneNumber" maxlength="30" name="Phone Number" pattern="[0-9\(\)\s+\-\.]{7,}" placeholder="(555) 000-0000" required="" type="tel"/>
+                    <input aria-describedby="phoneError" autocomplete="tel" class="form-control" id="phoneNumber" inputmode="tel" maxlength="30" name="Phone Number" pattern="[0-9()+\s.-]{7,}" placeholder="(555) 000-0000" required="" type="tel"/>
                     <div class="invalid-feedback" id="phoneError">
                       Please enter a valid phone number.
                     </div>
@@ -748,57 +748,9 @@
               </div>
             </section>
             <section aria-labelledby="coverage-title" class="coverage-card">
-              <div class="coverage-illustration">
-                <svg aria-label="Illustration of our service neighborhoods, not a geographic map" role="img" viewbox="0 0 400 175">
-                  <defs>
-                    <pattern height="28" id="map-grid" patternunits="userSpaceOnUse" width="28">
-                      <path d="M28 0H0v28" fill="none" stroke="currentColor" stroke-opacity=".09">
-                      </path>
-                    </pattern>
-                  </defs>
-                  <rect fill="url(#map-grid)" height="175" width="400">
-                  </rect>
-                  <g fill="none" stroke="currentColor" stroke-opacity=".12" stroke-width="9">
-                    <path d="M-10 48h115l35 40h140l60-45h80M-10 139h100l50-51 48-98M190 190l35-65 75-15 34 80M80-10v210M370-10l-55 85 85 70">
-                    </path>
-                  </g>
-                  <circle cx="201" cy="88" fill="#3d72ff" fill-opacity=".05" r="60" stroke="#3d72ff" stroke-dasharray="4 6" stroke-opacity=".25">
-                  </circle>
-                  <g fill="none" stroke="#3d72ff" stroke-dasharray="3 4" stroke-opacity=".55">
-                    <path d="m201 88-77 30m77-30 50-47m-50 47 83 39">
-                    </path>
-                  </g>
-                  <g fill="#3d72ff">
-                    <circle cx="124" cy="118" r="4">
-                    </circle>
-                    <circle cx="251" cy="41" r="4">
-                    </circle>
-                    <circle cx="284" cy="127" r="4">
-                    </circle>
-                  </g>
-                  <g fill="currentColor" font-family="system-ui,sans-serif" font-size="10">
-                    <text x="55" y="113">
-                      Westside
-                    </text>
-                    <text x="267" y="40">
-                      North Hills
-                    </text>
-                    <text x="298" y="132">
-                      Lakeview
-                    </text>
-                  </g>
-                  <circle cx="201" cy="88" fill="#3d72ff" r="21">
-                  </circle>
-                  <g fill="none" stroke="white" stroke-width="1.6" transform="translate(190 77)">
-                    <path d="m11 1 8 3v6c0 5-8 9-8 9s-8-4-8-9V4l8-3Z">
-                    </path>
-                    <path d="m8 10 2 2 4-4">
-                    </path>
-                  </g>
-                </svg>
-                <span class="map-caption">
-                  LOCAL SERVICE AREA
-                </span>
+              <div class="coverage-map">
+                <iframe aria-label="Map showing the SecureKey service hub in Coimbatore" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=733%20Dr%20Radhakrishna%20St%2C%20Subbana%20Gounder%20Layout%2C%20Tatabad%2C%20Coimbatore%2C%20Tamil%20Nadu%20641012%2C%20India&amp;output=embed" title="SecureKey service hub map">
+                </iframe>
               </div>
               <div class="coverage-copy">
                 <h2 id="coverage-title">
